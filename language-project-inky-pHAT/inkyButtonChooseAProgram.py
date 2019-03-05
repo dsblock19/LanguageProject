@@ -33,7 +33,8 @@ startupmessage = '\n      istoth:\nLanguage in Stone\n \n \n      Which program?
 x = 0
 y = 0
 
-ModinkyStartupImage.StartupImage()
+buttonshim.set_pixel(0xff, 0x00, 0x00)
+#ModinkyStartupImage.StartupImage()
 
 while True:
     #turns light red while screen is getting set
@@ -64,8 +65,7 @@ while True:
 
     @buttonshim.on_press(buttonshim.BUTTON_E)
     def button_e(button, pressed):
-        buttonshim.set_pixel(0xff, 0x00, 0x00)
-        print('Error')
+        command = 'Quit'
     
-    #prevents running program continuously on press
+    #pauses program to wait for signal
     signal.pause()

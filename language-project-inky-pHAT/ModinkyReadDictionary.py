@@ -18,13 +18,15 @@ def ReadDictionary():
     while True:
         #light turns purple when ready for input
         buttonshim.set_pixel(0x94, 0x00, 0xd3)
-        # gets word to look up or quit command
-        word = input('word: ')
-        #light turns red when wordking
-        buttonshim.set_pixel(0xff, 0x00, 0x00)
-        if word in ['Quit']:
+        if command in ['Quit']:
             break
         else:
+            #light turns green when ready for input
+            buttonshim.set_pixel(0x00, 0xff, 0x00)
+            # gets word to look up or quit command
+            word = input('word: ')
+            #light turns red when wordking
+            buttonshim.set_pixel(0xff, 0x00, 0x00)
             #opens dictionary (ConlangDatabase.txt) for search
             with open('/home/pi/Desktop/MyCode/LanguageProject/ConlangDatabase.txt', 'r') as f:
                 lines = [line.replace('\n', '') for line in f.readlines()]
