@@ -61,3 +61,11 @@
  NounIV: chawm
    NounV: chawo
  NounVI: chawz
+
+[Core: mo | Root: amoxa] Verb: amoxat
+   NounI: amoxaaw
+ NounII: amoxak
+   NounIII: amoxast
+ NounIV: amoxaim
+   NounV: amoxaso
+ NounVI: amoxab

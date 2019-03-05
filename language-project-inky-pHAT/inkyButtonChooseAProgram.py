@@ -1,4 +1,4 @@
-#top level program: python3 /home/pi/Desktop/MyCode/LanguageProject/inky/inkyButtonChooseAProgram.py &
+#top level program: python3 /home/pi/Desktop/MyCode/LanguageProject/language-project-inky-pHAT/inkyButtonChooseAProgram.py &
 
 #tools for inky e-paper screen
 from inky import InkyPHAT
@@ -24,7 +24,7 @@ img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
 draw = ImageDraw.Draw(img)
 
 #set up font
-fontpath = '/home/pi/Desktop/MyCode/Fonts-master/'
+fontpath = '/home/pi/Desktop/MyCode/LanguageProject/Fonts/'
 font = ImageFont.truetype(fontpath + 'SF-Outer-Limits.ttf', 18)
 
 
