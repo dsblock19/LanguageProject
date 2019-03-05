@@ -1,7 +1,7 @@
 #top level program: python3 /home/pi/Desktop/MyCode/LanguageProject/inky/inkyButtonChooseAProgram.py &
 
 #tools for inky e-paper screen
-from inky import InkyPHAT
+from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
 
 #tools for button/LED SHIM
@@ -16,7 +16,7 @@ import ModinkyReadDictionary
 import ModinkyPrintConDec
 
 #inky boilerplate set up
-inky_display = InkyPHAT("red")
+inky_display = InkyWHAT("red")
 inky_display.set_border(inky_display.WHITE)
 
 #inky screen dimension variables
