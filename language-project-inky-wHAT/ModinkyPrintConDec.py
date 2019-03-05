@@ -1,7 +1,7 @@
 #MOD: Retrieves conjugations/declinations from dictionary and prints to inky
 
 #tools for inky e-paper screen
-from inky import InkyPHAT
+from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
 
 #tools for button/LED SHIM
@@ -105,7 +105,7 @@ def inkyPrintDictionary():
             text = '\n'.join(GetDictionary(word, lines))
             
             #boilerplate code for ink pHAT
-            inky_display = InkyPHAT('red')
+            inky_display = InkyWHAT('red')
             inky_display.set_border(inky_display.WHITE)
             #screen dimension variable
             img = Image.new('P', (inky_display.WIDTH, inky_display.HEIGHT))

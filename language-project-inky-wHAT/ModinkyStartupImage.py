@@ -1,14 +1,14 @@
 # MOD: Chooses a random glyph to display on startup, displays start up image for each of the four programs
 
 #tools for inky e-paper screen
-from inky import InkyPHAT
+from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
 
 #other tools
 import random
 
 #boilerplate set up
-inky_display = InkyPHAT("red")
+inky_display = InkyWHAT("red")
 inky_display.set_border(inky_display.WHITE)
 
 #creates a variable for each glyph

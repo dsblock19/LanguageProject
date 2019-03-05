@@ -1,7 +1,7 @@
 #MOD: gets word, gets definition, strips word to root, conjugates/declines the word, and prints data to inky screen and logs in .txt file
 
 #tools for inky e-paper screen
-from inky import InkyPHAT
+from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
 
 #tools for button/LED SHIM
@@ -179,7 +179,6 @@ def Ndecline():
     global PaPV, FuPI, FuPII, FuPIII, FuPIV, FuPV, PrPgPI, PrPgPII 
     global PrPgPIII, PrPgPIV, PrPgPV, PaPgPI, PaPgPII, PaPgPIII 
     global PaPgPIV, PaPgPV, FuPgPI, FuPgPII, FuPgPIII, FuPgPIV, FuPgPV
-    print('Declination:')
     if Class in ['NounI', 'NounII', 'NounIII', 'NounIV', 'NounV', 'NounVI']:
         if word.startswith(core_vowels) is True:
             return 'Declination:\nSingular: ' + Sing + root + '\n' + 'Dative: ' + random.choice(Vdative) + root + '\n' + 'Acusative: ' + root + random.choice(acusative) + '\n' + 'Genitive: ' + root + genitive + '\n' + 'Locative: ' + root + random.choice(locative)
@@ -371,7 +370,7 @@ def NewWord():
             
             
             #boilerplate code for ink pHAT
-            inky_display = InkyPHAT("red")
+            inky_display = InkyWHAT("red")
             inky_display.set_border(inky_display.WHITE)
             
             #screen dimension variable

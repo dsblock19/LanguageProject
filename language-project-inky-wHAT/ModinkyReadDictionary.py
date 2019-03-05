@@ -1,7 +1,7 @@
 #MOD: takes input and reads entry based on input for inky pHAT
 
 #tools for inky e-paper screen
-from inky import InkyPHAT
+from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
 
 #tools for button/LED SHIM
@@ -30,7 +30,7 @@ def ReadDictionary():
                 lines = [line.replace('\n', '') for line in f.readlines()]
             
             #boilerplate code for ink pHAT
-            inky_display = InkyPHAT("red")
+            inky_display = InkyWHAT("red")
             inky_display.set_border(inky_display.WHITE)
             
             #screen dimension variable

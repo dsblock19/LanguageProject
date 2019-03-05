@@ -1,7 +1,7 @@
 #MOD: follows rules of the language to generate random root and accompanying family 
 
 #tools
-from inky import InkyPHAT
+from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
 import buttonshim
 import signal
@@ -233,7 +233,7 @@ def WordGenerator():
             message = '[Core: ' + core + ' | Root: ' + root + '] Verb: ' + Verbs + '\n   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI + '\n'
             
             #boilerplate code for ink pHAT
-            inky_display = InkyPHAT('red')
+            inky_display = InkyWHAT('red')
             inky_display.set_border(inky_display.WHITE)
             #screen dimension variable
             img = Image.new('P', (inky_display.WIDTH, inky_display.HEIGHT))
