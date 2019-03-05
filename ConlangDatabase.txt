@@ -1,0 +1,1498 @@
+istoith: the language in stone
+ 
+daw
+Definition: god, the sun
+Class: NounI
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iadaw
+   Trial: iodaw
+   Paucal:idaw
+   Dative: madaw
+   Instrumental: stdaw
+   Comitative: udaw
+   Adesive: zadaw
+   Allative: zidaw
+   Ablative: zodaw
+   Illative: thidaw
+   Inessive: thodaw
+   Acusative: dawn
+   Genitive: dawa
+   Locative: dawga
+*******
+ 
+dawt
+Definition: to worship
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): dawtaj 
+  You: dawtast 
+  Yall/They(plural): dawtasta 
+  We(royal): dawtam 
+  We(exclusive): dawtama 
+* 
+Past: 
+  I/He/She/They(sing): dawta 
+  You: dawtas 
+  Yall/They(plural): dawtasa 
+  We(royal): dawtan 
+  We(exclusive): dawtana 
+** 
+Future: 
+  I/He/She/They(sing): dawtua 
+  You: dawtue 
+  Yall/They(plural): dawtust 
+  We(royal): dawtun 
+  We(exclusive): dawtuna
+*** 
+Present Progressive: 
+  I/He/She/They(sing): dawtaja 
+  You: dawtasta 
+  Yall/They(plural): dawtast 
+  We(royal): dawtama 
+  We(exclusive): dawtam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): dawtag 
+  You: dawtasa 
+  Yall/They(plural): dawtas 
+  We(royal): dawtana 
+  We(exclusive): dawtan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): dawtui 
+  You: dawtust 
+  Yall/They(plural): dawtue 
+  We(royal): dawtui 
+  We(exclusive): dawtun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+ 
+shooi:i
+Definition: bat
+Class: NounI
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iashooi
+   Trial: ioshooi
+   Paucal:ishooi
+   Dative: nashooi
+   Instrumental: stshooi
+   Comitative: ushooi
+   Adesive: zashooi
+   Allative: zishooi
+   Ablative: zoshooi
+   Illative: thishooi
+   Inessive: thoshooi
+   Acusative: shooin
+   Genitive: shooia
+   Locative: shooiga
+*******
+ 
+va'ems
+Definition: black spider
+Class: NounIV
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iava'aim
+   Trial: iova'aim
+   Paucal:iva'aim
+   Dative: nava'aim
+   Instrumental: stva'aim
+   Comitative: uva'aim
+   Adesive: zava'aim
+   Allative: ziva'aim
+   Ablative: zova'aim
+   Illative: thiva'aim
+   Inessive: thova'aim
+   Acusative: va'aimn
+   Genitive: va'aima
+   Locative: va'aimgua
+*******
+
+mua
+Definition: jealousy
+Class: NounI
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iamua
+   Trial: iomua
+   Paucal:imua
+   Dative: mamua
+   Instrumental: stmua
+   Comitative: umua
+   Adesive: zamua
+   Allative: zimua
+   Ablative: zomua
+   Illative: thimua
+   Inessive: thomua
+   Acusative: muan
+   Genitive: muaa
+   Locative: muagua
+*******
+
+ipipoaw
+Definition: life
+Class: NounI
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iaipipoaw
+   Trial: ioipipoaw
+   Paucal:iipipoaw
+   Dative: nipipoaw
+   Instrumental: stipipoaw
+   Comitative: uipipoaw
+   Adesive: zaipipoaw
+   Allative: ziipipoaw
+   Ablative: zoipipoaw
+   Illative: thiipipoaw
+   Inessive: thoipipoaw
+   Acusative: ipipoawm
+   Genitive: ipipoawa
+   Locative: ipipoawga
+*******
+
+ipipox
+Definition: water
+Class: NounII
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iaipipox
+   Trial: ioipipox
+   Paucal:iipipox
+   Dative: mipipox
+   Instrumental: stipipox
+   Comitative: uipipox
+   Adesive: zaipipox
+   Allative: ziipipox
+   Ablative: zoipipox
+   Illative: thiipipox
+   Inessive: thoipipox
+   Acusative: ipipoxma
+   Genitive: ipipoxa
+   Locative: ipipoxgua
+*******
+
+awoipa
+Definition: heat
+Class: NounI
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iaawoipa
+   Trial: ioawoipa
+   Paucal:iawoipa
+   Dative: nawoipa
+   Instrumental: stawoipa
+   Comitative: uawoipa
+   Adesive: zaawoipa
+   Allative: ziawoipa
+   Ablative: zoawoipa
+   Illative: thiawoipa
+   Inessive: thoawoipa
+   Acusative: awoipama
+   Genitive: awoipaa
+   Locative: awoipaga
+*******
+
+thuk
+Definition: licorice root
+Class: NounII
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iathu
+   Trial: iothu
+   Paucal:ithu
+   Dative: nathu
+   Instrumental: stthu
+   Comitative: uthu
+   Adesive: zathu
+   Allative: zithu
+   Ablative: zothu
+   Illative: thithu
+   Inessive: thothu
+   Acusative: thun
+   Genitive: thua
+   Locative: thuga
+*******
+
+rawx
+Definition: diurnal animals
+Class: NounII
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iarawx
+   Trial: iorawx
+   Paucal:irawx
+   Dative: marawx
+   Instrumental: strawx
+   Comitative: urawx
+   Adesive: zarawx
+   Allative: zirawx
+   Ablative: zorawx
+   Illative: thirawx
+   Inessive: thorawx
+   Acusative: rawxma
+   Genitive: rawxa
+   Locative: rawxga
+*******
+
+nrawx
+Definition: nocturnal animals
+Class: NounII
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: ianrawx
+   Trial: ionrawx
+   Paucal:inrawx
+   Dative: manrawx
+   Instrumental: stnrawx
+   Comitative: unrawx
+   Adesive: zanrawx
+   Allative: zinrawx
+   Ablative: zonrawx
+   Illative: thinrawx
+   Inessive: thonrawx
+   Acusative: nrawxn
+   Genitive: nrawxa
+   Locative: nrawxgua
+*******
+
+ 
+hawt
+Definition: to open
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): hawtaj 
+  You: hawtast 
+  Yall/They(plural): hawtasta 
+  We(royal): hawtam 
+  We(exclusive): hawtama 
+* 
+Past: 
+  I/He/She/They(sing): hawta 
+  You: hawtas 
+  Yall/They(plural): hawtasa 
+  We(royal): hawtan 
+  We(exclusive): hawtana 
+** 
+Future: 
+  I/He/She/They(sing): hawtua 
+  You: hawtue 
+  Yall/They(plural): hawtust 
+  We(royal): hawtun 
+  We(exclusive): hawtuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): hawtaja 
+  You: hawtasta 
+  Yall/They(plural): hawtast 
+  We(royal): hawtama 
+  We(exclusive): hawtam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): hawtag 
+  You: hawtasa 
+  Yall/They(plural): hawtas 
+  We(royal): hawtana 
+  We(exclusive): hawtan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): hawtui 
+  You: hawtust 
+  Yall/They(plural): hawtue 
+  We(royal): hawtui 
+  We(exclusive): hawtun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+mat
+Definition: to get
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): mataj 
+  You: matast 
+  Yall/They(plural): matasta 
+  We(royal): matam 
+  We(exclusive): matama 
+* 
+Past: 
+  I/He/She/They(sing): mata 
+  You: matas 
+  Yall/They(plural): matasa 
+  We(royal): matan 
+  We(exclusive): matana 
+** 
+Future: 
+  I/He/She/They(sing): matua 
+  You: matue 
+  Yall/They(plural): matust 
+  We(royal): matun 
+  We(exclusive): matuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): mataja 
+  You: matasta 
+  Yall/They(plural): matast 
+  We(royal): matama 
+  We(exclusive): matam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): matag 
+  You: matasa 
+  Yall/They(plural): matas 
+  We(royal): matana 
+  We(exclusive): matan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): matui 
+  You: matust 
+  Yall/They(plural): matue 
+  We(royal): matui 
+  We(exclusive): matun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+awmat
+Definition: to shine, to say truth, to reveal
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): awmataj 
+  You: awmatast 
+  Yall/They(plural): awmatasta 
+  We(royal): awmatam 
+  We(exclusive): awmatama 
+* 
+Past: 
+  I/He/She/They(sing): awmata 
+  You: awmatas 
+  Yall/They(plural): awmatasa 
+  We(royal): awmatan 
+  We(exclusive): awmatana 
+** 
+Future: 
+  I/He/She/They(sing): awmatua 
+  You: awmatue 
+  Yall/They(plural): awmatust 
+  We(royal): awmatun 
+  We(exclusive): awmatuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): awmataja 
+  You: awmatasta 
+  Yall/They(plural): awmatast 
+  We(royal): awmatama 
+  We(exclusive): awmatam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): awmatag 
+  You: awmatasa 
+  Yall/They(plural): awmatas 
+  We(royal): awmatana 
+  We(exclusive): awmatan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): awmatui 
+  You: awmatust 
+  Yall/They(plural): awmatue 
+  We(royal): awmatui 
+  We(exclusive): awmatun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+ki:it
+Definition: to give
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): ki:itaj 
+  You: ki:itast 
+  Yall/They(plural): ki:itasta 
+  We(royal): ki:itam 
+  We(exclusive): ki:itama 
+* 
+Past: 
+  I/He/She/They(sing): ki:ita 
+  You: ki:itas 
+  Yall/They(plural): ki:itasa 
+  We(royal): ki:itan 
+  We(exclusive): ki:itana 
+** 
+Future: 
+  I/He/She/They(sing): ki:itua 
+  You: ki:itue 
+  Yall/They(plural): ki:itust 
+  We(royal): ki:itun 
+  We(exclusive): ki:ituna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): ki:itaja 
+  You: ki:itasta 
+  Yall/They(plural): ki:itast 
+  We(royal): ki:itama 
+  We(exclusive): ki:itam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): ki:itag 
+  You: ki:itasa 
+  Yall/They(plural): ki:itas 
+  We(royal): ki:itana 
+  We(exclusive): ki:itan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): ki:itui 
+  You: ki:itust 
+  Yall/They(plural): ki:itue 
+  We(royal): ki:itui 
+  We(exclusive): ki:itun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+smot
+Definition: to stop
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): smotaj 
+  You: smotast 
+  Yall/They(plural): smotasta 
+  We(royal): smotam 
+  We(exclusive): smotama 
+* 
+Past: 
+  I/He/She/They(sing): smota 
+  You: smotas 
+  Yall/They(plural): smotasa 
+  We(royal): smotan 
+  We(exclusive): smotana 
+** 
+Future: 
+  I/He/She/They(sing): smotua 
+  You: smotue 
+  Yall/They(plural): smotust 
+  We(royal): smotun 
+  We(exclusive): smotuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): smotaja 
+  You: smotasta 
+  Yall/They(plural): smotast 
+  We(royal): smotama 
+  We(exclusive): smotam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): smotag 
+  You: smotasa 
+  Yall/They(plural): smotas 
+  We(royal): smotana 
+  We(exclusive): smotan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): smotui 
+  You: smotust 
+  Yall/They(plural): smotue 
+  We(royal): smotui 
+  We(exclusive): smotun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+shoot
+Definition: to spit
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): shootaj 
+  You: shootast 
+  Yall/They(plural): shootasta 
+  We(royal): shootam 
+  We(exclusive): shootama 
+* 
+Past: 
+  I/He/She/They(sing): shoota 
+  You: shootas 
+  Yall/They(plural): shootasa 
+  We(royal): shootan 
+  We(exclusive): shootana 
+** 
+Future: 
+  I/He/She/They(sing): shootua 
+  You: shootue 
+  Yall/They(plural): shootust 
+  We(royal): shootun 
+  We(exclusive): shootuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): shootaja 
+  You: shootasta 
+  Yall/They(plural): shootast 
+  We(royal): shootama 
+  We(exclusive): shootam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): shootag 
+  You: shootasa 
+  Yall/They(plural): shootas 
+  We(royal): shootana 
+  We(exclusive): shootan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): shootui 
+  You: shootust 
+  Yall/They(plural): shootue 
+  We(royal): shootui 
+  We(exclusive): shootun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+bachkit
+Definition: to make
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): bachkitaj 
+  You: bachkitast 
+  Yall/They(plural): bachkitasta 
+  We(royal): bachkitam 
+  We(exclusive): bachkitama 
+* 
+Past: 
+  I/He/She/They(sing): bachkita 
+  You: bachkitas 
+  Yall/They(plural): bachkitasa 
+  We(royal): bachkitan 
+  We(exclusive): bachkitana 
+** 
+Future: 
+  I/He/She/They(sing): bachkitua 
+  You: bachkitue 
+  Yall/They(plural): bachkitust 
+  We(royal): bachkitun 
+  We(exclusive): bachkituna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): bachkitaja 
+  You: bachkitasta 
+  Yall/They(plural): bachkitast 
+  We(royal): bachkitama 
+  We(exclusive): bachkitam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): bachkitag 
+  You: bachkitasa 
+  Yall/They(plural): bachkitas 
+  We(royal): bachkitana 
+  We(exclusive): bachkitan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): bachkitui 
+  You: bachkitust 
+  Yall/They(plural): bachkitue 
+  We(royal): bachkitui 
+  We(exclusive): bachkitun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+poawm
+Definition: an atom
+Class: NounIV
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iapoaw
+   Trial: iopoaw
+   Paucal:ipoaw
+   Dative: napoaw
+   Instrumental: stpoaw
+   Comitative: upoaw
+   Adesive: zapoaw
+   Allative: zipoaw
+   Ablative: zopoaw
+   Illative: thipoaw
+   Inessive: thopoaw
+   Acusative: poawma
+   Genitive: poawa
+   Locative: poawgua
+*******
+
+ 
+awipa
+Definition: energy
+Class: NounI
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iaawipa
+   Trial: ioawipa
+   Paucal:iawipa
+   Dative: nawipa
+   Instrumental: stawipa
+   Comitative: uawipa
+   Adesive: zaawipa
+   Allative: ziawipa
+   Ablative: zoawipa
+   Illative: thiawipa
+   Inessive: thoawipa
+   Acusative: awipam
+   Genitive: awipaa
+   Locative: awipaga
+*******
+
+ 
+pik
+Definition: cure
+Class: NounII
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iapi
+   Trial: iopi
+   Paucal:ipi
+   Dative: napi
+   Instrumental: stpi
+   Comitative: upi
+   Adesive: zapi
+   Allative: zipi
+   Ablative: zopi
+   Illative: thipi
+   Inessive: thopi
+   Acusative: pima
+   Genitive: pia
+   Locative: pigua
+*******
+
+ 
+tantoith
+Definition: tower
+Class: NounIII
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iatantoit
+   Trial: iotantoit
+   Paucal:itantoit
+   Dative: matantoit
+   Instrumental: sttantoit
+   Comitative: utantoit
+   Adesive: zatantoit
+   Allative: zitantoit
+   Ablative: zotantoit
+   Illative: thitantoit
+   Inessive: thotantoit
+   Acusative: tantoitma
+   Genitive: tantoita
+   Locative: tantoitga
+*******
+
+ 
+poi:i
+Definition: light
+Class: NounI
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iapoi
+   Trial: iopoi
+   Paucal:ipoi
+   Dative: mapoi
+   Instrumental: stpoi
+   Comitative: upoi
+   Adesive: zapoi
+   Allative: zipoi
+   Ablative: zopoi
+   Illative: thipoi
+   Inessive: thopoi
+   Acusative: poin
+   Genitive: poia
+   Locative: poigua
+*******
+
+ 
+inooi:i
+Definition: skeptical
+Class: NounI
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iainooi
+   Trial: ioinooi
+   Paucal:iinooi
+   Dative: ninooi
+   Instrumental: stinooi
+   Comitative: uinooi
+   Adesive: zainooi
+   Allative: ziinooi
+   Ablative: zoinooi
+   Illative: thiinooi
+   Inessive: thoinooi
+   Acusative: inooin
+   Genitive: inooia
+   Locative: inooigua
+*******
+
+ 
+hukawast
+Definition: earth
+Class: NounIII
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iahukawat
+   Trial: iohukawat
+   Paucal:ihukawat
+   Dative: nahukawat
+   Instrumental: sthukawat
+   Comitative: uhukawat
+   Adesive: zahukawat
+   Allative: zihukawat
+   Ablative: zohukawat
+   Illative: thihukawat
+   Inessive: thohukawat
+   Acusative: hukawatma
+   Genitive: hukawata
+   Locative: hukawatga
+*******
+
+ 
+huk
+Definition: city
+Class: NounII
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iahu
+   Trial: iohu
+   Paucal:ihu
+   Dative: nahu
+   Instrumental: sthu
+   Comitative: uhu
+   Adesive: zahu
+   Allative: zihu
+   Ablative: zohu
+   Illative: thihu
+   Inessive: thohu
+   Acusative: hum
+   Genitive: hua
+   Locative: huga
+*******
+
+ 
+hetik
+Definition: woods
+Class: NounII
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iaheti
+   Trial: ioheti
+   Paucal:iheti
+   Dative: maheti
+   Instrumental: stheti
+   Comitative: uheti
+   Adesive: zaheti
+   Allative: ziheti
+   Ablative: zoheti
+   Illative: thiheti
+   Inessive: thoheti
+   Acusative: hetim
+   Genitive: hetia
+   Locative: hetigua
+*******
+
+ 
+chaet
+Definition: to let
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): chaetaj 
+  You: chaetast 
+  Yall/They(plural): chaetasta 
+  We(royal): chaetam 
+  We(exclusive): chaetama 
+* 
+Past: 
+  I/He/She/They(sing): chaeta 
+  You: chaetas 
+  Yall/They(plural): chaetasa 
+  We(royal): chaetan 
+  We(exclusive): chaetana 
+** 
+Future: 
+  I/He/She/They(sing): chaetua 
+  You: chaetue 
+  Yall/They(plural): chaetust 
+  We(royal): chaetun 
+  We(exclusive): chaetuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): chaetaja 
+  You: chaetasta 
+  Yall/They(plural): chaetast 
+  We(royal): chaetama 
+  We(exclusive): chaetam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): chaetag 
+  You: chaetasa 
+  Yall/They(plural): chaetas 
+  We(royal): chaetana 
+  We(exclusive): chaetan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): chaetui 
+  You: chaetust 
+  Yall/They(plural): chaetue 
+  We(royal): chaetui 
+  We(exclusive): chaetun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+d'uawt
+Definition: to wonder
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): d'uawtaj 
+  You: d'uawtast 
+  Yall/They(plural): d'uawtasta 
+  We(royal): d'uawtam 
+  We(exclusive): d'uawtama 
+* 
+Past: 
+  I/He/She/They(sing): d'uawta 
+  You: d'uawtas 
+  Yall/They(plural): d'uawtasa 
+  We(royal): d'uawtan 
+  We(exclusive): d'uawtana 
+** 
+Future: 
+  I/He/She/They(sing): d'uawtua 
+  You: d'uawtue 
+  Yall/They(plural): d'uawtust 
+  We(royal): d'uawtun 
+  We(exclusive): d'uawtuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): d'uawtaja 
+  You: d'uawtasta 
+  Yall/They(plural): d'uawtast 
+  We(royal): d'uawtama 
+  We(exclusive): d'uawtam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): d'uawtag 
+  You: d'uawtasa 
+  Yall/They(plural): d'uawtas 
+  We(royal): d'uawtana 
+  We(exclusive): d'uawtan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): d'uawtui 
+  You: d'uawtust 
+  Yall/They(plural): d'uawtue 
+  We(royal): d'uawtui 
+  We(exclusive): d'uawtun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+cawkayt
+Definition: to wander
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): cawkaytaj 
+  You: cawkaytast 
+  Yall/They(plural): cawkaytasta 
+  We(royal): cawkaytam 
+  We(exclusive): cawkaytama 
+* 
+Past: 
+  I/He/She/They(sing): cawkayta 
+  You: cawkaytas 
+  Yall/They(plural): cawkaytasa 
+  We(royal): cawkaytan 
+  We(exclusive): cawkaytana 
+** 
+Future: 
+  I/He/She/They(sing): cawkaytua 
+  You: cawkaytue 
+  Yall/They(plural): cawkaytust 
+  We(royal): cawkaytun 
+  We(exclusive): cawkaytuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): cawkaytaja 
+  You: cawkaytasta 
+  Yall/They(plural): cawkaytast 
+  We(royal): cawkaytama 
+  We(exclusive): cawkaytam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): cawkaytag 
+  You: cawkaytasa 
+  Yall/They(plural): cawkaytas 
+  We(royal): cawkaytana 
+  We(exclusive): cawkaytan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): cawkaytui 
+  You: cawkaytust 
+  Yall/They(plural): cawkaytue 
+  We(royal): cawkaytui 
+  We(exclusive): cawkaytun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+awtawt
+Definition: to become
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): awtawtaj 
+  You: awtawtast 
+  Yall/They(plural): awtawtasta 
+  We(royal): awtawtam 
+  We(exclusive): awtawtama 
+* 
+Past: 
+  I/He/She/They(sing): awtawta 
+  You: awtawtas 
+  Yall/They(plural): awtawtasa 
+  We(royal): awtawtan 
+  We(exclusive): awtawtana 
+** 
+Future: 
+  I/He/She/They(sing): awtawtua 
+  You: awtawtue 
+  Yall/They(plural): awtawtust 
+  We(royal): awtawtun 
+  We(exclusive): awtawtuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): awtawtaja 
+  You: awtawtasta 
+  Yall/They(plural): awtawtast 
+  We(royal): awtawtama 
+  We(exclusive): awtawtam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): awtawtag 
+  You: awtawtasa 
+  Yall/They(plural): awtawtas 
+  We(royal): awtawtana 
+  We(exclusive): awtawtan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): awtawtui 
+  You: awtawtust 
+  Yall/They(plural): awtawtue 
+  We(royal): awtawtui 
+  We(exclusive): awtawtun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+je'sit
+Definition: to ask
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): je'sitaj 
+  You: je'sitast 
+  Yall/They(plural): je'sitasta 
+  We(royal): je'sitam 
+  We(exclusive): je'sitama 
+* 
+Past: 
+  I/He/She/They(sing): je'sita 
+  You: je'sitas 
+  Yall/They(plural): je'sitasa 
+  We(royal): je'sitan 
+  We(exclusive): je'sitana 
+** 
+Future: 
+  I/He/She/They(sing): je'situa 
+  You: je'situe 
+  Yall/They(plural): je'situst 
+  We(royal): je'situn 
+  We(exclusive): je'situna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): je'sitaja 
+  You: je'sitasta 
+  Yall/They(plural): je'sitast 
+  We(royal): je'sitama 
+  We(exclusive): je'sitam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): je'sitag 
+  You: je'sitasa 
+  Yall/They(plural): je'sitas 
+  We(royal): je'sitana 
+  We(exclusive): je'sitan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): je'situi 
+  You: je'situst 
+  Yall/They(plural): je'situe 
+  We(royal): je'situi 
+  We(exclusive): je'situn 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+gawt
+Definition: to help
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): gawtaj 
+  You: gawtast 
+  Yall/They(plural): gawtasta 
+  We(royal): gawtam 
+  We(exclusive): gawtama 
+* 
+Past: 
+  I/He/She/They(sing): gawta 
+  You: gawtas 
+  Yall/They(plural): gawtasa 
+  We(royal): gawtan 
+  We(exclusive): gawtana 
+** 
+Future: 
+  I/He/She/They(sing): gawtua 
+  You: gawtue 
+  Yall/They(plural): gawtust 
+  We(royal): gawtun 
+  We(exclusive): gawtuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): gawtaja 
+  You: gawtasta 
+  Yall/They(plural): gawtast 
+  We(royal): gawtama 
+  We(exclusive): gawtam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): gawtag 
+  You: gawtasa 
+  Yall/They(plural): gawtas 
+  We(royal): gawtana 
+  We(exclusive): gawtan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): gawtui 
+  You: gawtust 
+  Yall/They(plural): gawtue 
+  We(royal): gawtui 
+  We(exclusive): gawtun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+hookat
+Definition: to know
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): hookataj 
+  You: hookatast 
+  Yall/They(plural): hookatasta 
+  We(royal): hookatam 
+  We(exclusive): hookatama 
+* 
+Past: 
+  I/He/She/They(sing): hookata 
+  You: hookatas 
+  Yall/They(plural): hookatasa 
+  We(royal): hookatan 
+  We(exclusive): hookatana 
+** 
+Future: 
+  I/He/She/They(sing): hookatua 
+  You: hookatue 
+  Yall/They(plural): hookatust 
+  We(royal): hookatun 
+  We(exclusive): hookatuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): hookataja 
+  You: hookatasta 
+  Yall/They(plural): hookatast 
+  We(royal): hookatama 
+  We(exclusive): hookatam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): hookatag 
+  You: hookatasa 
+  Yall/They(plural): hookatas 
+  We(royal): hookatana 
+  We(exclusive): hookatan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): hookatui 
+  You: hookatust 
+  Yall/They(plural): hookatue 
+  We(royal): hookatui 
+  We(exclusive): hookatun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+m'bat
+Definition: to teach
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): m'bataj 
+  You: m'batast 
+  Yall/They(plural): m'batasta 
+  We(royal): m'batam 
+  We(exclusive): m'batama 
+* 
+Past: 
+  I/He/She/They(sing): m'bata 
+  You: m'batas 
+  Yall/They(plural): m'batasa 
+  We(royal): m'batan 
+  We(exclusive): m'batana 
+** 
+Future: 
+  I/He/She/They(sing): m'batua 
+  You: m'batue 
+  Yall/They(plural): m'batust 
+  We(royal): m'batun 
+  We(exclusive): m'batuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): m'bataja 
+  You: m'batasta 
+  Yall/They(plural): m'batast 
+  We(royal): m'batama 
+  We(exclusive): m'batam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): m'batag 
+  You: m'batasa 
+  Yall/They(plural): m'batas 
+  We(royal): m'batana 
+  We(exclusive): m'batan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): m'batui 
+  You: m'batust 
+  Yall/They(plural): m'batue 
+  We(royal): m'batui 
+  We(exclusive): m'batun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+d'cawt
+Definition: to trust
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): d'cawtaj 
+  You: d'cawtast 
+  Yall/They(plural): d'cawtasta 
+  We(royal): d'cawtam 
+  We(exclusive): d'cawtama 
+* 
+Past: 
+  I/He/She/They(sing): d'cawta 
+  You: d'cawtas 
+  Yall/They(plural): d'cawtasa 
+  We(royal): d'cawtan 
+  We(exclusive): d'cawtana 
+** 
+Future: 
+  I/He/She/They(sing): d'cawtua 
+  You: d'cawtue 
+  Yall/They(plural): d'cawtust 
+  We(royal): d'cawtun 
+  We(exclusive): d'cawtuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): d'cawtaja 
+  You: d'cawtasta 
+  Yall/They(plural): d'cawtast 
+  We(royal): d'cawtama 
+  We(exclusive): d'cawtam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): d'cawtag 
+  You: d'cawtasa 
+  Yall/They(plural): d'cawtas 
+  We(royal): d'cawtana 
+  We(exclusive): d'cawtan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): d'cawtui 
+  You: d'cawtust 
+  Yall/They(plural): d'cawtue 
+  We(royal): d'cawtui 
+  We(exclusive): d'cawtun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+brit
+Definition: to discover
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): britaj 
+  You: britast 
+  Yall/They(plural): britasta 
+  We(royal): britam 
+  We(exclusive): britama 
+* 
+Past: 
+  I/He/She/They(sing): brita 
+  You: britas 
+  Yall/They(plural): britasa 
+  We(royal): britan 
+  We(exclusive): britana 
+** 
+Future: 
+  I/He/She/They(sing): britua 
+  You: britue 
+  Yall/They(plural): britust 
+  We(royal): britun 
+  We(exclusive): brituna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): britaja 
+  You: britasta 
+  Yall/They(plural): britast 
+  We(royal): britama 
+  We(exclusive): britam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): britag 
+  You: britasa 
+  Yall/They(plural): britas 
+  We(royal): britana 
+  We(exclusive): britan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): britui 
+  You: britust 
+  Yall/They(plural): britue 
+  We(royal): britui 
+  We(exclusive): britun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+istawt
+Definition: to build
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): istawtaj 
+  You: istawtast 
+  Yall/They(plural): istawtasta 
+  We(royal): istawtam 
+  We(exclusive): istawtama 
+* 
+Past: 
+  I/He/She/They(sing): istawta 
+  You: istawtas 
+  Yall/They(plural): istawtasa 
+  We(royal): istawtan 
+  We(exclusive): istawtana 
+** 
+Future: 
+  I/He/She/They(sing): istawtua 
+  You: istawtue 
+  Yall/They(plural): istawtust 
+  We(royal): istawtun 
+  We(exclusive): istawtuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): istawtaja 
+  You: istawtasta 
+  Yall/They(plural): istawtast 
+  We(royal): istawtama 
+  We(exclusive): istawtam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): istawtag 
+  You: istawtasa 
+  Yall/They(plural): istawtas 
+  We(royal): istawtana 
+  We(exclusive): istawtan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): istawtui 
+  You: istawtust 
+  Yall/They(plural): istawtue 
+  We(royal): istawtui 
+  We(exclusive): istawtun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+pawt
+Definition: to have
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): pawtaj 
+  You: pawtast 
+  Yall/They(plural): pawtasta 
+  We(royal): pawtam 
+  We(exclusive): pawtama 
+* 
+Past: 
+  I/He/She/They(sing): pawta 
+  You: pawtas 
+  Yall/They(plural): pawtasa 
+  We(royal): pawtan 
+  We(exclusive): pawtana 
+** 
+Future: 
+  I/He/She/They(sing): pawtua 
+  You: pawtue 
+  Yall/They(plural): pawtust 
+  We(royal): pawtun 
+  We(exclusive): pawtuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): pawtaja 
+  You: pawtasta 
+  Yall/They(plural): pawtast 
+  We(royal): pawtama 
+  We(exclusive): pawtam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): pawtag 
+  You: pawtasa 
+  Yall/They(plural): pawtas 
+  We(royal): pawtana 
+  We(exclusive): pawtan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): pawtui 
+  You: pawtust 
+  Yall/They(plural): pawtue 
+  We(royal): pawtui 
+  We(exclusive): pawtun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+shuawt
+Definition: to experience
+Class: RegularVerb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): shuawtaj 
+  You: shuawtast 
+  Yall/They(plural): shuawtasta 
+  We(royal): shuawtam 
+  We(exclusive): shuawtama 
+* 
+Past: 
+  I/He/She/They(sing): shuawta 
+  You: shuawtas 
+  Yall/They(plural): shuawtasa 
+  We(royal): shuawtan 
+  We(exclusive): shuawtana 
+** 
+Future: 
+  I/He/She/They(sing): shuawtua 
+  You: shuawtue 
+  Yall/They(plural): shuawtust 
+  We(royal): shuawtun 
+  We(exclusive): shuawtuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): shuawtaja 
+  You: shuawtasta 
+  Yall/They(plural): shuawtast 
+  We(royal): shuawtama 
+  We(exclusive): shuawtam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): shuawtag 
+  You: shuawtasa 
+  Yall/They(plural): shuawtas 
+  We(royal): shuawtana 
+  We(exclusive): shuawtan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): shuawtui 
+  You: shuawtust 
+  Yall/They(plural): shuawtue 
+  We(royal): shuawtui 
+  We(exclusive): shuawtun 
+****** 
+Declination?: No
+  Not a Noun
+*******
