@@ -15,6 +15,7 @@ import ModinkyWordGenerator
 import ModinkyReadDictionary
 import ModinkyPrintConDec
 
+
 #inky boilerplate set up
 inky_display = InkyPHAT("red")
 inky_display.set_border(inky_display.WHITE)
@@ -49,23 +50,24 @@ while True:
     #button input options
     @buttonshim.on_press(buttonshim.BUTTON_A)
     def button_a(button, pressed):
+        buttonshim.set_pixel(0xff, 0x00, 0x00)
         ModinkyReadDictionary.ReadDictionary()
 
     @buttonshim.on_press(buttonshim.BUTTON_B)
     def button_b(button, pressed):
+        buttonshim.set_pixel(0xff, 0x00, 0x00)
         ModinkyPrintConDec.inkyPrintDictionary()
 
     @buttonshim.on_press(buttonshim.BUTTON_C)
     def button_c(button, pressed):
+        buttonshim.set_pixel(0xff, 0x00, 0x00)
         ModinkyWordConjugator.NewWord()
 
     @buttonshim.on_press(buttonshim.BUTTON_D)
     def button_d(button, pressed):
+        buttonshim.set_pixel(0xff, 0x00, 0x00)
         ModinkyWordGenerator.WordGenerator()
 
-    @buttonshim.on_press(buttonshim.BUTTON_E)
-    def button_e(button, pressed):
-        command = 'Quit'
     
     #pauses program to wait for signal
     signal.pause()

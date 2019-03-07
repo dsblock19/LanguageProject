@@ -15,16 +15,14 @@ import ModinkyStartupImage
 def ReadDictionary():
     #Prints Dictionary Start up screen
     ModinkyStartupImage.StarUpDictionary()
+    #light turns purple when ready for input
+    buttonshim.set_pixel(0x94, 0x00, 0xd3)
+    # gets word to look up or quit command
+    word = input('word: ')
     while True:
-        #light turns purple when ready for input
-        buttonshim.set_pixel(0x94, 0x00, 0xd3)
-        if command in ['Quit']:
+        if word in ['Quit']:
             break
         else:
-            #light turns green when ready for input
-            buttonshim.set_pixel(0x00, 0xff, 0x00)
-            # gets word to look up or quit command
-            word = input('word: ')
             #light turns red when wordking
             buttonshim.set_pixel(0xff, 0x00, 0x00)
             #opens dictionary (ConlangDatabase.txt) for search
