@@ -17,9 +17,9 @@ def ReadDictionary():
     ModinkyStartupImage.StarUpDictionary()
     #light turns purple when ready for input
     buttonshim.set_pixel(0x94, 0x00, 0xd3)
-    # gets word to look up or quit command
-    word = input('word: ')
     while True:
+        # gets word to look up or quit command
+        word = input('word: ')
         if word in ['Quit']:
             break
         else:

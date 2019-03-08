@@ -35,7 +35,7 @@ x = 0
 y = 0
 
 buttonshim.set_pixel(0xff, 0x00, 0x00)
-#ModinkyStartupImage.StartupImage()
+ModinkyStartupImage.StartupImage()
 
 while True:
     #turns light red while screen is getting set
