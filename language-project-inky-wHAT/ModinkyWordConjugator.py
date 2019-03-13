@@ -248,7 +248,7 @@ def NewWord():
             
             
             #log information to .txt
-            f = open('/home/pi/Desktop/ConlangDatabase.txt', 'a')
+            f = open('/home/pi/Desktop/MyCode/LanguageProject/ConlangDatabase.txt', 'a')
             f.write('\n \n' + word + '\n')
             f.write('Definition: ' + definition + '\n')
             f.write('Class: ' + Class + '\n')
@@ -377,7 +377,7 @@ def NewWord():
             img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
             draw = ImageDraw.Draw(img)
             
-            fontpath = '/home/pi/Desktop/MyCode/Fonts-master/'
+            fontpath = '/home/pi/Desktop/MyCode/LanguageProject/Fonts/'
             font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 15)
             #message construction
             if Class in ['NounI', 'NounII', 'NounIII', 'NounIV', 'NounV', 'NounVI']: 
