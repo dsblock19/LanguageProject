@@ -90,7 +90,7 @@ def GetDictionary(word, lines):
 def inkyPrintDictionary():
     #displays Conjugation startup screen on inky
     ModinkyStartupImage.StarUpPrintConDec()
-    with open('/home/pi/Desktop/ConlangDatabase.txt', 'r') as f:
+    with open('/home/pi/Desktop/MyCode/LanguageProject/ConlangDatabase.txt', 'r') as f:
         lines = [line.replace('\n', '') for line in f.readlines()]
 
     while True:
@@ -113,7 +113,7 @@ def inkyPrintDictionary():
             
             #takes that str and sets proper variables
                 #font select
-            fontpath = '/home/pi/Desktop/MyCode/Fonts-master/'
+            fontpath = '/home/pi/Desktop/MyCode/LanguageProject/Fonts/'
             font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 16)
                 #message construction
             message = text
