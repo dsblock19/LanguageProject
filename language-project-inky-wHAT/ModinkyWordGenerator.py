@@ -195,7 +195,7 @@ def logwords():
     global core, core_vowels, core_consonants, root
     global Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI, verb_ending
     global n_classI, n_classII, n_classIII, n_classIV, n_classV, n_classVI
-    f = open('/home/pi/Desktop/RandomFamily.txt', 'a')
+    f = open('/home/pi/Desktop/MyCode/LanguageProject/RandomFamily.txt', 'a')
     f.write('\n[Core: ' + core + ' | Root: ' + root + '] Verb: ' + Verbs + '\n')
     f.write('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI + '\n')
     f.close()
@@ -241,7 +241,7 @@ def WordGenerator():
             
             #takes that str and sets proper variables
                 #font select
-            fontpath = '/home/pi/Desktop/MyCode/Fonts-master/'
+            fontpath = '/home/pi/Desktop/MyCode/LanguageProject/Fonts/'
             font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 16)
                 #grid variables: start in top left corner
             x = 0
