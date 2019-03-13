@@ -26,7 +26,7 @@ def ReadDictionary():
             break
         else:
             #opens dictionary (ConlangDatabase.txt) for search
-            with open('/home/pi/Desktop/ConlangDatabase.txt', 'r') as f:
+            with open('/home/pi/Desktop/MyCode/LanguageProject/ConlangDatabase.txt', 'r') as f:
                 lines = [line.replace('\n', '') for line in f.readlines()]
             
             #boilerplate code for ink pHAT
@@ -48,7 +48,7 @@ def ReadDictionary():
             
             #takes str and sets proper variables
                 #font select
-            fontpath = '/home/pi/Desktop/MyCode/Fonts-master/'
+            fontpath = '/home/pi/Desktop/MyCode/LanguageProjectFonts/'
             font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 15)
                 #message construction
             message = word + '\n' + i + '\n' + ii + '\n' + iii + '\n' + iv
