@@ -4,10 +4,6 @@
 from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
 
-#tools for button/LED SHIM
-import buttonshim
-import signal
-
 #my MODs
 import ModinkyStartupImage
 
@@ -16,12 +12,8 @@ def ReadDictionary():
     #Prints Dictionary Start up screen
     ModinkyStartupImage.StarUpDictionary()
     while True:
-        #light turns purple when ready for input
-        buttonshim.set_pixel(0x94, 0x00, 0xd3)
         # gets word to look up or quit command
         word = input('word: ')
-        #light turns red when wordking
-        buttonshim.set_pixel(0xff, 0x00, 0x00)
         if word in ['Quit']:
             break
         else:
@@ -48,8 +40,8 @@ def ReadDictionary():
             
             #takes str and sets proper variables
                 #font select
-            fontpath = '/home/pi/Desktop/MyCode/LanguageProjectFonts/'
-            font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 15)
+            fontpath = '/home/pi/Desktop/MyCode/LanguageProject/Fonts/'
+            font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 25)
                 #message construction
             message = word + '\n' + i + '\n' + ii + '\n' + iii + '\n' + iv
                 #grid variables: start in top left corner

@@ -69,3 +69,27 @@
  NounIV: amoxaim
    NounV: amoxaso
  NounVI: amoxab
+
+[Core: noo | Root: noos] Verb: noosat
+   NounI: noosa
+ NounII: noosook
+   NounIII: noosist
+ NounIV: noosi
+   NounV: nooso
+ NounVI: noosaz
+
+[Core: mo | Root: mo] Verb: mot
+   NounI: mobi:i
+ NounII: moc
+   NounIII: most
+ NounIV: moum
+   NounV: moipa
+ NounVI: mob
+
+[Core: vaw | Root: vawch] Verb: vawchit
+   NounI: vawcha
+ NounII: vawchi:ik
+   NounIII: vawchith
+ NounIV: vawchpi
+   NounV: vawchipa
+ NounVI: vawchawd

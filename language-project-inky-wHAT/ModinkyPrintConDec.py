@@ -4,10 +4,6 @@
 from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
 
-#tools for button/LED SHIM
-import buttonshim
-import signal
-
 #my MODs
 import ModinkyStartupImage
 
@@ -23,11 +19,7 @@ def GetDictionary(word, lines):
     #determines if verb or noun
     #if verb:
     if word.endswith('t') is True:
-        #turns light purple to signal accepting inpit
-        buttonshim.set_pixel(0x00, 0x00, 0xff)
         tense = input('Tense?: ')
-        buttonshim.set_pixel(0xff, 0x00, 0x00)
-        #turns light red while working
         if tense in ['present']:
             i = lines.index(word) + 4
             while True:
@@ -94,11 +86,7 @@ def inkyPrintDictionary():
         lines = [line.replace('\n', '') for line in f.readlines()]
 
     while True:
-        #turns light blue when ready for input
-        buttonshim.set_pixel(0x00, 0x00, 0xff)
         word = startup()
-        #turns light red while working
-        buttonshim.set_pixel(0xff, 0x00, 0x00)
         if word in ['Quit']:
             break
         else:
@@ -114,10 +102,14 @@ def inkyPrintDictionary():
             #takes that str and sets proper variables
                 #font select
             fontpath = '/home/pi/Desktop/MyCode/LanguageProject/Fonts/'
-            font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 16)
-                #message construction
-            message = text
-                #grid variables: start in top left corner
+            if word.endswith('t') is True:
+                font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 26)
+                message = '\n\n' + text
+            else:
+                font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 18)
+                message = text
+            
+            #grid variables: start in top left corner
             x = 0
             y = 0
             # uses variables to package str and send to screen

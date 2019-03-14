@@ -1,6 +1,6 @@
 #top level program: python3 /home/pi/Desktop/MyCode/LanguageProject/inky/inkyChooseAProgram.py &
 
-from inky import InkyPHAT
+from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
 
 import ModinkyStartupImage
@@ -10,7 +10,7 @@ import ModinkyReadDictionary
 import ModinkyPrintConDec
 
 #boilerplate set up
-inky_display = InkyPHAT("red")
+inky_display = InkyWHAT("red")
 inky_display.set_border(inky_display.WHITE)
 
 # screen dimension variables
@@ -18,16 +18,16 @@ img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
 draw = ImageDraw.Draw(img)
 
 #set up font
-fontpath = '/home/pi/Desktop/MyCode/Fonts/'
-font = ImageFont.truetype(fontpath + 'SF-Outer-Limits.ttf', 18)
+fontpath = '/home/pi/Desktop/MyCode/LanguageProject/Fonts/'
+font = ImageFont.truetype(fontpath + 'SF-Outer-Limits.ttf', 35)
 
 
 #set up startup message
-startupmessage = '      istoth:\nLanguage in Stone\n \n \n      Which program?'
+startupmessage = '\n\n          istoth:\n\n   Language in Stone\n \n \n \n      Which program?'
 x = 0
 y = 0
 
-ModinkyStartupImage.StartupImage()
+#ModinkyStartupImage.StartupImage()
 
 while True:
     draw.text((x, y), startupmessage, inky_display.RED, font)

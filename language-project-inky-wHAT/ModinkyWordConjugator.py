@@ -4,10 +4,6 @@
 from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
 
-#tools for button/LED SHIM
-import buttonshim
-import signal
-
 #other tools
 import random
 from time import sleep
@@ -200,9 +196,7 @@ def ChooseTense():
     global PrPgPIII, PrPgPIV, PrPgPV, PaPgPI, PaPgPII, PaPgPIII 
     global PaPgPIV, PaPgPV, FuPgPI, FuPgPII, FuPgPIII, FuPgPIV, FuPgPV
     if Class in ['RegularVerb']:
-        buttonshim.set_pixel(0x00, 0xff, 0x00)
         tense = input('Tense: ')
-        buttonshim.set_pixel(0xff, 0x00, 0x00)
         if tense in ['present']:
             return 'Present:' + '\n' + ProI + root + PrPI + '\n' + ProII + root + PrPII + '\n' + ProIII + root + PrPIII + '\n' + ProIV + root + PrPIV + '\n' + ProV + root + PrPV
         elif tense in ['past']:
@@ -228,13 +222,10 @@ def NewWord():
     global PaPV, FuPI, FuPII, FuPIII, FuPIV, FuPV, PrPgPI, PrPgPII 
     global PrPgPIII, PrPgPIV, PrPgPV, PaPgPI, PaPgPII, PaPgPIII 
     global PaPgPIV, PaPgPV, FuPgPI, FuPgPII, FuPgPIII, FuPgPIV, FuPgPV 
-    buttonshim.set_pixel(0xff, 0x00, 0x00)
     ModinkyStartupImage.StarUpConjugator()
     # core program
     while True:
-        buttonshim.set_pixel(0x00, 0xff, 0x00)
         word = input('Word: ')
-        buttonshim.set_pixel(0xff, 0x00, 0x00)
         if word in ['Quit']:
             break
         else:
@@ -378,7 +369,7 @@ def NewWord():
             draw = ImageDraw.Draw(img)
             
             fontpath = '/home/pi/Desktop/MyCode/LanguageProject/Fonts/'
-            font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 15)
+            font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 25)
             #message construction
             if Class in ['NounI', 'NounII', 'NounIII', 'NounIV', 'NounV', 'NounVI']: 
                 message = word + '\nDefinition: ' + definition + '\n' + declination

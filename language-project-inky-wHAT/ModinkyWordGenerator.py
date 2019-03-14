@@ -3,11 +3,11 @@
 #tools
 from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
-import buttonshim
-import signal
 
 import random
 from time import sleep
+
+import ModinkyStartupImage
 
 #lists of all avalible sounds to the language
 core_consonants = [ 'd', 't', 'c', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'x', 'th', 'st', 'v', 'j', 'ch', 'b', 'h', 'r' ]
@@ -205,8 +205,8 @@ def WordGenerator():
     global core, core_vowels, core_consonants, root
     global Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI, verb_ending
     global n_classI, n_classII, n_classIII, n_classIV, n_classV, n_classVI
+    ModinkyStartupImage.StarUpWordGenerator()
     while True:
-        buttonshim.set_pixel(0xff, 0xff, 0x00)
         command = input('Command: ')
         if command in ['Quit']:
             break
@@ -230,7 +230,7 @@ def WordGenerator():
             NounsVI = NounVI()
             
             #message construction
-            message = '[Core: ' + core + ' | Root: ' + root + '] Verb: ' + Verbs + '\n   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI + '\n'
+            message = '\n[Core: ' + core + ' | Root: ' + root + ']\nVerb: ' + Verbs + '\n   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI + '\n'
             
             #boilerplate code for ink pHAT
             inky_display = InkyWHAT('red')
@@ -242,7 +242,7 @@ def WordGenerator():
             #takes that str and sets proper variables
                 #font select
             fontpath = '/home/pi/Desktop/MyCode/LanguageProject/Fonts/'
-            font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 16)
+            font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 26)
                 #grid variables: start in top left corner
             x = 0
             y = 0
