@@ -207,6 +207,162 @@ def ChooseTense():
     elif Class in ['NounI', 'NounII', 'NounIII', 'NounIV', 'NounV', 'NounVI']:
         return 'Conjugation: No'
 
+def StoWord():
+    global word, definition
+    #Make Upper Case
+    stoword = word.upper()
+    #Font Specific Change
+    #ST --> F
+    stoword.replace('ST', 'F')
+    #OO --> L
+    stoword.replace('OO', 'L')
+    #SH --> Q
+    stoword.replace('SH', 'Q')
+    #AW --> W
+    stoword.replace('AW', 'W')
+    #I:I --> Y
+    stoword.replace('I:I', 'Y')
+    #CH --> @
+    stoword.replace('CH', '@')
+    #TH --> #
+    stoword.replace('TH', '#')
+    stof = open('/home/pi/Desktop/StoIthFont.txt', 'a')
+    stof.write('\n \n' + word + ' = ' + stoword + '\n')
+    stof.write('Definition: ' + definition + '\n')
+    stof.close()
+    return word + ' = ' + stoword
+
+
+def LogDataBase():
+    global word, Class, root, core_vowels, core_consonants, other_vowels, other_consonants, other_c
+    global Sing, Tri, Pau, Vdative, Cdative, instrumental, comitative, adesive, allative, ablative
+    global illative, inessive, acusative, genitive, locative
+    global PrPI, PrPII, PrPIII, PrPIV, PrPV, PaPI, PaPII, PaPIII, PaPIV
+    global PaPV, FuPI, FuPII, FuPIII, FuPIV, FuPV, PrPgPI, PrPgPII
+    global PrPgPIII, PrPgPIV, PrPgPV, PaPgPI, PaPgPII, PaPgPIII
+    global PaPgPIV, PaPgPV, FuPgPI, FuPgPII, FuPgPIII, FuPgPIV, FuPgPV
+    #log information to .txt
+    f = open('/home/pi/Desktop/ConlangDatabase.txt', 'a')
+    f.write('\n \n' + word + '\n')
+    f.write('Definition: ' + definition + '\n')
+    f.write('Class: ' + Class + '\n')
+    if Class in ['RegularVerb']:
+        f.write('Conjugation?: Yes \n')
+        # present
+        f.write('Present: \n  ')
+        f.write(ProI + root + PrPI + ' \n  ' + ProII + root + PrPII + ' \n  ')
+        f.write(ProIII + root + PrPIII + ' \n')
+        f.write('  ' + ProIV + root + PrPIV + ' \n  ' + ProV + root + PrPV + ' \n')
+        f.write('*' + ' \n')
+        # past
+        f.write('Past: \n  ')
+        f.write(ProI + root + PaPI + ' \n  ' + ProII + root + PaPII + ' \n  ')
+        f.write(ProIII + root + PaPIII + ' \n')
+        f.write('  ' + ProIV + root + PaPIV + ' \n  ' + ProV + root + PaPV + ' \n')
+        f.write('**' + ' \n')
+        # future
+        f.write('Future: \n  ')
+        f.write(ProI + root + FuPI + ' \n  ' + ProII + root + FuPII + ' \n  ')
+        f.write(ProIII + root + FuPIII + ' \n')
+        f.write('  ' + ProIV + root + FuPIV + ' \n  ' + ProV + root + FuPV + ' \n')
+        f.write('***' + ' \n')
+        # present progressive
+        f.write('Present Progressive: \n  ')
+        f.write(ProI + root + PrPgPI + ' \n  ' + ProII + root + PrPgPII + ' \n  ')
+        f.write(ProIII + root + PrPgPIII + ' \n')
+        f.write('  ' + ProIV + root + PrPgPIV + ' \n  ' + ProV + root + PrPgPV + ' \n')
+        f.write('****' + ' \n')
+        # past progressive
+        f.write('Past Progressive: \n  ')
+        f.write(ProI + root + PaPgPI + ' \n  ' + ProII + root + PaPgPII + ' \n  ')
+        f.write(ProIII + root + PaPgPIII + ' \n')
+        f.write('  ' + ProIV + root + PaPgPIV + ' \n  ' + ProV + root + PaPgPV + ' \n')
+        f.write('*****' + ' \n')
+        # future progressive
+        f.write('Future Progressive: \n  ')
+        f.write(ProI + root + FuPgPI + ' \n  ' + ProII + root + FuPgPII + ' \n  ')
+        f.write(ProIII + root + FuPgPIII + ' \n')
+        f.write('  ' + ProIV + root + FuPgPI + ' \n  ' + ProV + root + FuPgPV + ' \n')
+        f.write('******' + ' \n')
+        # noun
+        f.write( 'Declination?: No' + '\n' + '  Not a Noun' + '\n')
+        # end mark
+        f.write('*******' + '\n')
+        # close
+        f.close()
+    elif Class in ['NounI', 'NounII', 'NounIII', 'NounIV', 'NounV', 'NounVI']:
+        if word.startswith(core_vowels) is True:
+            f.write('Conjugation?: No \n' + '   Not a Verb \n')
+            f.write('Declination?: Yes \n')
+            #nominal number suffixes
+            f.write('   Singular: ' + Sing + root + '\n')
+            f.write('   Trial: ' + Tri + root + '\n')
+            f.write('   Paucal:' + Pau + root + '\n')
+            #case suffixes
+            f.write('   Dative: ' + random.choice(Vdative) + root + '\n')
+            #case suffixes II
+            f.write('   Instrumental: ' + instrumental + root + '\n')
+            f.write('   Comitative: ' + comitative + root + '\n')
+            f.write('   Adesive: ' + adesive + root + '\n')
+            f.write('   Allative: ' + allative + root + '\n')
+            f.write('   Ablative: ' + ablative + root + '\n')
+            f.write('   Illative: ' + illative + root + '\n')
+            f.write('   Inessive: ' + inessive + root + '\n')
+            #case prefixes
+            f.write('   Acusative: ' + root + random.choice(acusative) + '\n')
+            f.write('   Genitive: ' + root + genitive + '\n')
+            #case prefixes II
+            f.write('   Locative: ' + root + random.choice(locative) + '\n')
+            # end mark
+            f.write('*******' + '\n')
+            f.close()
+        elif word.startswith(core_consonants) is True:
+            f.write('Conjugation?: No \n' + '   Not a Verb \n')
+            f.write('Declination?: Yes \n')
+            f.write('   Singular: ' + Sing + root + '\n')
+            f.write('   Trial: ' + Tri + root + '\n')
+            f.write('   Paucal:' + Pau + root + '\n')
+            f.write('   Dative: ' + random.choice(Cdative) + root + '\n')
+            f.write('   Instrumental: ' + instrumental + root + '\n')
+            f.write('   Comitative: ' + comitative + root + '\n')
+            f.write('   Adesive: ' + adesive + root + '\n')
+            f.write('   Allative: ' + allative + root + '\n')
+            f.write('   Ablative: ' + ablative + root + '\n')
+            f.write('   Illative: ' + illative + root + '\n')
+            f.write('   Inessive: ' + inessive + root + '\n')
+            f.write('   Acusative: ' + root + random.choice(acusative) + '\n')
+            f.write('   Genitive: ' + root + genitive + '\n')
+            f.write('   Locative: ' + root + random.choice(locative) + '\n')
+            # end mark
+            f.write('*******' + '\n')
+            f.close()
+        elif word.startswith(other_vowels) is True:
+            f.write('Conjugation?: No \n' + '   Not a Verb \n')
+            f.write('Declination?: Yes \n')
+            #nominal number suffixes
+            f.write('   Singular: ' + Sing + root + '\n')
+            f.write('   Trial: ' + Tri + root + '\n')
+            f.write('   Paucal:' + Pau + root + '\n')
+            #case suffixes
+            f.write('   Dative: ' + random.choice(Vdative) + root + '\n')
+            #case suffixes II
+            f.write('   Instrumental: ' + instrumental + root + '\n')
+            f.write('   Comitative: ' + comitative + root + '\n')
+            f.write('   Adesive: ' + adesive + root + '\n')
+            f.write('   Allative: ' + allative + root + '\n')
+            f.write('   Ablative: ' + ablative + root + '\n')
+            f.write('   Illative: ' + illative + root + '\n')
+            f.write('   Inessive: ' + inessive + root + '\n')
+            #case prefixes
+            f.write('   Acusative: ' + root + random.choice(acusative) + '\n')
+            f.write('   Genitive: ' + root + genitive + '\n')
+            #case prefixes II
+            f.write('   Locative: ' + root + random.choice(locative) + '\n')
+            # end mark
+            f.write('*******' + '\n')
+            f.close()
+
+
 
 while True:
     word = input('Word: ')
@@ -218,150 +374,10 @@ while True:
         root = Strip2Root()
         declination = Ndecline()
         conjugation = ChooseTense()
-
-
-        #log information to .txt
-        f = open('/home/pi/Desktop/ConlangDatabase.txt', 'a')
-        f.write('\n \n' + word + '\n')
-        f.write('Definition: ' + definition + '\n')
-        f.write('Class: ' + Class + '\n')
-        if Class in ['RegularVerb']:
-            f.write('Conjugation?: Yes \n')
-            # present
-            f.write('Present: \n  ')
-            f.write(ProI + root + PrPI + ' \n  ' + ProII + root + PrPII + ' \n  ')
-            f.write(ProIII + root + PrPIII + ' \n')
-            f.write('  ' + ProIV + root + PrPIV + ' \n  ' + ProV + root + PrPV + ' \n')
-            f.write('*' + ' \n')
-            # past
-            f.write('Past: \n  ')
-            f.write(ProI + root + PaPI + ' \n  ' + ProII + root + PaPII + ' \n  ')
-            f.write(ProIII + root + PaPIII + ' \n')
-            f.write('  ' + ProIV + root + PaPIV + ' \n  ' + ProV + root + PaPV + ' \n')
-            f.write('**' + ' \n')
-            # future
-            f.write('Future: \n  ')
-            f.write(ProI + root + FuPI + ' \n  ' + ProII + root + FuPII + ' \n  ')
-            f.write(ProIII + root + FuPIII + ' \n')
-            f.write('  ' + ProIV + root + FuPIV + ' \n  ' + ProV + root + FuPV + ' \n')
-            f.write('***' + ' \n')
-            # present progressive
-            f.write('Present Progressive: \n  ')
-            f.write(ProI + root + PrPgPI + ' \n  ' + ProII + root + PrPgPII + ' \n  ')
-            f.write(ProIII + root + PrPgPIII + ' \n')
-            f.write('  ' + ProIV + root + PrPgPIV + ' \n  ' + ProV + root + PrPgPV + ' \n')
-            f.write('****' + ' \n')
-            # past progressive
-            f.write('Past Progressive: \n  ')
-            f.write(ProI + root + PaPgPI + ' \n  ' + ProII + root + PaPgPII + ' \n  ')
-            f.write(ProIII + root + PaPgPIII + ' \n')
-            f.write('  ' + ProIV + root + PaPgPIV + ' \n  ' + ProV + root + PaPgPV + ' \n')
-            f.write('*****' + ' \n')
-            # future progressive
-            f.write('Future Progressive: \n  ')
-            f.write(ProI + root + FuPgPI + ' \n  ' + ProII + root + FuPgPII + ' \n  ')
-            f.write(ProIII + root + FuPgPIII + ' \n')
-            f.write('  ' + ProIV + root + FuPgPI + ' \n  ' + ProV + root + FuPgPV + ' \n')
-            f.write('******' + ' \n')
-            # noun
-            f.write( 'Declination?: No' + '\n' + '  Not a Noun' + '\n')
-            # end mark
-            f.write('*******' + '\n')
-            # close
-            f.close()
-        elif Class in ['NounI', 'NounII', 'NounIII', 'NounIV', 'NounV', 'NounVI']:
-            if word.startswith(core_vowels) is True:
-                f.write('Conjugation?: No \n' + '   Not a Verb \n')
-                f.write('Declination?: Yes \n')
-                #nominal number suffixes
-                f.write('   Singular: ' + Sing + root + '\n')
-                f.write('   Trial: ' + Tri + root + '\n')
-                f.write('   Paucal:' + Pau + root + '\n')
-                #case suffixes
-                f.write('   Dative: ' + random.choice(Vdative) + root + '\n')
-                #case suffixes II
-                f.write('   Instrumental: ' + instrumental + root + '\n')
-                f.write('   Comitative: ' + comitative + root + '\n')
-                f.write('   Adesive: ' + adesive + root + '\n')
-                f.write('   Allative: ' + allative + root + '\n')
-                f.write('   Ablative: ' + ablative + root + '\n')
-                f.write('   Illative: ' + illative + root + '\n')
-                f.write('   Inessive: ' + inessive + root + '\n')
-                #case prefixes
-                f.write('   Acusative: ' + root + random.choice(acusative) + '\n')
-                f.write('   Genitive: ' + root + genitive + '\n')
-                #case prefixes II
-                f.write('   Locative: ' + root + random.choice(locative) + '\n')
-                # end mark
-                f.write('*******' + '\n')
-                f.close()
-            elif word.startswith(core_consonants) is True:
-                f.write('Conjugation?: No \n' + '   Not a Verb \n')
-                f.write('Declination?: Yes \n')
-                f.write('   Singular: ' + Sing + root + '\n')
-                f.write('   Trial: ' + Tri + root + '\n')
-                f.write('   Paucal:' + Pau + root + '\n')
-                f.write('   Dative: ' + random.choice(Cdative) + root + '\n')
-                f.write('   Instrumental: ' + instrumental + root + '\n')
-                f.write('   Comitative: ' + comitative + root + '\n')
-                f.write('   Adesive: ' + adesive + root + '\n')
-                f.write('   Allative: ' + allative + root + '\n')
-                f.write('   Ablative: ' + ablative + root + '\n')
-                f.write('   Illative: ' + illative + root + '\n')
-                f.write('   Inessive: ' + inessive + root + '\n')
-                f.write('   Acusative: ' + root + random.choice(acusative) + '\n')
-                f.write('   Genitive: ' + root + genitive + '\n')
-                f.write('   Locative: ' + root + random.choice(locative) + '\n')
-                # end mark
-                f.write('*******' + '\n')
-                f.close()
-            elif word.startswith(other_vowels) is True:
-                f.write('Conjugation?: No \n' + '   Not a Verb \n')
-                f.write('Declination?: Yes \n')
-                #nominal number suffixes
-                f.write('   Singular: ' + Sing + root + '\n')
-                f.write('   Trial: ' + Tri + root + '\n')
-                f.write('   Paucal:' + Pau + root + '\n')
-                #case suffixes
-                f.write('   Dative: ' + random.choice(Vdative) + root + '\n')
-                #case suffixes II
-                f.write('   Instrumental: ' + instrumental + root + '\n')
-                f.write('   Comitative: ' + comitative + root + '\n')
-                f.write('   Adesive: ' + adesive + root + '\n')
-                f.write('   Allative: ' + allative + root + '\n')
-                f.write('   Ablative: ' + ablative + root + '\n')
-                f.write('   Illative: ' + illative + root + '\n')
-                f.write('   Inessive: ' + inessive + root + '\n')
-                #case prefixes
-                f.write('   Acusative: ' + root + random.choice(acusative) + '\n')
-                f.write('   Genitive: ' + root + genitive + '\n')
-                #case prefixes II
-                f.write('   Locative: ' + root + random.choice(locative) + '\n')
-                # end mark
-                f.write('*******' + '\n')
-                f.close()
-
-
-        #boilerplate code for ink pHAT
-        inky_display = InkyPHAT("red")
-        inky_display.set_border(inky_display.WHITE)
-
-        #screen dimension variable
-        img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
-        draw = ImageDraw.Draw(img)
-
-        fontpath = '/home/pi/Desktop/MyCode/Fonts/'
-        font = ImageFont.truetype(fontpath + 'LinuxLibertinefattened/Linux-Libertine-fattened-Bold.ttf', 15)
-        #message construction
-        if Class in ['NounI', 'NounII', 'NounIII', 'NounIV', 'NounV', 'NounVI']:
-            message = word + '\nDefinition: ' + definition + '\n' + declination
-        else:
-            message = word + '\n Definition: ' + definition + '\n' + conjugation
-        #grid variables: start in top left corner
-        x = 0
-        y = 0
-
-        # uses variables to package str and send to screen
-        draw.text((x, y), message, inky_display.RED, font)
-        inky_display.set_image(img)
-        inky_display.show()
+        LogDataBase()
+        stoword = StoWord()
+        print('Word: ' + word)
+        print('Definition: ' + definition)
+        print('Declination: ' + declination)
+        print('Conjugation: ' + conjugation)
+        print('StoWord: ' + stoword)
