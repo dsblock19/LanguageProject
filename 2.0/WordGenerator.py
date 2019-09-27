@@ -185,90 +185,93 @@ def Verb():
     return V
 
 def StoCon():
+    global core, root, Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI
     #Make Upper Case
-    core.upper()
-    root.upper()
-    Verbs.upper()
-    NounsI.upper()
-    NounsII.upper()
-    NounsIII.upper()
-    NounsIV.upper()
-    NounsV.upper()
-    NounsVI.upper()
+    core = core.upper()
+    root = root.upper()
+    Verbs = Verbs.upper()
+    NounsI = NounsI.upper()
+    NounsII = NounsII.upper()
+    NounsIII = NounsIII.upper()
+    NounsIV = NounsIV.upper()
+    NounsV = NounsV.upper()
+    NounsVI = NounsVI.upper()
     #Font Specific Change
     #ST --> F
-    core.replace('ST', 'F')
-    root.replace('ST', 'F')
-    Verbs.replace('ST', 'F')
-    NounsI.replace('ST', 'F')
-    NounsII.replace('ST', 'F')
-    NounsIII.replace('ST', 'F')
-    NounsIV.replace('ST', 'F')
-    NounsV.replace('ST', 'F')
-    NounsVI.replace('ST', 'F')
+    core = core.replace('ST', 'F')
+    root = root.replace('ST', 'F')
+    Verbs = Verbs.replace('ST', 'F')
+    NounsI = NounsI.replace('ST', 'F')
+    NounsII = NounsII.replace('ST', 'F')
+    NounsIII = NounsIII.replace('ST', 'F')
+    NounsIV = NounsIV.replace('ST', 'F')
+    NounsV = NounsV.replace('ST', 'F')
+    NounsVI = NounsVI.replace('ST', 'F')
     #OO --> L
     core.replace('OO', 'L')
-    root.replace('OO', 'L')
-    Verbs.replace('OO', 'L')
-    NounsI.replace('OO', 'L')
-    NounsII.replace('OO', 'L')
-    NounsIII.replace('OO', 'L')
-    NounsIV.replace('OO', 'L')
-    NounsV.replace('OO', 'L')
-    NounsVI.replace('OO', 'L')
+    core = root.replace('OO', 'L')
+    Verbs = Verbs.replace('OO', 'L')
+    NounsI = NounsI.replace('OO', 'L')
+    NounsII = NounsII.replace('OO', 'L')
+    NounsIII = NounsIII.replace('OO', 'L')
+    NounsIV = NounsIV.replace('OO', 'L')
+    NounsV = NounsV.replace('OO', 'L')
+    NounsVI = NounsVI.replace('OO', 'L')
     #SH --> Q
-    core.replace('SH', 'Q')
-    root.replace('SH', 'Q')
-    Verbs.replace('SH', 'Q')
-    NounsI.replace('SH', 'Q')
-    NounsII.replace('SH', 'Q')
-    NounsIII.replace('SH', 'Q')
-    NounsIV.replace('SH', 'Q')
-    NounsV.replace('SH', 'Q')
-    NounsVI.replace('SH', 'Q')
+    core = core.replace('SH', 'Q')
+    root = root.replace('SH', 'Q')
+    Verbs = Verbs.replace('SH', 'Q')
+    NounsI = NounsI.replace('SH', 'Q')
+    NounsII = NounsII.replace('SH', 'Q')
+    NounsIII = NounsIII.replace('SH', 'Q')
+    NounsIV = NounsIV.replace('SH', 'Q')
+    NounsV = NounsV.replace('SH', 'Q')
+    NounsVI = NounsVI.replace('SH', 'Q')
     #AW --> W
-    core.replace('AW', 'W')
-    root.replace('AW', 'W'')
-    Verbs.replace('AW', 'W')
-    NounsI.replace('AW', 'W')
-    NounsII.replace('AW', 'W')
-    NounsIII.replace('AW', 'W')
-    NounsIV.replace('AW', 'W')
-    NounsV.replace('AW', 'W')
-    NounsVI.replace('AW', 'W')
+    core = core.replace('AW', 'W')
+    root = root.replace('AW', 'W')
+    Verbs = Verbs.replace('AW', 'W')
+    NounsI = NounsI.replace('AW', 'W')
+    NounsII = NounsII.replace('AW', 'W')
+    NounsIII = NounsIII.replace('AW', 'W')
+    NounsIV = NounsIV.replace('AW', 'W')
+    NounsV = NounsV.replace('AW', 'W')
+    NounsVI = NounsVI.replace('AW', 'W')
     #I:I --> Y
-    core.replace('I:I', 'Y')
-    root.replace('I:I', 'Y')
-    Verbs.replace('I:I', 'Y')
-    NounsI.replace('I:I', 'Y')
-    NounsII.replace('I:I', 'Y')
-    NounsIII.replace('I:I', 'Y')
-    NounsIV.replace('I:I', 'Y')
-    NounsV.replace('I:I', 'Y')
-    NounsVI.replace('I:I', 'Y')
+    core = core.replace('I:I', 'Y')
+    root = root.replace('I:I', 'Y')
+    Verbs = Verbs.replace('I:I', 'Y')
+    NounsI = NounsI.replace('I:I', 'Y')
+    NounsII = NounsII.replace('I:I', 'Y')
+    NounsIII = NounsIII.replace('I:I', 'Y')
+    NounsIV = NounsIV.replace('I:I', 'Y')
+    NounsV = NounsV.replace('I:I', 'Y')
+    NounsVI = NounsVI.replace('I:I', 'Y')
     #CH --> @
-    core.replace('CH', '@')
-    root.replace('CH', '@')
-    Verbs.replace('CH', '@')
-    NounsI.replace('CH', '@')
-    NounsII.replace('CH', '@')
-    NounsIII.replace('CH', '@')
-    NounsIV.replace('CH', '@')
-    NounsV.replace('CH', '@')
-    NounsVI.replace('CH', '@')
+    core = core.replace('CH', '@')
+    root = root.replace('CH', '@')
+    Verbs = Verbs.replace('CH', '@')
+    NounsI = NounsI.replace('CH', '@')
+    NounsII = NounsII.replace('CH', '@')
+    NounsIII = NounsIII.replace('CH', '@')
+    NounsIV = NounsIV.replace('CH', '@')
+    NounsV = NounsV.replace('CH', '@')
+    NounsVI = NounsVI.replace('CH', '@')
     #TH --> #
-    core.replace('TH', '#')
-    root.replace('TH', '#')
-    Verbs.replace('TH', '#')
-    NounsI.replace('TH', '#')
-    NounsII.replace('TH', '#')
-    NounsIII.replace('TH', '#')
-    NounsIV.replace('TH', '#')
-    NounsV.replace('TH', '#')
-    NounsVI.replace('TH', '#')
+    core = core.replace('TH', '#')
+    root = root.replace('TH', '#')
+    Verbs = Verbs.replace('TH', '#')
+    NounsI = NounsI.replace('TH', '#')
+    NounsII = NounsII.replace('TH', '#')
+    NounsIII = NounsIII.replace('TH', '#')
+    NounsIV = NounsIV.replace('TH', '#')
+    NounsV = NounsV.replace('TH', '#')
+    NounsVI = NounsVI.replace('TH', '#')
+    print('\n' + core + ' ' + root + ' ' + Verbs + ' ' + NounsI + ' ' + NounsII + ' ' + NounsIII + ' ' + NounsIV + ' ' + NounsV + ' ' + NounsVI + '\n')
     return core, root, Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI
 
 #logs the families on seperate lines in a .txt file
+'''
 def logwords():
     global Stocore, Storoot, StoVerbs, StoNounsI, StoNounsII, StoNounsIII, StoNounsIV, StoNounsV, StoNounsVI
     global core, core_vowels, core_consonants, root
@@ -281,7 +284,7 @@ def logwords():
     f.write('   [Core: ' + Stocore + ' | Root: ' + Storoot + '] Verb: ' + StoVerbs + '\n')
     f.write('       NounI: ' + StoNounsI + '\n NounII: ' + StoNounsII + '\n   NounIII: ' + StoNounsIII + '\n NounIV: ' + StoNounsIV + '\n   NounV: ' + StoNounsV + '\n NounVI: ' + StoNounsVI + '\n')
     f.close()
-
+'''
 
 while True:
     command = input('Command: ')
@@ -305,19 +308,19 @@ while True:
         NounsV = NounV()
         NounsVI = NounVI()
 
-        #Convert for Sto-Ith Font
-        Stocore, Storoot, StoVerbs, StoNounsI, StoNounsII, StoNounsIII, StoNounsIV, StoNounsV, StoNounsVI = StoCon()
-
         #message construction
         message = '[Core: ' + core + ' | Root: ' + root + '] Verb: ' + Verbs + '\n   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI + '\n'
-        stomessage = '[Core: ' + Stocore + ' | Root: ' + Storoot + '] Verb: ' + StoVerbs + '\n   NounI: ' + StoNounsI + '\n NounII: ' + StoNounsII + '\n   NounIII: ' + StoNounsIII + '\n NounIV: ' + StoNounsIV + '\n   NounV: ' + StoNounsV + '\n NounVI: ' + StoNounsVI + '\n'
-
-        #log words
-        logwords()
 
         #Print Results
         print(message)
+        #Convert for Sto-Ith Font
+        Stocore, Storoot, StoVerbs, StoNounsI, StoNounsII, StoNounsIII, StoNounsIV, StoNounsV, StoNounsVI = StoCon()
+        stomessage = 'For StoIth (Sto Font):\n\n[Core: ' + Stocore + ' | Root: ' + Storoot + '] Verb: ' + StoVerbs + '\n   NounI: ' + StoNounsI + '\n NounII: ' + StoNounsII + '\n   NounIII: ' + StoNounsIII + '\n NounIV: ' + StoNounsIV + '\n   NounV: ' + StoNounsV + '\n NounVI: ' + StoNounsVI + '\n'
+
         print(stomessage)
+
+        #log words
+        #logwords()
 
     else:
         print('error')

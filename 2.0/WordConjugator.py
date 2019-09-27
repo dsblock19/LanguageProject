@@ -213,26 +213,26 @@ def StoWord():
     stoword = word.upper()
     #Font Specific Change
     #ST --> F
-    stoword.replace('ST', 'F')
+    stoword = stoword.replace('ST', 'F')
     #OO --> L
-    stoword.replace('OO', 'L')
+    stoword = stoword.replace('OO', 'L')
     #SH --> Q
-    stoword.replace('SH', 'Q')
+    stoword = stoword.replace('SH', 'Q')
     #AW --> W
-    stoword.replace('AW', 'W')
+    stoword = stoword.replace('AW', 'W')
     #I:I --> Y
-    stoword.replace('I:I', 'Y')
+    stoword = stoword.replace('I:I', 'Y')
     #CH --> @
-    stoword.replace('CH', '@')
+    stoword = stoword.replace('CH', '@')
     #TH --> #
-    stoword.replace('TH', '#')
-    stof = open('/home/pi/Desktop/StoIthFont.txt', 'a')
-    stof.write('\n \n' + word + ' = ' + stoword + '\n')
-    stof.write('Definition: ' + definition + '\n')
-    stof.close()
+    stoword = stoword.replace('TH', '#')
+    #stof = open('/home/pi/Desktop/StoIthFont.txt', 'a')
+    #stof.write('\n \n' + word + ' = ' + stoword + '\n')
+    #stof.write('Definition: ' + definition + '\n')
+    #stof.close()
     return word + ' = ' + stoword
 
-
+'''
 def LogDataBase():
     global word, Class, root, core_vowels, core_consonants, other_vowels, other_consonants, other_c
     global Sing, Tri, Pau, Vdative, Cdative, instrumental, comitative, adesive, allative, ablative
@@ -361,7 +361,7 @@ def LogDataBase():
             # end mark
             f.write('*******' + '\n')
             f.close()
-
+'''
 
 
 while True:
@@ -374,7 +374,7 @@ while True:
         root = Strip2Root()
         declination = Ndecline()
         conjugation = ChooseTense()
-        LogDataBase()
+        #LogDataBase()
         stoword = StoWord()
         print('Word: ' + word)
         print('Definition: ' + definition)
