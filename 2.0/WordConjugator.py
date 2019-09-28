@@ -232,7 +232,6 @@ def StoWord():
     #stof.close()
     return word + ' = ' + stoword
 
-'''
 def LogDataBase():
     global word, Class, root, core_vowels, core_consonants, other_vowels, other_consonants, other_c
     global Sing, Tri, Pau, Vdative, Cdative, instrumental, comitative, adesive, allative, ablative
@@ -361,7 +360,6 @@ def LogDataBase():
             # end mark
             f.write('*******' + '\n')
             f.close()
-'''
 
 
 while True:
@@ -374,7 +372,7 @@ while True:
         root = Strip2Root()
         declination = Ndecline()
         conjugation = ChooseTense()
-        #LogDataBase()
+        LogDataBase()
         stoword = StoWord()
         print('Word: ' + word)
         print('Definition: ' + definition)

@@ -271,7 +271,6 @@ def StoCon():
     return core, root, Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI
 
 #logs the families on seperate lines in a .txt file
-'''
 def logwords():
     global Stocore, Storoot, StoVerbs, StoNounsI, StoNounsII, StoNounsIII, StoNounsIV, StoNounsV, StoNounsVI
     global core, core_vowels, core_consonants, root
@@ -284,7 +283,7 @@ def logwords():
     f.write('   [Core: ' + Stocore + ' | Root: ' + Storoot + '] Verb: ' + StoVerbs + '\n')
     f.write('       NounI: ' + StoNounsI + '\n NounII: ' + StoNounsII + '\n   NounIII: ' + StoNounsIII + '\n NounIV: ' + StoNounsIV + '\n   NounV: ' + StoNounsV + '\n NounVI: ' + StoNounsVI + '\n')
     f.close()
-'''
+
 
 while True:
     command = input('Command: ')
@@ -320,7 +319,7 @@ while True:
         print(stomessage)
 
         #log words
-        #logwords()
+        logwords()
 
     else:
         print('error')
