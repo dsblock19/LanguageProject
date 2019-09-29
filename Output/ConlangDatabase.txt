@@ -412,7 +412,7 @@ Declination?: No
 
  
 gawt
-Definition: (v.) thelp; to asist
+Definition: (v.) to help; to asist
 Class: RegularVerb
 Conjugation?: Yes 
 Present: 

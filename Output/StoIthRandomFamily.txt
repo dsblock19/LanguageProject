@@ -7,3 +7,35 @@ NounIII: CL#U#
 NounIV: CL#ZI
 NounV: CL#IPA
 NounVI: CL#LD
+
+[Core: BA | Root: BA] Verb: BAT
+NounI: BAY
+NounII: BAX
+NounIII: BAF
+NounIV: BAAM
+NounV: BAKIPA
+NounVI: BAP
+
+[Core: UPY@U | Root: UPY@U] Verb: UPY@UT
+NounI: UPY@U#Y
+NounII: UPY@UC
+NounIII: UPY@U#
+NounIV: UPY@UYM
+NounV: UPY@UGIPA
+NounVI: UPY@UD
+
+[Core: PI | Root: PI] Verb: PIT
+NounI: PIXW
+NounII: PIX
+NounIII: PI#
+NounIV: PIUM
+NounV: PINE
+NounVI: PIG
+
+[Core: Y@UTA | Root: Y@UTA] Verb: Y@UTAT
+NounI: Y@UTAY
+NounII: Y@UTAX
+NounIII: Y@UTA#
+NounIV: Y@UTAIMS
+NounV: Y@UTAXIPA
+NounVI: Y@UTAN

@@ -7,3 +7,35 @@ Random Word Generator Output:
  NounIV: coothzi
    NounV: coothipa
  NounVI: coothood
+
+[Core: ba | Root: ba] Verb: bat
+   NounI: bai:i
+ NounII: bax
+   NounIII: bast
+ NounIV: baam
+   NounV: bakipa
+ NounVI: bap
+
+[Core: pi:i | Root: upi:ichu] Verb: upi:ichut
+   NounI: upi:ichuthi:i
+ NounII: upi:ichuc
+   NounIII: upi:ichuth
+ NounIV: upi:ichui:im
+   NounV: upi:ichugipa
+ NounVI: upi:ichud
+
+[Core: pi | Root: pi] Verb: pit
+   NounI: pixaw
+ NounII: pix
+   NounIII: pith
+ NounIV: pium
+   NounV: pine
+ NounVI: pig
+
+[Core: chu | Root: i:ichuta] Verb: i:ichutat
+   NounI: i:ichutai:i
+ NounII: i:ichutax
+   NounIII: i:ichutath
+ NounIV: i:ichutaims
+   NounV: i:ichutaxipa
+ NounVI: i:ichutan
