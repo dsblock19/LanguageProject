@@ -93,10 +93,10 @@ locative = ('ga', 'gua')
 # compares word to endings to assign class to word
 def classification(word, RV, NI, NII, NIII, NIV, NV, NVI):
     if word.endswith(RV) is True:
-        if word.endswith('st') is False:
-            Clas = 'RegularVerb'
+        if word.endswith(NIII) is True:
+            Clas = 'NounIII'
         else:
-            Clas = NIII
+            Clas = 'RegularVerb'
     elif word.endswith(NI) is True:
         Clas = 'NounI'
     elif word.endswith(NII) is True:
@@ -211,20 +211,20 @@ def StoWord(word, definition, Class):
     stof.write('\n \n' + word + ' = ' + stoword + '\n')
     stof.write('Definition: ' + definition + '\n')
     stof.write('Class: ' + Class + '; ')
-    if Class in ['NounsI'] is True:
+    if Class in ['NounI']:
         stof.write('Humans & Their Things'+ '\n')
-    elif Class in ['NounsII'] is True:
+    elif Class in ['NounII']:
         stof.write('Animate Objects & Nature'+ '\n')
-    elif Class in ['NounsIII'] is True:
+    elif Class in ['NounIII']:
         stof.write('Inanimate Objects of Higher Value'+ '\n')
-    elif Class in ['NounsIV'] is True:
+    elif Class in ['NounIV']:
         stof.write('Inanimate Objects of Lower Value'+ '\n')
-    elif Class in ['NounsV'] is True:
+    elif Class in ['NounV']:
         stof.write('Intangibles, Ideas, Concepts, & Teaching'+ '\n')
-    elif Class in ['NounsVI'] is True:
+    elif Class in ['NounVI']:
         stof.write('Everything Else'+ '\n')
-    else:
-        f.write('   Verb'+ '\n')
+    elif Class in ['RegularVerb']:
+        f.write('Verb'+ '\n')
     stof.close()
     return word + ' = ' + stoword
 
@@ -242,20 +242,20 @@ def LogDataBase():
     f.write('\n \n' + word + '\n')
     f.write('Definition: ' + definition + '\n')
     f.write('Class: ' + Class + '; ')
-    if Class in ['NounsI'] is True:
+    if Class in ['NounI']:
         f.write('Humans & Their Things'+ '\n')
-    elif Class in ['NounsII'] is True:
+    elif Class in ['NounII']:
         f.write('Animate Objects & Nature'+ '\n')
-    elif Class in ['NounsIII'] is True:
+    elif Class in ['NounIII']:
         f.write('Inanimate Objects of Higher Value'+ '\n')
-    elif Class in ['NounsIV'] is True:
+    elif Class in ['NounIV']:
         f.write('Inanimate Objects of Lower Value'+ '\n')
-    elif Class in ['NounsV'] is True:
+    elif Class in ['NounV']:
         f.write('Intangibles, Ideas, Concepts, & Teaching'+ '\n')
-    elif Class in ['NounsVI'] is True:
+    elif Class in ['NounVI']:
         f.write('Everything Else'+ '\n')
-    else:
-        f.write('   Verb'+ '\n')
+    elif Class in ['RegularVerb']:
+        f.write('Verb'+ '\n')
     if Class in ['RegularVerb']:
         f.write('Conjugation?: Yes \n')
         # present

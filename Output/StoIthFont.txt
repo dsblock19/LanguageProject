@@ -62,3 +62,9 @@ Definition: (n.) jealousy
  
 poi:i = POY
 Definition: (n.) light
+
+
+ 
+i'est = I'EF
+Definition: (n.) a stone; a stone good for building
+Class: NounIII; Inanimate Objects of Higher Value

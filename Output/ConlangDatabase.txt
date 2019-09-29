@@ -506,3 +506,49 @@ Declination?: Yes
    Genitive: poia
    Locative: poigua
 *******
+
+ 
+i'est
+Definition: (n.) a stone; building stone
+Class: NounIII;    Verb
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iai'es
+   Trial: ioi'es
+   Paucal:ii'es
+   Dative: ni'es
+   Instrumental: sti'es
+   Comitative: ui'es
+   Adesive: zai'es
+   Allative: zii'es
+   Ablative: zoi'es
+   Illative: thii'es
+   Inessive: thoi'es
+   Acusative: i'esn
+   Genitive: i'esa
+   Locative: i'esgua
+*******
+
+ 
+i'est
+Definition: (n.) a stone; a stone good for building
+Class: NounIII; Inanimate Objects of Higher Value
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iai'es
+   Trial: ioi'es
+   Paucal:ii'es
+   Dative: ni'es
+   Instrumental: sti'es
+   Comitative: ui'es
+   Adesive: zai'es
+   Allative: zii'es
+   Ablative: zoi'es
+   Illative: thii'es
+   Inessive: thoi'es
+   Acusative: i'esn
+   Genitive: i'esa
+   Locative: i'esgua
+*******
