@@ -2,7 +2,6 @@
 
 #tools
 import random
-from time import sleep
 
 #lists of all avalible sounds to the language
 core_consonants = [ 'd', 't', 'c', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'x', 'th', 'st', 'v', 'j', 'ch', 'b', 'h', 'r' ]

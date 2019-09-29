@@ -207,8 +207,7 @@ def ChooseTense():
     elif Class in ['NounI', 'NounII', 'NounIII', 'NounIV', 'NounV', 'NounVI']:
         return 'Conjugation: No'
 
-def StoWord():
-    global word, definition
+def StoWord(word, definition):
     #Make Upper Case
     stoword = word.upper()
     #Font Specific Change
@@ -373,7 +372,7 @@ while True:
         declination = Ndecline()
         conjugation = ChooseTense()
         LogDataBase()
-        stoword = StoWord()
+        stoword = StoWord(word, definition)
         print('\nWord: ' + word)
         print('Definition: ' + definition)
         print(declination)
