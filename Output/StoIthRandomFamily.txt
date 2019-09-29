@@ -1,9 +1,9 @@
 In Sto Font Output:
 
-[Core: HOCL | Root: HOCOO] Verb: HOCLT
-NounI: HOCLTA
-NounII: HOCLC
-NounIII: HOCLF
-NounIV: HOCLYM
-NounV: HOCLE
-NounVI: HOCLB
+[Core: CL# | Root: COO#] Verb: CL#OT
+NounI: CL#W
+NounII: CL#OK
+NounIII: CL#U#
+NounIV: CL#ZI
+NounV: CL#IPA
+NounVI: CL#LD

@@ -184,8 +184,7 @@ def Verb():
         V = root + verb_ending
     return V
 
-def StoCon():
-    global core, root, Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI
+def StoCon(core, root, Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI):
     #Make Upper Case
     core = core.upper()
     root = root.upper()
@@ -314,7 +313,7 @@ while True:
         #Print Results
         print(message)
         #Convert for Sto-Ith Font
-        Stocore, Storoot, StoVerbs, StoNounsI, StoNounsII, StoNounsIII, StoNounsIV, StoNounsV, StoNounsVI = StoCon()
+        Stocore, Storoot, StoVerbs, StoNounsI, StoNounsII, StoNounsIII, StoNounsIV, StoNounsV, StoNounsVI = StoCon(core, root, Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI)
         stomessage = 'For StoIth (Sto Font):\n\n[Core: ' + Stocore + ' | Root: ' + Storoot + '] Verb: ' + StoVerbs + '\n   NounI: ' + StoNounsI + '\n NounII: ' + StoNounsII + '\n   NounIII: ' + StoNounsIII + '\n NounIV: ' + StoNounsIV + '\n   NounV: ' + StoNounsV + '\n NounVI: ' + StoNounsVI + '\n'
 
         print(stomessage)
