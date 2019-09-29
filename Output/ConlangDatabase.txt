@@ -1,1 +1,23 @@
 istoith: the language in stone
+ 
+euc
+Definition: (n.) a genderneutral person
+Class: NounII
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iaeuqua
+   Trial: ioeuqua
+   Paucal:ieuqua
+   Dative: meuqua
+   Instrumental: steuqua
+   Comitative: ueuqua
+   Adesive: zaeuqua
+   Allative: zieuqua
+   Ablative: zoeuqua
+   Illative: thieuqua
+   Inessive: thoeuqua
+   Acusative: euquam
+   Genitive: euquaa
+   Locative: euquaga
+*******

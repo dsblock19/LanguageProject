@@ -1,0 +1,4 @@
+Sto-ith Font and Def:
+ 
+euc = EUC
+Definition: (n.) a genderneutral person

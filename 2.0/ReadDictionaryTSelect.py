@@ -60,7 +60,7 @@ def GetDictionary(word, lines):
                 i += 1
         return lines[lines.index(word) + 5:i]
 
-with open('/home/pi/Desktop/ConlangDatabase.txt', 'r') as f:
+with open('/home/pi/Desktop/MyCode/LanguageProject/Output/ConlangDatabase.txt', 'r') as f:
     lines = [line.replace('\n', '') for line in f.readlines()]
 
 while True:
