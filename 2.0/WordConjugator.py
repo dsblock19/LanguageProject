@@ -1,4 +1,4 @@
-#toplevel: gets word, gets definition, strips word to root, conjugates/declines the word, and prints data to inky screen and logs in .txt file
+#toplevel: gets word, gets definition, strips word to root, conjugates/declines the word, and prints data to terminal and logs in .txt file
 
 # tools
 import random
@@ -29,46 +29,46 @@ ProIII = 'Yall/They(plural): '
 ProIV = 'We(royal): '
 ProV = 'We(exclusive): '
 
-# verb endings
-    #present
+# VERB ENDINGS
+#present
 PrPI = 'taj'
 PrPII = 'tast'
 PrPIII = 'tasta'
 PrPIV = 'tam'
 PrPV = 'tama'
-    #past
+#past
 PaPI = 'ta'
 PaPII = 'tas'
 PaPIII = 'tasa'
 PaPIV = 'tan'
 PaPV = 'tana'
-    #future
+#future
 FuPI = 'tua'
 FuPII = 'tue'
 FuPIII = 'tust'
 FuPIV = 'tun'
 FuPV = 'tuna'
-    #present progressive
+#present progressive
 PrPgPI = 'taja'
 PrPgPII = 'tasta'
 PrPgPIII = 'tast'
 PrPgPIV = 'tama'
 PrPgPV = 'tam'
-    #past progressive
+#past progressive
 PaPgPI = 'tag'
 PaPgPII = 'tasa'
 PaPgPIII = 'tas'
 PaPgPIV = 'tana'
 PaPgPV = 'tan'
-    #future progressive
+#future progressive
 FuPgPI = 'tui'
 FuPgPII = 'tust'
 FuPgPIII = 'tue'
 FuPgPIV = 'tuna'
 FuPgPV = 'tun'
 
-# noun declination prefixes/suffixes
-    #prefixes
+# NOUN DECLINATION
+#PREFIXES
 #nominal number
 Sing = 'ia'
 Tri = 'io'
@@ -83,7 +83,7 @@ allative = 'zi'
 ablative = 'zo'
 illative = 'thi'
 inessive = 'tho'
-    #suffixes
+#SUFFIXES
 #case
 acusative = ('m', 'ma', 'n', 'na')
 genitive = 'a'
@@ -91,17 +91,12 @@ locative = ('ga', 'gua')
 
 
 # compares word to endings to assign class to word
-def classification():
-    global RV, NI, NII, NIII, NIV, NV, NVI
-    global word, Class, root, core_vowels, core_consonants, other_vowels, other_consonants, other_c
-    global Sing, Tri, Pau, Vdative, Cdative, instrumental, comitative, adesive, allative, ablative
-    global illative, inessive, acusative, genitive, locative
-    global PrPI, PrPII, PrPIII, PrPIV, PrPV, PaPI, PaPII, PaPIII, PaPIV
-    global PaPV, FuPI, FuPII, FuPIII, FuPIV, FuPV, PrPgPI, PrPgPII
-    global PrPgPIII, PrPgPIV, PrPgPV, PaPgPI, PaPgPII, PaPgPIII
-    global PaPgPIV, PaPgPV, FuPgPI, FuPgPII, FuPgPIII, FuPgPIV, FuPgPV
+def classification(word, RV, NI, NII, NIII, NIV, NV, NVI):
     if word.endswith(RV) is True:
-        Clas = 'RegularVerb'
+        if word.endswith('st') is False:
+            Clas = 'RegularVerb'
+        else:
+            Clas = NIII
     elif word.endswith(NI) is True:
         Clas = 'NounI'
     elif word.endswith(NII) is True:
@@ -118,16 +113,8 @@ def classification():
         Clas = 'Not a Word'
     return Clas
 
-
 # strips word of ending if verb or irregular noun
-def Strip2Root():
-    global word, Class, root, core_vowels, core_consonants, other_vowels, other_consonants, other_c
-    global Sing, Tri, Pau, Vdative, Cdative, instrumental, comitative, adesive, allative, ablative
-    global illative, inessive, acusative, genitive, locative
-    global PrPI, PrPII, PrPIII, PrPIV, PrPV, PaPI, PaPII, PaPIII, PaPIV
-    global PaPV, FuPI, FuPII, FuPIII, FuPIV, FuPV, PrPgPI, PrPgPII
-    global PrPgPIII, PrPgPIV, PrPgPV, PaPgPI, PaPgPII, PaPgPIII
-    global PaPgPIV, PaPgPV, FuPgPI, FuPgPII, FuPgPIII, FuPgPIV, FuPgPV
+def Strip2Root(word, Class, core_vowels, core_consonants, other_vowels, other_consonants, other_c):
     if Class in ['RegularVerb']:
         rt = word[:-1]
     elif Class in ['NounI', 'NounII', 'NounIII', 'NounIV', 'NounV', 'NounVI']:
@@ -157,16 +144,11 @@ def Strip2Root():
         rt = '?'
     return rt
 
-
 # declines if word is a noun
 def Ndecline():
-    global word, Class, root, core_vowels, core_consonants, other_vowels, other_consonants, other_c
+    global word, Class, root
     global Sing, Tri, Pau, Vdative, Cdative, instrumental, comitative, adesive, allative, ablative
     global illative, inessive, acusative, genitive, locative
-    global PrPI, PrPII, PrPIII, PrPIV, PrPV, PaPI, PaPII, PaPIII, PaPIV
-    global PaPV, FuPI, FuPII, FuPIII, FuPIV, FuPV, PrPgPI, PrPgPII
-    global PrPgPIII, PrPgPIV, PrPgPV, PaPgPI, PaPgPII, PaPgPIII
-    global PaPgPIV, PaPgPV, FuPgPI, FuPgPII, FuPgPIII, FuPgPIV, FuPgPV
     print('Declination:')
     if Class in ['NounI', 'NounII', 'NounIII', 'NounIV', 'NounV', 'NounVI']:
         if word.startswith(core_vowels) is True:
@@ -180,10 +162,9 @@ def Ndecline():
     else:
         return 'Declination: No'
 
+# allows choosing tense to print if verb
 def ChooseTense():
-    global word, Class, root, core_vowels, core_consonants, other_vowels, other_consonants, other_c
-    global Sing, Tri, Pau, Vdative, Cdative, instrumental, comitative, adesive, allative, ablative
-    global illative, inessive, acusative, genitive, locative
+    global Class, root
     global PrPI, PrPII, PrPIII, PrPIV, PrPV, PaPI, PaPII, PaPIII, PaPIV
     global PaPV, FuPI, FuPII, FuPIII, FuPIV, FuPV, PrPgPI, PrPgPII
     global PrPgPIII, PrPgPIV, PrPgPV, PaPgPI, PaPgPII, PaPgPIII
@@ -207,7 +188,8 @@ def ChooseTense():
     elif Class in ['NounI', 'NounII', 'NounIII', 'NounIV', 'NounV', 'NounVI']:
         return 'Conjugation: No'
 
-def StoWord(word, definition):
+# converts word to sto-ith font and writes in .txt
+def StoWord(word, definition, Class):
     #Make Upper Case
     stoword = word.upper()
     #Font Specific Change
@@ -228,9 +210,25 @@ def StoWord(word, definition):
     stof = open('/home/pi/Desktop/MyCode/LanguageProject/Output/StoIthFont.txt', 'a')
     stof.write('\n \n' + word + ' = ' + stoword + '\n')
     stof.write('Definition: ' + definition + '\n')
+    stof.write('Class: ' + Class + '; ')
+    if Class in ['NounsI'] is True:
+        stof.write('Humans & Their Things'+ '\n')
+    elif Class in ['NounsII'] is True:
+        stof.write('Animate Objects & Nature'+ '\n')
+    elif Class in ['NounsIII'] is True:
+        stof.write('Inanimate Objects of Higher Value'+ '\n')
+    elif Class in ['NounsIV'] is True:
+        stof.write('Inanimate Objects of Lower Value'+ '\n')
+    elif Class in ['NounsV'] is True:
+        stof.write('Intangibles, Ideas, Concepts, & Teaching'+ '\n')
+    elif Class in ['NounsVI'] is True:
+        stof.write('Everything Else'+ '\n')
+    else:
+        f.write('   Verb'+ '\n')
     stof.close()
     return word + ' = ' + stoword
 
+# logs word in database .txt
 def LogDataBase():
     global word, Class, root, core_vowels, core_consonants, other_vowels, other_consonants, other_c
     global Sing, Tri, Pau, Vdative, Cdative, instrumental, comitative, adesive, allative, ablative
@@ -243,7 +241,21 @@ def LogDataBase():
     f = open('/home/pi/Desktop/MyCode/LanguageProject/Output/ConlangDatabase.txt', 'a')
     f.write('\n \n' + word + '\n')
     f.write('Definition: ' + definition + '\n')
-    f.write('Class: ' + Class + '\n')
+    f.write('Class: ' + Class + '; ')
+    if Class in ['NounsI'] is True:
+        f.write('Humans & Their Things'+ '\n')
+    elif Class in ['NounsII'] is True:
+        f.write('Animate Objects & Nature'+ '\n')
+    elif Class in ['NounsIII'] is True:
+        f.write('Inanimate Objects of Higher Value'+ '\n')
+    elif Class in ['NounsIV'] is True:
+        f.write('Inanimate Objects of Lower Value'+ '\n')
+    elif Class in ['NounsV'] is True:
+        f.write('Intangibles, Ideas, Concepts, & Teaching'+ '\n')
+    elif Class in ['NounsVI'] is True:
+        f.write('Everything Else'+ '\n')
+    else:
+        f.write('   Verb'+ '\n')
     if Class in ['RegularVerb']:
         f.write('Conjugation?: Yes \n')
         # present
@@ -367,12 +379,12 @@ while True:
         break
     else:
         definition = input('Definition: ')
-        Class = classification()
-        root = Strip2Root()
+        Class = classification(word, RV, NI, NII, NIII, NIV, NV, NVI)
+        root = Strip2Root(word, Class, core_vowels, core_consonants, other_vowels, other_consonants, other_c)
         declination = Ndecline()
         conjugation = ChooseTense()
         LogDataBase()
-        stoword = StoWord(word, definition)
+        stoword = StoWord(word, definition, Class)
         print('\nWord: ' + word)
         print('Definition: ' + definition)
         print(declination)
