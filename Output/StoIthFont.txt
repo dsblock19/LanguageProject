@@ -2,67 +2,82 @@ Sto-ith Font and Def:
  
 euc = EUC
 Definition: (n.) a genderneutral person
+Class: NounII
 
  
 daw = DW
 Definition: (n.) god; the sun; the creator
+Class: NounI
 
  
 i:i = Y
 Definition: (n.) a pearl; a holy gift
-
+Class: NounI
  
+
 gox = GOX
 Definition: (n.) dog; any four legged furry animal (implying house domestication)
+Class: NounII
 
  
 tantik = TANTIK
 Definition: (n.) tall tree good for lumber; specifically giant sequoia
+Class: NounII
 
  
 e'awma = E'WMA
 Definition: (n.) the moon; demon/satan
+Class: NounI
 
  
 va'ems = VA'EMS
 Definition: (n.) black spider; hired hand
+Class: NounIV
 
  
 shooi:i = QLY
 Definition: (n.) brown bat; enemy (against the state)
+Class: NounI
 
  
 i'sto'awth = I'FO'W#
 Definition: (n.) a message (literally) carved in stone; a holy text; the language
+Class: NounIII
 
  
 zi'et = ZI'ET
 Definition: (v.) to be
+Class: RegularVerb
 
  
 dawt = DWT
 Definition: (v.) to worship
+Class: RegularVerb
 
  
 poe'at = POE'AT
 Definition: (v.) to kill; to murder
+Class: RegularVerb
 
  
 awmat = WMAT
 Definition: (v.) to say truth; to reveal; to uncover/shine a light on
+Class: RegularVerb
 
  
 gawt = GWT
 Definition: (v.) to help; to asist
+Class: RegularVerb
 
  
 mua = MUA
 Definition: (n.) jealousy
+Class: NounI
 
  
 poi:i = POY
 Definition: (n.) light
-
+Class: NounI
 
  
 i'est = I'EF
