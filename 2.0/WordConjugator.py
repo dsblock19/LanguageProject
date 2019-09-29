@@ -226,10 +226,10 @@ def StoWord():
     stoword = stoword.replace('CH', '@')
     #TH --> #
     stoword = stoword.replace('TH', '#')
-    #stof = open('/home/pi/Desktop/StoIthFont.txt', 'a')
-    #stof.write('\n \n' + word + ' = ' + stoword + '\n')
-    #stof.write('Definition: ' + definition + '\n')
-    #stof.close()
+    stof = open('/home/pi/Desktop/MyCode/LanguageProject/Output/StoIthFont.txt', 'a')
+    stof.write('\n \n' + word + ' = ' + stoword + '\n')
+    stof.write('Definition: ' + definition + '\n')
+    stof.close()
     return word + ' = ' + stoword
 
 def LogDataBase():
@@ -241,7 +241,7 @@ def LogDataBase():
     global PrPgPIII, PrPgPIV, PrPgPV, PaPgPI, PaPgPII, PaPgPIII
     global PaPgPIV, PaPgPV, FuPgPI, FuPgPII, FuPgPIII, FuPgPIV, FuPgPV
     #log information to .txt
-    f = open('/home/pi/Desktop/ConlangDatabase.txt', 'a')
+    f = open('/home/pi/Desktop/MyCode/LanguageProject/Output/ConlangDatabase.txt', 'a')
     f.write('\n \n' + word + '\n')
     f.write('Definition: ' + definition + '\n')
     f.write('Class: ' + Class + '\n')

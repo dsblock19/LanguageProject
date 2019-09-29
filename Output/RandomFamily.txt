@@ -1,0 +1,9 @@
+Random Word Generator Output:
+
+[Core: HOCL | Root: HOCOO] Verb: HOCLT
+   NounI: HOCLTA
+ NounII: HOCLC
+   NounIII: HOCLF
+ NounIV: HOCLYM
+   NounV: HOCLE
+ NounVI: HOCLB

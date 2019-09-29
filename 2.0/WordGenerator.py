@@ -276,13 +276,14 @@ def logwords():
     global core, core_vowels, core_consonants, root
     global Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI, verb_ending
     global n_classI, n_classII, n_classIII, n_classIV, n_classV, n_classVI
-    f = open('/home/pi/Desktop/RandomFamily.txt', 'a')
-    f.write('\n[Core: ' + core + ' | Root: ' + root + '] Verb: ' + Verbs + '\n')
-    f.write('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI + '\n')
-    f.write('In Sto Font:\n')
-    f.write('   [Core: ' + Stocore + ' | Root: ' + Storoot + '] Verb: ' + StoVerbs + '\n')
-    f.write('       NounI: ' + StoNounsI + '\n NounII: ' + StoNounsII + '\n   NounIII: ' + StoNounsIII + '\n NounIV: ' + StoNounsIV + '\n   NounV: ' + StoNounsV + '\n NounVI: ' + StoNounsVI + '\n')
+    f = open('/home/pi/Desktop/MyCode/LanguageProject/Output/RandomFamily.txt', 'a')
+    f.write('\n\n[Core: ' + core + ' | Root: ' + root + '] Verb: ' + Verbs + '\n')
+    f.write('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI)
     f.close()
+    stof = open('/home/pi/Desktop/MyCode/LanguageProject/Output/StoIthRandomFamily.txt', 'a')
+    stof.write('\n\n[Core: ' + Stocore + ' | Root: ' + Storoot + '] Verb: ' + StoVerbs + '\n')
+    stof.write('NounI: ' + StoNounsI + '\nNounII: ' + StoNounsII + '\nNounIII: ' + StoNounsIII + '\nNounIV: ' + StoNounsIV + '\nNounV: ' + StoNounsV + '\nNounVI: ' + StoNounsVI)
+    stof.close()
 
 
 while True:
