@@ -224,7 +224,7 @@ def StoWord(word, definition, Class):
     elif Class in ['NounVI']:
         stof.write('Everything Else'+ '\n')
     elif Class in ['RegularVerb']:
-        f.write('Verb'+ '\n')
+        stof.write('Verb'+ '\n')
     stof.close()
     return word + ' = ' + stoword
 

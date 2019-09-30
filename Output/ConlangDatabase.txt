@@ -552,3 +552,128 @@ Declination?: Yes
    Genitive: i'esa
    Locative: i'esgua
 *******
+
+ 
+thi'cawt
+Definition: (v.) to welcome
+Class: RegularVerb; Verb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): thi'cawtaj 
+  You: thi'cawtast 
+  Yall/They(plural): thi'cawtasta 
+  We(royal): thi'cawtam 
+  We(exclusive): thi'cawtama 
+* 
+Past: 
+  I/He/She/They(sing): thi'cawta 
+  You: thi'cawtas 
+  Yall/They(plural): thi'cawtasa 
+  We(royal): thi'cawtan 
+  We(exclusive): thi'cawtana 
+** 
+Future: 
+  I/He/She/They(sing): thi'cawtua 
+  You: thi'cawtue 
+  Yall/They(plural): thi'cawtust 
+  We(royal): thi'cawtun 
+  We(exclusive): thi'cawtuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): thi'cawtaja 
+  You: thi'cawtasta 
+  Yall/They(plural): thi'cawtast 
+  We(royal): thi'cawtama 
+  We(exclusive): thi'cawtam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): thi'cawtag 
+  You: thi'cawtasa 
+  Yall/They(plural): thi'cawtas 
+  We(royal): thi'cawtana 
+  We(exclusive): thi'cawtan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): thi'cawtui 
+  You: thi'cawtust 
+  Yall/They(plural): thi'cawtue 
+  We(royal): thi'cawtui 
+  We(exclusive): thi'cawtun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+thi'cawt
+Definition: (v.) to welcome
+Class: RegularVerb; Verb
+Conjugation?: Yes 
+Present: 
+  I/He/She/They(sing): thi'cawtaj 
+  You: thi'cawtast 
+  Yall/They(plural): thi'cawtasta 
+  We(royal): thi'cawtam 
+  We(exclusive): thi'cawtama 
+* 
+Past: 
+  I/He/She/They(sing): thi'cawta 
+  You: thi'cawtas 
+  Yall/They(plural): thi'cawtasa 
+  We(royal): thi'cawtan 
+  We(exclusive): thi'cawtana 
+** 
+Future: 
+  I/He/She/They(sing): thi'cawtua 
+  You: thi'cawtue 
+  Yall/They(plural): thi'cawtust 
+  We(royal): thi'cawtun 
+  We(exclusive): thi'cawtuna 
+*** 
+Present Progressive: 
+  I/He/She/They(sing): thi'cawtaja 
+  You: thi'cawtasta 
+  Yall/They(plural): thi'cawtast 
+  We(royal): thi'cawtama 
+  We(exclusive): thi'cawtam 
+**** 
+Past Progressive: 
+  I/He/She/They(sing): thi'cawtag 
+  You: thi'cawtasa 
+  Yall/They(plural): thi'cawtas 
+  We(royal): thi'cawtana 
+  We(exclusive): thi'cawtan 
+***** 
+Future Progressive: 
+  I/He/She/They(sing): thi'cawtui 
+  You: thi'cawtust 
+  Yall/They(plural): thi'cawtue 
+  We(royal): thi'cawtui 
+  We(exclusive): thi'cawtun 
+****** 
+Declination?: No
+  Not a Noun
+*******
+
+ 
+de'staw
+Definition: (N.) the Architect
+Class: NounI; Humans & Their Things
+Conjugation?: No 
+   Not a Verb 
+Declination?: Yes 
+   Singular: iade'staw
+   Trial: iode'staw
+   Paucal:ide'staw
+   Dative: nade'staw
+   Instrumental: stde'staw
+   Comitative: ude'staw
+   Adesive: zade'staw
+   Allative: zide'staw
+   Ablative: zode'staw
+   Illative: thide'staw
+   Inessive: thode'staw
+   Acusative: de'stawm
+   Genitive: de'stawa
+   Locative: de'stawgua
+*******

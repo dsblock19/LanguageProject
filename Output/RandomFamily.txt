@@ -39,3 +39,51 @@ Random Word Generator Output:
  NounIV: i:ichutaims
    NounV: i:ichutaxipa
  NounVI: i:ichutan
+
+[Core: chi | Root: chim] Verb: chimot
+   NounI: chima
+ NounII: chimux
+   NounIII: chimast
+ NounIV: chimi
+   NounV: chimo
+ NounVI: chimog
+
+[Core: hi:i | Root: hi:i] Verb: hi:it
+   NounI: hi:ici:i
+ NounII: hi:ic
+   NounIII: hi:ith
+ NounIV: hi:iam
+   NounV: hi:ishe
+ NounVI: hi:ig
+
+[Core: jaw | Root: jawzi] Verb: jawzit
+   NounI: jawzidi:i
+ NounII: jawzix
+   NounIII: jawzist
+ NounIV: jawzioom
+   NounV: jawzibo
+ NounVI: jawzin
+
+[Core: choo | Root: achoozi:i] Verb: achoozi:it
+   NounI: achoozi:ipi:i
+ NounII: achoozi:ik
+   NounIII: achoozi:ith
+ NounIV: achoozi:iawm
+   NounV: achoozi:ijo
+ NounVI: achoozi:id
+
+[Core: joo | Root: joosh] Verb: jooshit
+   NounI: joosha
+ NounII: jooshac
+   NounIII: jooshuth
+ NounIV: jooshmi
+   NounV: jooshipa
+ NounVI: jooshi:iz
+
+[Core: mi:i | Root: awmi:isu] Verb: awmi:isut
+   NounI: awmi:isubi:i
+ NounII: awmi:isux
+   NounIII: awmi:isuth
+ NounIV: awmi:isuawms
+   NounV: awmi:isuxipa
+ NounVI: awmi:isub
