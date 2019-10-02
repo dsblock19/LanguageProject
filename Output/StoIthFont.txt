@@ -83,3 +83,12 @@ Class: NounI
 i'est = I'EF
 Definition: (n.) a stone; a stone good for building
 Class: NounIII; Inanimate Objects of Higher Value
+
+ 
+thi'cawt = #I'CWT
+Definition: (v.) to welcome
+Class: RegularVerb; verb
+ 
+de'staw = DE'FW
+Definition: (N.) the Architect
+Class: NounI; Humans & Their Things
