@@ -3,7 +3,7 @@
 # tools
 import random
 
-class Conjugate():
+class Conjugate:
     #Vars
     RV = ('t')
     NI = ( 'i:i', 'aw', 'a' )
@@ -342,10 +342,10 @@ class Conjugate():
                 f.close()
 
     # Main function called
-    def ConRecord():
+    def ConRecord(self):
         word = input('Word: ')
         if word in ['Quit']:
-            break
+            pass
         else:
             definition = input('Definition: ')
             Class = classification(word)

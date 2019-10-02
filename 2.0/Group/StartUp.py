@@ -1,12 +1,11 @@
 #Startup Program
 import WordConjugatorClass
 import WordGeneratorClass
-import ReadDictionaryTSelect
+import ReadDictionaryTSelect as Dic
 
 #Object Setup
-Con = WordConjugatorClass()
-Ran = WordGeneratorClass()
-Dic = ReadDictionaryTSelect()
+Con = WordConjugatorClass.Conjugate()
+Ran = WordGeneratorClass.RandomWordGenerator()
 
 while True:
     program = input('Which Program?: ')

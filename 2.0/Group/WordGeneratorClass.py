@@ -3,7 +3,7 @@
 #tools
 import random
 
-class RandomWordGenerator():
+class RandomWordGenerator:
     #Vars
     #lists of all avalible sounds to the language
     core_consonants = [ 'd', 't', 'c', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'x', 'th', 'st', 'v', 'j', 'ch', 'b', 'h', 'r' ]
@@ -248,10 +248,10 @@ class RandomWordGenerator():
         stof.close()
 
 
-    def RandomWord():
+    def RandomWord(self):
         command = input('Command: ')
         if command in ['Quit']:
-            break
+            pass
         elif command in ['Go']:
             #makes core out of random selection of C + V
             core = random.choice(core_consonants) + random.choice(core_vowels)
