@@ -254,21 +254,21 @@ class RandomWordGenerator:
             pass
         elif command in ['Go']:
             #makes core out of random selection of C + V
-            core = random.choice(core_consonants) + random.choice(core_vowels)
+            core = random.choice(RandomWordGenerator.core_consonants) + random.choice(RandomWordGenerator.core_vowels)
 
             #picks a random addition to the core to make a root
-            roots = [ CV(core), VCVCV(core), CVCV(core), CVC(core) ]
+            roots = [ RandomWordGenerator.CV(core), RandomWordGenerator.VCVCV(core), RandomWordGenerator.CVCV(core), RandomWordGenerator.CVC(core) ]
             random_root = random.choice(roots)
             root = random_root
 
             #takes the root and randomly adds endings to make a family
-            Verbs = Verb(core, root)
-            NounsI = NounI(core, root)
-            NounsII = NounII(core, root)
-            NounsIII = NounIII(core, root)
-            NounsIV = NounIV(core, root)
-            NounsV = NounV(core, root)
-            NounsVI = NounVI(core, root)
+            Verbs = RandomWordGenerator.Verb(core, root)
+            NounsI = RandomWordGenerator.NounI(core, root)
+            NounsII = RandomWordGenerator.NounII(core, root)
+            NounsIII = RandomWordGenerator.NounIII(core, root)
+            NounsIV = RandomWordGenerator.NounIV(core, root)
+            NounsV = RandomWordGenerator.NounV(core, root)
+            NounsVI = RandomWordGenerator.NounVI(core, root)
 
             #message construction
             message = '[Core: ' + core + ' | Root: ' + root + '] Verb: ' + Verbs + '\n   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI + '\n'
@@ -276,13 +276,13 @@ class RandomWordGenerator:
             #Print Results
             print(message)
             #Convert for Sto-Ith Font
-            Stocore, Storoot, StoVerbs, StoNounsI, StoNounsII, StoNounsIII, StoNounsIV, StoNounsV, StoNounsVI = StoCon(core, root, Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI)
+            Stocore, Storoot, StoVerbs, StoNounsI, StoNounsII, StoNounsIII, StoNounsIV, StoNounsV, StoNounsVI = RandomWordGenerator.StoCon(core, root, Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI)
             stomessage = 'For StoIth (Sto Font):\n\n[Core: ' + Stocore + ' | Root: ' + Storoot + '] Verb: ' + StoVerbs + '\n   NounI: ' + StoNounsI + '\n NounII: ' + StoNounsII + '\n   NounIII: ' + StoNounsIII + '\n NounIV: ' + StoNounsIV + '\n   NounV: ' + StoNounsV + '\n NounVI: ' + StoNounsVI + '\n'
 
             print(stomessage)
 
             #log words
-            logwords(core, root, Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI)
+            RandomWordGenerator.logwords(core, root, Verbs, NounsI, NounsII, NounsIII, NounsIV, NounsV, NounsVI)
 
         else:
             print('error')
