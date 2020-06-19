@@ -1,0 +1,15 @@
+
+
+[Root: DW] Verb: dawt
+   NounI: dawaw
+ NounII: dawx
+   NounIII: dawst
+ NounIV: dawms
+   NounV: dawipa
+
+[Root: DW] Verb: dawt
+   NounI: dawaw
+ NounII: dawx
+   NounIII: dawth
+ NounIV: dawm
+   NounV: dawo

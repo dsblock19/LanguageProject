@@ -1,115 +1,6 @@
-'''
 #LIBRARIES
 import random
-#SETUP
-# avalible sounds in language
-core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
-core_vowels = ( 'aw', 'o', 'u', 'a', 'oo', 'e' )
-other_vowels = ( 'i:i', 'i' )
-other_consonants = ( 'c', 'sh', 'th', 'st', 'ch', 'x' )
-other_c = ( 'qua' )
-all_vowels = core_vowels + other_vowels
-all_consonants = core_consonants + other_consonants
-allsounds = core_consonants + core_vowels + other_vowels + other_consonants
-allcategories = (core_consonants, core_vowels, other_vowels, other_consonants,
-                other_c, all_vowels, all_consonants, allsounds
-                )
-#Word Class
-RV = ('t')
-NI = ( 'i:i', 'aw', 'a' )
-NII = ( 'c', 'k', 'x' )
-NIII = ( 'st', 'th' )
-NIV = ( 'ms', 'm', 'i' )
-NV = ( 'o', 'e', 'ipa' )
-NVI = ( 'd', 'z', 'n', 'g', 'p', 'b' )
-WClass = (RV, NI, NII, NIII, NIV, NV, NVI)
-#Verb Endings
-#Present
-PrPI = 'taj'
-PrPII = 'tast'
-PrPIII = 'tasta'
-PrPIV = 'tam'
-PrPV = 'tama'
-Vpresent = (PrPI, PrPII, PrPIII, PrpIV, PrPV)
-#past
-PaPI = 'ta'
-PaPII = 'tas'
-PaPIII = 'tasa'
-PaPIV = 'tan'
-PaPV = 'tana'
-Vpast = (PaPI, PaPII, PaPIII, PaPIV, PaPV)
-#future
-FuPI = 'tua'
-FuPII = 'tue'
-FuPIII = 'tust'
-FuPIV = 'tun'
-FuPV = 'tuna'
-Vfuture = (FuPI, FuPII, FuPIII, FuPIV, FuPV)
-#present progressive
-PrPgPI = 'taja'
-PrPgPII = 'tasta'
-PrPgPIII = 'tast'
-PrPgPIV = 'tama'
-PrPgPV = 'tam'
-VPrePro = (PrPgPI, PrPgPII, PrPgIII, PrPgPIV, PrPgPV)
-#past progressive
-PaPgPI = 'tag'
-PaPgPII = 'tasa'
-PaPgPIII = 'tas'
-PaPgPIV = 'tana'
-PaPgPV = 'tan'
-VPasPro = (PaPgPI, PaPgPII, PaPgPIII, PaPgPIV, PaPgPV)
-#future progressive
-FuPgPI = 'tui'
-FuPgPII = 'tust'
-FuPgPIII = 'tue'
-FuPgPIV = 'tuna'
-FuPgPV = 'tun'
-VFuPro = (FuPgPI, FuPgPII, FuPgPIII, FuPgPIV, FuPgPV)
-#All Verb Endings
-Vendings = (Vpresent,Vpast, Vfuture, VPrePro, VPasPro, VFuPro)
-#NOUN DECLINATION
-#PREFIXES
-#nominal number
-Sing = 'ia'
-Tri = 'io'
-Pau = 'i'
-#case
-Vdative = ('m', 'n')
-Cdative = ('ma', 'na')
-instrumental = 'st'
-comitative = 'u'
-adesive = 'za'
-allative = 'zi'
-ablative = 'zo'
-illative = 'thi'
-inessive = 'tho'
-#SUFFIXES
-#case
-acusative = ('m', 'ma', 'n', 'na')
-genitive = 'a'
-locative = ('ga', 'gua')
-#Root Families
-holy = ('daw', 'do')
-building = ('tan', 'tam')
-domanimal = ('go', 'ox', 'awx')
-stone = ('ie', 'ist')
-forest = ('he', 'haw')
-water = 'ipi'
-atoms = ('po', 'oaw')
-thebody = ('shu', 'sheaw', 'eu')
-writing = ('sto')
-human = 'uc'
-health = 'pi'
-evil = ('awm', 'im')
-Rfam = (holy, building, domanimal, stone, forest, water,
-        atoms, thebody, writing, human, health, evil
-        )
-#Comparison Families
-like = 'oo'
-state = 'ca'
-Comfam = (like, state)
-'''
+
 
 #FUNCTIONS
 #Word Building w/in Class
@@ -202,10 +93,6 @@ def Ve(allcategories, WClass, root):
 
 #Build New Family
 def NewFam(NnI, NnII, NnIII, NnIV, NnV, Ve):
-    #LIBRARIES
-    import random
-
-
     #SETUP
     # avalible sounds in language
     core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )

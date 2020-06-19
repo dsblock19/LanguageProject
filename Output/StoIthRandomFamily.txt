@@ -1,0 +1,15 @@
+
+
+[Root: DW] Verb: DWT
+   NounI: DWW
+ NounII: DWX
+   NounIII: DWF
+ NounIV: DWMS
+   NounV: DWIPA
+
+[Root: DW] Verb: DWT
+   NounI: DWW
+ NounII: DWX
+   NounIII: DW#
+ NounIV: DWM
+   NounV: DWO
