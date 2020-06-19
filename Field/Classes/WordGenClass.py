@@ -7,7 +7,7 @@ class WordGen:
         pass
 
     #Build New Family
-    def NewFam(self):
+    def NewFam():
         #SETUP
         # avalible sounds in language
         core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
