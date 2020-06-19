@@ -247,7 +247,7 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnIII, NnIV, NnV, Ve):
     water = 'ipi'
     atoms = ('po', 'oaw')
     thebody = ('shu', 'sheaw', 'eu')
-    writing = ('sto')
+    writing = 'sto'
     human = 'uc'
     health = 'pi'
     evil = ('awm', 'im')
