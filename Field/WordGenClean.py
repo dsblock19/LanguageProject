@@ -331,7 +331,7 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnIII, NnIV, NnV, Ve):
     print('\nRegular:\n[Root: ' + root + '] Verb: ' + V)
     print('   NounI: ' + NI + '\n NounII: ' + NII + '\n   NounIII: ' + NIII + '\n NounIV: ' + NIV + '\n   NounV: ' + NV)
     print('\nIn Sto:\n[Root: ' + root + '] Verb: ' + Verbs + '\n')
-    print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI)
+    print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
     familymember = ''
     if NI or NII or NIII or NIV or NV in Rfam[0]:
         familymember = familymember + ' Holy'
