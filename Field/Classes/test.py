@@ -1,7 +1,8 @@
 from WordGenClass import WordGen
 
-#x = WordGen
+x = WordGen
 
 while True:
-    x = WordGen
-    x.NewFam()
+    prog = input('Program: ')
+    if prog == 'WordGen':
+        x.NewFam()
