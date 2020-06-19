@@ -121,7 +121,7 @@ Comfam = (like, state)
 
 #FUNCTIONS
 #Word Building w/in Class
-def NounI(WClass, root):
+def NnI(WClass, root):
     if root[-1] in ['o', 'i', 'u', 'oo']:
         NI = root + random.choice(core_consonants) + random.choice(WClass[1])
     elif root[-1] in ['i:i']:
@@ -137,7 +137,7 @@ def NounI(WClass, root):
         NI = root + random.choice(WClass[1])
     return NI
 
-def NounII(WClass, root):
+def NnII(WClass, root):
     if root[-1] in ['d', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'th', 'st', 'v', 'j', 'ch', 'b','h', 'r' ]:
         NII = root + random.choice(core_vowels) + random.choice(WClass[2])
     elif root[-1] in ['c']:
@@ -153,7 +153,7 @@ def NounII(WClass, root):
         NII = root + random.choice(WClass[2])
     return NII
 
-def NounIII(WClass, root):
+def NnIII(WClass, root):
     if root[-1] in ['c', 'k', 'x', 'd', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r' ]:
         NIII = root + random.choice(core_vowels) + random.choice(WClass[3])
     elif root[-1] in ['st']:
@@ -166,7 +166,7 @@ def NounIII(WClass, root):
         NIII = root + random.choice(WClass[3])
     return NIII
 
-def NounIV(allcategories, WClass, root):
+def NnIV(allcategories, WClass, root):
     if root[-1] in [ 'o', 'e', 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
         noi = ['ms', 'm']
         NIV = root + random.choice(core_vowels)+ random.choice(noi)
@@ -185,7 +185,7 @@ def NounIV(allcategories, WClass, root):
         NIV = root + random.choice(WClass[4])
     return NIV
 
-def NounV(WClass, root):
+def NnV(WClass, root):
     if root[-1] in [ 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
         NV = root + random.choice(core_consonants) + random.choice(WClass[5])
     elif root[-1] in ['o']:
@@ -201,17 +201,15 @@ def NounV(WClass, root):
         NV = root + random.choice(WClass[5])
     return NV
 
-def Verb(allcategories, WClass, root):
+def Ve(allcategories, WClass, root):
     if root[-1] in ['t', 'st', 'th', 'c', 'k', 'x', 'd', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r']:
         V = root + random.choice(allcategories[1]) + WClass[0]
     else:
         V = root + WClass[0]
     return V
 
-conversion = (Verb, NounI, NounII, NounIII, NounIV, NounV)
-
 #Build New Family
-def NewFam(Rfam, allcategories, WClass, conversion):
+def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnII, NnIV, NnV, Ve):
     family = input('Family: ')
     if family == 'None':
         rt1 = random.choice(allcategories[0]) + random.choice(allcategories[1])
@@ -246,12 +244,12 @@ def NewFam(Rfam, allcategories, WClass, conversion):
         root = random.choice(Rfam[11])
 
     #Class
-    NI = conversion[1]
-    NII = conversion[2]
-    NIII = conversion[3]
-    NIV = conversion[4]
-    NV = conversion[5]
-    V = conversion[0]
+    NI = NnI
+    NII = NnII
+    NIII = NnIII
+    NIV = NnIV
+    NV = NnI
+    V = Ve
 
     #Make Upper Case
     root = root.upper()
@@ -338,4 +336,4 @@ def NewFam(Rfam, allcategories, WClass, conversion):
 
 #Loop
 while True:
-    NewFam(Rfam, allcategories, WClass, conversion)
+    NewFam(Rfam, allcategories, WClass, NnI, NnII, NnII, NnIV, NnV, Ve)
