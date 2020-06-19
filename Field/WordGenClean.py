@@ -261,29 +261,29 @@ def NewFam(NnI, NnII, NnIII, NnIV, NnV, Ve):
     print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
     #NIfam
     NIfam = ''
-    if NI in holy:
+    if NI.find(holy) != -1:
         NIfam = NIfam + ' Holy'
-    if NI in building:
+    if NI.find(building) != -1:
         NIfam = NIfam + ' Building'
-    if NI in domanimal:
+    if NI.find(domanimal) != -1:
         NIfam = NIfam + ' Domestic Animal'
-    if NI in stone:
+    if NI.find(stone) != -1:
         NIfam = NIfam + ' Stone'
-    if NI in forest:
+    if NI.find(forest) != -1:
         NIfam = NIfam + ' Forest'
-    if NI in water:
+    if NI.find(water) != -1:
         NIfam = NIfam + ' Water'
-    if NI in atoms:
+    if NI.find(atoms) != -1:
         NIfam = NIfam + ' Atoms'
-    if NI in thebody:
+    if NI.find(thebody) != -1:
         NIfam = NIfam + ' The Body'
-    if NI in writing:
+    if NI.find(writing) != -1:
         NIfam = NIfam + ' Writing'
-    if NI in human:
+    if NI.find(human) != -1:
         NIfam = NIfam + ' Human'
-    if NI in health:
+    if NI.find(health) != -1:
         NIfam = NIfam + ' Health'
-    if NI in evil:
+    if NI.find(evil) != -1:
         NIfam = NIfam + ' Evil'
     #NIIfam
     NIIfam = ''
