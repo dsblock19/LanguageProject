@@ -386,7 +386,7 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnIII, NnIV, NnV, Ve):
         NIfam = NIfam + ' Holy'
     if any(x in NI for x in building):
         NIfam = NIfam + ' Building'
-    if any(x in NI for x in domanimals):
+    if any(x in NI for x in domanimal):
         NIfam = NIfam + ' Domestic Animal'
     if any(x in NI for x in stone):
         NIfam = NIfam + ' Stone'
