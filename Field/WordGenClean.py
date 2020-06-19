@@ -257,7 +257,7 @@ def NewFam(NnI, NnII, NnIII, NnIV, NnV, Ve):
     stof.close()
 
     #Print Results
-    print('\nIn Sto:\n[Root: ' + root + '] Verb: ' + Verbs + '\n')
+    print('\nIn Sto:\n[Root: ' + root + '] Verb: ' + Verbs)
     print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
     #NIfam
     NIfam = ''
