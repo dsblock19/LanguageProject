@@ -87,3 +87,38 @@ NounIII: WMYSU#
 NounIV: WMYSUWMS
 NounV: WMYSUXIPA
 NounVI: WMYSUB
+
+[Root: PW] Verb: PWT
+   NounI: PWY
+ NounII: PWC
+   NounIII: PWC
+ NounIV: PWI
+   NounV: PWO
+
+[Root: OA] Verb: OAT
+   NounI: OAY
+ NounII: OAC
+   NounIII: OAX
+ NounIV: OALMS
+   NounV: OAMO
+
+[Root: AP] Verb: APAT
+   NounI: APA
+ NounII: APLC
+   NounIII: APLX
+ NounIV: APRI
+   NounV: APIPA
+
+[Root: PA] Verb: PAT
+   NounI: PAW
+ NounII: PAK
+   NounIII: PAX
+ NounIV: PAUMS
+   NounV: PAPIPA
+
+[Root: MW] Verb: MWT
+   NounI: MWY
+ NounII: MWC
+   NounIII: MWX
+ NounIV: MWM
+   NounV: MWE

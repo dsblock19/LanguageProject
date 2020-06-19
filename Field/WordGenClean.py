@@ -209,8 +209,8 @@ def Ve(allcategories, WClass, root):
     return V
 
 #Build New Family
-def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnII, NnIV, NnV, Ve):
-    family = input('Family: ')
+def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnIII, NnIV, NnV, Ve):
+    family = input('\nFamily: ')
     if family == 'None':
         rt1 = random.choice(allcategories[0]) + random.choice(allcategories[1])
         rt2 = random.choice(allcategories[1]) + random.choice(allcategories[1])
@@ -300,7 +300,6 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnII, NnIV, NnV, Ve):
     NounsIII = NounsIII.replace('I:I', 'Y')
     NounsIV = NounsIV.replace('I:I', 'Y')
     NounsV = NounsV.replace('I:I', 'Y')
-    NounsVI = NounsVI.replace('I:I', 'Y')
     #CH --> @
     root = root.replace('CH', '@')
     Verbs = Verbs.replace('CH', '@')
@@ -325,14 +324,14 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnII, NnIV, NnV, Ve):
     f.close()
     stof = open('/home/pi/Desktop/MyCode/LanguageProject/Output/StoIthRandomFamily.txt', 'a')
     stof.write('\n\n[Root: ' + root + '] Verb: ' + Verbs + '\n')
-    stof.write('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI)
+    stof.write('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
     stof.close()
 
     #Print Results
-    print('\nRegular:\n[Root: ' + root + '] Verb: ' + V + '\n')
+    print('\nRegular:\n[Root: ' + root + '] Verb: ' + V)
     print('   NounI: ' + NI + '\n NounII: ' + NII + '\n   NounIII: ' + NIII + '\n NounIV: ' + NIV + '\n   NounV: ' + NV)
-    print('\nIn Sto:\n[Root: ' + root + '] Verb: ' + Verbs + '\n')
-    print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI)
+    print('\nIn Sto:\n[Root: ' + root + '] Verb: ' + Verbs)
+    print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
 
 #Loop
 while True:
