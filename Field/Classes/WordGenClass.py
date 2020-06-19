@@ -5,7 +5,7 @@ class WordGen:
 
     #FUNCTIONS
     #Word Building w/in Class
-    def NnI(allcategories, WClass, root):
+    def NnI(self, allcategories, WClass, root):
         if root[-1] in ['o', 'i', 'u', 'oo']:
             NI = root + random.choice(allcategories[0]) + random.choice(WClass[1])
         elif root[-1] in ['i:i']:
@@ -21,7 +21,7 @@ class WordGen:
             NI = root + random.choice(WClass[1])
         return NI
 
-    def NnII(allcategories, WClass, root):
+    def NnII(self, allcategories, WClass, root):
         if root[-1] in ['d', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'th', 'st', 'v', 'j', 'ch', 'b','h', 'r' ]:
             NII = root + random.choice(allcategories[1]) + random.choice(WClass[2])
         elif root[-1] in ['c']:
@@ -37,7 +37,7 @@ class WordGen:
             NII = root + random.choice(WClass[2])
         return NII
 
-    def NnIII(allcategories, WClass, root):
+    def NnIII(self, allcategories, WClass, root):
         if root[-1] in ['c', 'k', 'x', 'd', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r' ]:
             NIII = root + random.choice(allcategories[1]) + random.choice(WClass[3])
         elif root[-1] in ['st']:
@@ -50,7 +50,7 @@ class WordGen:
             NIII = root + random.choice(WClass[3])
         return NIII
 
-    def NnIV(allcategories, WClass, root):
+    def NnIV(self, allcategories, WClass, root):
         if root[-1] in [ 'o', 'e', 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
             noi = ['ms', 'm']
             NIV = root + random.choice(allcategories[1])+ random.choice(noi)
@@ -69,7 +69,7 @@ class WordGen:
             NIV = root + random.choice(WClass[4])
         return NIV
 
-    def NnV(allcategories, WClass, root):
+    def NnV(self, allcategories, WClass, root):
         if root[-1] in [ 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
             NV = root + random.choice(allcategories[0]) + random.choice(WClass[5])
         elif root[-1] in ['o']:
@@ -85,7 +85,7 @@ class WordGen:
             NV = root + random.choice(WClass[5])
         return NV
 
-    def Ve(allcategories, WClass, root):
+    def Ve(self, allcategories, WClass, root):
         if root[-1] in ['t', 'st', 'th', 'c', 'k', 'x', 'd', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r']:
             V = root + random.choice(allcategories[1]) + WClass[0]
         else:
@@ -93,7 +93,7 @@ class WordGen:
         return V
 
     #Build New Family
-    def NewFam(NnI, NnII, NnIII, NnIV, NnV, Ve):
+    def NewFam(self, NnI, NnII, NnIII, NnIV, NnV, Ve):
         #SETUP
         # avalible sounds in language
         core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
