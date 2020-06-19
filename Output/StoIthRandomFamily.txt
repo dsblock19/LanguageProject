@@ -1,0 +1,8 @@
+
+
+[Root: DW] Verb: DWT
+   NounI: DWY
+ NounII: DWK
+   NounIII: DW#
+ NounIV: DWI
+   NounV: DWO
