@@ -3,6 +3,15 @@ class WordGen:
     #LIBRARIES
     import random
 
+    def __init__(self, NnI, NnII, NnIII, NnIV, NnV, Ve):
+         self.NnI = None
+         self.NnII = None
+         self.NnIII = None
+         self.NnIV = None
+         self.NnV = None
+         self.Ve = None
+
+
     #FUNCTIONS
     #Word Building w/in Class
     def NnI(self, allcategories, WClass, root):
