@@ -211,10 +211,10 @@ def Verb(allcategories, WClass, root):
 conversion = (Verb, NounI, NounII, NounIII, NounIV, NounV)
 
 #Build New Family
-def NewFam(RFam, allgategories, WClass, conversion):
+def NewFam(Rfam, allcategories, WClass, conversion):
     family = input('Family: ')
     if family == 'None':
-        rt1 = random.chocie(allcategories[0]) + random.choice(allcategories[1])
+        rt1 = random.choice(allcategories[0]) + random.choice(allcategories[1])
         rt2 = random.choice(allcategories[1]) + random.choice(allcategories[1])
         rt3 = random.choice(allcategories[1]) + random.choice(allcategories[0])
         rttup = (rt1, rt2, rt3)
@@ -240,7 +240,7 @@ def NewFam(RFam, allgategories, WClass, conversion):
         root = random.choice(Rfam[8])
     elif family == 'Human':
         root = random.choice(Rfam[9])
-    elif family == 'Health'::
+    elif family == 'Health':
         root = random.choice(Rfam[10])
     elif family == 'Evil':
         root = random.choice(Rfam[11])
@@ -338,4 +338,4 @@ def NewFam(RFam, allgategories, WClass, conversion):
 
 #Loop
 while True:
-    NewFam(RFam, allgategories, WClass, conversion)
+    NewFam(Rfam, allcategories, WClass, conversion)
