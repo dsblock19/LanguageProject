@@ -1,10 +1,8 @@
 class WordGen:
 
-    #LIBRARIES
-    import random
-
     def __init__(self):
-        pass
+        #LIBRARIES
+        import random
 
     #Build New Family
     def NewFam():
