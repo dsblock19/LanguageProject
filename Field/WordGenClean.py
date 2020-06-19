@@ -333,6 +333,32 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnII, NnIV, NnV, Ve):
     print('   NounI: ' + NI + '\n NounII: ' + NII + '\n   NounIII: ' + NIII + '\n NounIV: ' + NIV + '\n   NounV: ' + NV)
     print('\nIn Sto:\n[Root: ' + root + '] Verb: ' + Verbs + '\n')
     print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV + '\n NounVI: ' + NounsVI)
+    familymember = ''
+    if NI or NII or NIII or NIV or NV in Rfam[0]:
+        familymember = familymember + ' Holy'
+    if NI or NII or NIII or NIV or NV in Rfam[1]:
+        familymember = familymember + ' Building'
+    if NI or NII or NIII or NIV or NV in Rfam[2]:
+        familymember = familymember + ' Domestic Animal'
+    if NI or NII or NIII or NIV or NV in Rfam[3]:
+        familymember = familymember + ' Stone'
+    if NI or NII or NIII or NIV or NV in Rfam[4]:
+        familymember = familymember + ' Forest'
+    if NI or NII or NIII or NIV or NV in Rfam[5]:
+        familymember = familymember + ' Water'
+    if NI or NII or NIII or NIV or NV in Rfam[6]:
+        familymember = familymember + ' Atoms'
+    if NI or NII or NIII or NIV or NV in Rfam[7]:
+        familymember = familymember + ' The Body'
+    if NI or NII or NIII or NIV or NV in Rfam[8]:
+        familymember = familymember + ' Writing'
+    if NI or NII or NIII or NIV or NV in Rfam[9]:
+        familymember = familymember + ' Human'
+    if NI or NII or NIII or NIV or NV in Rfam[10]:
+        familymember = familymember + ' Health'
+    if NI or NII or NIII or NIV or NV in Rfam[11]:
+        familymember = familymember + ' Evil'
+    print('\nNew Families: ' + familymember)
 
 #Loop
 while True:
