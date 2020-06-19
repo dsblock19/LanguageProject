@@ -107,6 +107,7 @@ class WordGen:
             NI = root + random.choice(noA)
         else:
             NI = root + random.choice(WClass[1])
+
         if root[-1] in ['d', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'th', 'st', 'v', 'j', 'ch', 'b','h', 'r' ]:
             NII = root + random.choice(allcategories[1]) + random.choice(WClass[2])
         elif root[-1] in ['c']:
@@ -120,6 +121,7 @@ class WordGen:
             NII = root + random.choice(noX)
         else:
             NII = root + random.choice(WClass[2])
+
         if root[-1] in ['c', 'k', 'x', 'd', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r' ]:
             NIII = root + random.choice(allcategories[1]) + random.choice(WClass[3])
         elif root[-1] in ['st']:
@@ -130,6 +132,7 @@ class WordGen:
             NIII = root + random.choice(noTH)
         else:
             NIII = root + random.choice(WClass[3])
+
         if root[-1] in [ 'o', 'e', 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
             noi = ['ms', 'm']
             NIV = root + random.choice(allcategories[1])+ random.choice(noi)
@@ -146,6 +149,7 @@ class WordGen:
             NIV = root + random.choice(noI)
         else:
             NIV = root + random.choice(WClass[4])
+
         if root[-1] in [ 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
             NV = root + random.choice(allcategories[0]) + random.choice(WClass[5])
         elif root[-1] in ['o']:
@@ -159,6 +163,7 @@ class WordGen:
             NV = root + random.choice(noIPA)
         else:
             NV = root + random.choice(WClass[5])
+
         if root[-1] in ['t', 'st', 'th', 'c', 'k', 'x', 'd', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r']:
             V = root + random.choice(allcategories[1]) + WClass[0]
         else:
