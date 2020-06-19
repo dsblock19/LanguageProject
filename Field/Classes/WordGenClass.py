@@ -3,106 +3,11 @@ class WordGen:
     #LIBRARIES
     import random
 
-    def __init__(self, NnI, NnII, NnIII, NnIV, NnV, Ve):
-         self.NnI = None
-         self.NnII = None
-         self.NnIII = None
-         self.NnIV = None
-         self.NnV = None
-         self.Ve = None
-
-
-    #FUNCTIONS
-    #Word Building w/in Class
-    def NnI(self, allcategories, WClass, root):
-        if root[-1] in ['o', 'i', 'u', 'oo']:
-            NI = root + random.choice(allcategories[0]) + random.choice(WClass[1])
-        elif root[-1] in ['i:i']:
-            noEE = ['aw', 'a']
-            NI = root + random.choice(noEE)
-        elif root[-1] in ['aw']:
-            noAW = ['i:i', 'a']
-            NI = root + random.choice(noAW)
-        elif root[-1] in ['a']:
-            noA = ['aw', 'i:i']
-            NI = root + random.choice(noA)
-        else:
-            NI = root + random.choice(WClass[1])
-        return NI
-
-    def NnII(self, allcategories, WClass, root):
-        if root[-1] in ['d', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'th', 'st', 'v', 'j', 'ch', 'b','h', 'r' ]:
-            NII = root + random.choice(allcategories[1]) + random.choice(WClass[2])
-        elif root[-1] in ['c']:
-            noC= ['k', 'x']
-            NII = root + random.choice(noC)
-        elif root[-1] in ['k']:
-            noK = ['c', 'x']
-            NII = root + random.choice(noK)
-        elif root[-1] in ['x']:
-            noX = ['c', 'k']
-            NII = root + random.choice(noX)
-        else:
-            NII = root + random.choice(WClass[2])
-        return NII
-
-    def NnIII(self, allcategories, WClass, root):
-        if root[-1] in ['c', 'k', 'x', 'd', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r' ]:
-            NIII = root + random.choice(allcategories[1]) + random.choice(WClass[3])
-        elif root[-1] in ['st']:
-            noST = ['th']
-            NIII = root + random.choice(noST)
-        elif root[-1] in ['th']:
-            noTH = ['st']
-            NIII = root + random.choice(noTH)
-        else:
-            NIII = root + random.choice(WClass[3])
-        return NIII
-
-    def NnIV(self, allcategories, WClass, root):
-        if root[-1] in [ 'o', 'e', 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
-            noi = ['ms', 'm']
-            NIV = root + random.choice(allcategories[1])+ random.choice(noi)
-        elif root[-1] in ['c', 'k', 'x', 'd', 't', 'z', 'n', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b', 'h', 'r' ]:
-            NIV = root + random.choice(allcategories[0]) + 'i'
-        elif root[-1] in ['ms']:
-            noMS = ['m', 'i']
-            NIV = root + random.choice(noMS)
-        elif root[-1] in ['m']:
-            noM = ['ms', 'i']
-            NIV = root + random.choice(noM)
-        elif root[-1] in ['i']:
-            noI = ['ms', 'm']
-            NIV = root + random.choice(noI)
-        else:
-            NIV = root + random.choice(WClass[4])
-        return NIV
-
-    def NnV(self, allcategories, WClass, root):
-        if root[-1] in [ 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
-            NV = root + random.choice(allcategories[0]) + random.choice(WClass[5])
-        elif root[-1] in ['o']:
-            noO = ['e', 'ipa']
-            NV = root + random.choice(noO)
-        elif root[-1] in ['e']:
-            noE = ['o', 'ipa']
-            NV = root + random.choice(noE)
-        elif root[-1] in ['ipa']:
-            noIPA = ['o', 'e']
-            NV = root + random.choice(noIPA)
-        else:
-            NV = root + random.choice(WClass[5])
-        return NV
-
-    def Ve(self, allcategories, WClass, root):
-        if root[-1] in ['t', 'st', 'th', 'c', 'k', 'x', 'd', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r']:
-            V = root + random.choice(allcategories[1]) + WClass[0]
-        else:
-            V = root + WClass[0]
-        return V
+    def __init__(self):
+        pass
 
     #Build New Family
-    def NewFam(self, NnI, NnII, NnIII, NnIV, NnV, Ve):
+    def NewFam(self):
         #SETUP
         # avalible sounds in language
         core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
@@ -183,12 +88,75 @@ class WordGen:
             root = random.choice(Rfam[11])
 
         #Class
-        NI = NnI(allcategories, WClass, root)
-        NII = NnII(allcategories, WClass, root)
-        NIII = NnIII(allcategories, WClass, root)
-        NIV = NnIV(allcategories, WClass, root)
-        NV = NnV(allcategories, WClass, root)
-        V = Ve(allcategories, WClass, root)
+        if root[-1] in ['o', 'i', 'u', 'oo']:
+            NI = root + random.choice(allcategories[0]) + random.choice(WClass[1])
+        elif root[-1] in ['i:i']:
+            noEE = ['aw', 'a']
+            NI = root + random.choice(noEE)
+        elif root[-1] in ['aw']:
+            noAW = ['i:i', 'a']
+            NI = root + random.choice(noAW)
+        elif root[-1] in ['a']:
+            noA = ['aw', 'i:i']
+            NI = root + random.choice(noA)
+        else:
+            NI = root + random.choice(WClass[1])
+        if root[-1] in ['d', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'th', 'st', 'v', 'j', 'ch', 'b','h', 'r' ]:
+            NII = root + random.choice(allcategories[1]) + random.choice(WClass[2])
+        elif root[-1] in ['c']:
+            noC= ['k', 'x']
+            NII = root + random.choice(noC)
+        elif root[-1] in ['k']:
+            noK = ['c', 'x']
+            NII = root + random.choice(noK)
+        elif root[-1] in ['x']:
+            noX = ['c', 'k']
+            NII = root + random.choice(noX)
+        else:
+            NII = root + random.choice(WClass[2])
+        if root[-1] in ['c', 'k', 'x', 'd', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r' ]:
+            NIII = root + random.choice(allcategories[1]) + random.choice(WClass[3])
+        elif root[-1] in ['st']:
+            noST = ['th']
+            NIII = root + random.choice(noST)
+        elif root[-1] in ['th']:
+            noTH = ['st']
+            NIII = root + random.choice(noTH)
+        else:
+            NIII = root + random.choice(WClass[3])
+        if root[-1] in [ 'o', 'e', 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
+            noi = ['ms', 'm']
+            NIV = root + random.choice(allcategories[1])+ random.choice(noi)
+        elif root[-1] in ['c', 'k', 'x', 'd', 't', 'z', 'n', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b', 'h', 'r' ]:
+            NIV = root + random.choice(allcategories[0]) + 'i'
+        elif root[-1] in ['ms']:
+            noMS = ['m', 'i']
+            NIV = root + random.choice(noMS)
+        elif root[-1] in ['m']:
+            noM = ['ms', 'i']
+            NIV = root + random.choice(noM)
+        elif root[-1] in ['i']:
+            noI = ['ms', 'm']
+            NIV = root + random.choice(noI)
+        else:
+            NIV = root + random.choice(WClass[4])
+        if root[-1] in [ 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
+            NV = root + random.choice(allcategories[0]) + random.choice(WClass[5])
+        elif root[-1] in ['o']:
+            noO = ['e', 'ipa']
+            NV = root + random.choice(noO)
+        elif root[-1] in ['e']:
+            noE = ['o', 'ipa']
+            NV = root + random.choice(noE)
+        elif root[-1] in ['ipa']:
+            noIPA = ['o', 'e']
+            NV = root + random.choice(noIPA)
+        else:
+            NV = root + random.choice(WClass[5])
+        if root[-1] in ['t', 'st', 'th', 'c', 'k', 'x', 'd', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r']:
+            V = root + random.choice(allcategories[1]) + WClass[0]
+        else:
+            V = root + WClass[0]
 
         #Make Upper Case
         root = root.upper()
