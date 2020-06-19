@@ -1,4 +1,4 @@
-import WordGen
+from WordGenClass import WordGen
 
 x = WordGEn
 
