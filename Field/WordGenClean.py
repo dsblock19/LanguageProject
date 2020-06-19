@@ -332,29 +332,29 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnIII, NnIV, NnV, Ve):
     print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
     #NIfam
     NIfam = ''
-    if any(s in NI for s in Rfam[0]):
+    if (any(Rfam[0] in i for i in NI)):
         NIfam = NIfam + ' Holy'
-    if any(s in NI for s in Rfam[1]):
+    if (any(Rfam[1] in i for i in NI)):
         NIfam = NIfam + ' Building'
-    if any(s in NI for s in Rfam[2]):
+    if (any(Rfam[2] in i for i in NI)):
         NIfam = NIfam + ' Domestic Animal'
-    if any(s in NI for s in Rfam[3]):
+    if (any(Rfam[3] in i for i in NI)):
         NIfam = NIfam + ' Stone'
-    if any(s in NI for s in Rfam[4]):
+    if (any(Rfam[4] in i for i in NI)):
         NIfam = NIfam + ' Forest'
-    if any(s in NI for s in Rfam[5]):
+    if (any(Rfam[5] in i for i in NI)):
         NIfam = NIfam + ' Water'
-    if any(s in NI for s in Rfam[6]):
+    if (any(Rfam[6] in i for i in NI)):
         NIfam = NIfam + ' Atoms'
-    if any(s in NI for s in Rfam[7]):
+    if (any(Rfam[7] in i for i in NI)):
         NIfam = NIfam + ' The Body'
-    if any(s in NI for s in Rfam[8]):
+    if (any(Rfam[8] in i for i in NI)):
         NIfam = NIfam + ' Writing'
-    if any(s in NI for s in Rfam[9]):
+    if (any(Rfam[9] in i for i in NI)):
         NIfam = NIfam + ' Human'
-    if any(s in NI for s in Rfam[10]):
+    if (any(Rfam[10] in i for i in NI)):
         NIfam = NIfam + ' Health'
-    if any(s in NI for s in Rfam[11]):
+    if (any(Rfam[11] in i for i in NI)):
         NIfam = NIfam + ' Evil'
     #NIIfam
     NIIfam = ''
