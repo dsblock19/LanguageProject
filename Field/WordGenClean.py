@@ -261,29 +261,29 @@ def NewFam(NnI, NnII, NnIII, NnIV, NnV, Ve):
     print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
     #NIfam
     NIfam = ''
-    if NI.find(holy[0]) != -1 or NI.find(holy[1] != -1):
+    if NI in holy[0] or NI in holy[1]:
         NIfam = NIfam + ' Holy'
-    if NI.find(building[0]) != -1 or NI.find(building[1]) != -1:
+    if NI in building[0] or NI in building[1]:
         NIfam = NIfam + ' Building'
-    if NI.find(domanimal[0]) != -1 or NI.find(domanimal[1]) != -1 or NI.find(domanimal[2]) != -1:
+    if NI in domanimal[0] or NI in domanimal[1] or NI in domanimal[2]:
         NIfam = NIfam + ' Domestic Animal'
-    if NI.find(stone[0]) != -1 or NI.find(stone[1]) != -1:
+    if NI in stone[0] or NI in stone[1]:
         NIfam = NIfam + ' Stone'
-    if NI.find(forest[0]) != -1 or NI.find(forest[1]) != -1:
+    if NI in forest[0] or NI in forest[1]:
         NIfam = NIfam + ' Forest'
-    if NI.find(water) != -1:
+    if NI in water:
         NIfam = NIfam + ' Water'
-    if NI.find(atoms[0]) != -1 or NI.find(atoms[1]) != -1:
+    if NI in atoms[0] or NI in atoms[1]:
         NIfam = NIfam + ' Atoms'
-    if NI.find(thebody[0]) != -1 or NI.find(thebody[1]) != -1 or NI.find(thebody[2]) != -1:
+    if NI in thebody[0] or NI in thebody[1] or NI in thebody[2]:
         NIfam = NIfam + ' The Body'
-    if NI.find(writing) != -1:
+    if NI in writing:
         NIfam = NIfam + ' Writing'
-    if NI.find(human) != -1:
+    if NI in human:
         NIfam = NIfam + ' Human'
-    if NI.find(health) != -1:
+    if NI in health:
         NIfam = NIfam + ' Health'
-    if NI.find(evil[0]) != -1 or NI.find(evil[1]) != -1:
+    if NI in evil[0] or NI in evil[1]:
         NIfam = NIfam + ' Evil'
     #NIIfam
     NIIfam = ''
