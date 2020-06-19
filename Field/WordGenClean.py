@@ -244,12 +244,12 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnII, NnIV, NnV, Ve):
         root = random.choice(Rfam[11])
 
     #Class
-    NI = NnI
-    NII = NnII
-    NIII = NnIII
-    NIV = NnIV
-    NV = NnI
-    V = Ve
+    NI = NnI(WClass, root)
+    NII = NnII(WClass, root)
+    NIII = NnIII(WClass, root)
+    NIV = NnIV(allcategories, WClass, root)
+    NV = NnV(WClass, root)
+    V = Ve(allcategories, WClass, root)
 
     #Make Upper Case
     root = root.upper()
