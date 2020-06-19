@@ -261,7 +261,7 @@ def NewFam(NnI, NnII, NnIII, NnIV, NnV, Ve):
     print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
     #NIfam
     NIfam = ''
-    if NI in holy[0] or NI in holy[1]:
+    if holy[0] in NI or holy[1] in NI:
         NIfam = NIfam + ' Holy'
     if NI in building[0] or NI in building[1]:
         NIfam = NIfam + ' Building'
