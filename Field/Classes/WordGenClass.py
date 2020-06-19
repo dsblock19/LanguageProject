@@ -62,7 +62,7 @@ class WordGen:
             rttup = (rt1, rt2, rt3)
             root = random.choice(rttup)
         #Families
-        if family == 'Holy':
+        elif family == 'Holy':
             root = random.choice(Rfam[0])
         elif family == 'Building':
             root = random.choice(Rfam[1])
@@ -86,6 +86,12 @@ class WordGen:
             root = random.choice(Rfam[10])
         elif family == 'Evil':
             root = random.choice(Rfam[11])
+        else:
+            rt1 = random.choice(allcategories[0]) + random.choice(allcategories[1])
+            rt2 = random.choice(allcategories[1]) + random.choice(allcategories[1])
+            rt3 = random.choice(allcategories[1]) + random.choice(allcategories[0])
+            rttup = (rt1, rt2, rt3)
+            root = random.choice(rttup)
 
         #Class
         if root[-1] in ['o', 'i', 'u', 'oo']:
