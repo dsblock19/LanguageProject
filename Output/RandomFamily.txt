@@ -1,0 +1,8 @@
+
+
+[Root: DW] Verb: dawt
+   NounI: dawi:i
+ NounII: dawk
+   NounIII: dawth
+ NounIV: dawi
+   NounV: dawo
