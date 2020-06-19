@@ -87,3 +87,45 @@ Random Word Generator Output:
  NounIV: awmi:isuawms
    NounV: awmi:isuxipa
  NounVI: awmi:isub
+
+[Root: UO] Verb: uot
+   NounI: uokaw
+ NounII: uox
+   NounIII: uok
+ NounIV: uoom
+   NounV: uoipa
+
+[Root: PW] Verb: pawt
+   NounI: pawi:i
+ NounII: pawc
+   NounIII: pawc
+ NounIV: pawi
+   NounV: pawo
+
+[Root: OA] Verb: oat
+   NounI: oai:i
+ NounII: oac
+   NounIII: oax
+ NounIV: oaooms
+   NounV: oamo
+
+[Root: AP] Verb: apat
+   NounI: apa
+ NounII: apooc
+   NounIII: apoox
+ NounIV: apri
+   NounV: apipa
+
+[Root: PA] Verb: pat
+   NounI: paaw
+ NounII: pak
+   NounIII: pax
+ NounIV: paums
+   NounV: papipa
+
+[Root: MW] Verb: mawt
+   NounI: mawi:i
+ NounII: mawc
+   NounIII: mawx
+ NounIV: mawm
+   NounV: mawe
