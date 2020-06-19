@@ -263,27 +263,27 @@ def NewFam(NnI, NnII, NnIII, NnIV, NnV, Ve):
     NIfam = ''
     if NI in holy:
         NIfam = NIfam + ' Holy'
-    if if NI in building:
+    if NI in building:
         NIfam = NIfam + ' Building'
-    if if NI in domanimal:
+    if NI in domanimal:
         NIfam = NIfam + ' Domestic Animal'
-    if if NI in stone:
+    if NI in stone:
         NIfam = NIfam + ' Stone'
-    if if NI in forest:
+    if NI in forest:
         NIfam = NIfam + ' Forest'
-    if if NI in water:
+    if NI in water:
         NIfam = NIfam + ' Water'
-    if if NI in atoms:
+    if NI in atoms:
         NIfam = NIfam + ' Atoms'
-    if if NI in thebody:
+    if NI in thebody:
         NIfam = NIfam + ' The Body'
-    if if NI in writing:
+    if NI in writing:
         NIfam = NIfam + ' Writing'
-    if if NI in human:
+    if NI in human:
         NIfam = NIfam + ' Human'
-    if if NI in health:
+    if NI in health:
         NIfam = NIfam + ' Health'
-    if if NI in evil:
+    if NI in evil:
         NIfam = NIfam + ' Evil'
     #NIIfam
     NIIfam = ''
