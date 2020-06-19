@@ -1,7 +1,6 @@
+'''
 #LIBRARIES
 import random
-
-
 #SETUP
 # avalible sounds in language
 core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
@@ -15,7 +14,6 @@ allsounds = core_consonants + core_vowels + other_vowels + other_consonants
 allcategories = (core_consonants, core_vowels, other_vowels, other_consonants,
                 other_c, all_vowels, all_consonants, allsounds
                 )
-
 #Word Class
 RV = ('t')
 NI = ( 'i:i', 'aw', 'a' )
@@ -25,8 +23,6 @@ NIV = ( 'ms', 'm', 'i' )
 NV = ( 'o', 'e', 'ipa' )
 NVI = ( 'd', 'z', 'n', 'g', 'p', 'b' )
 WClass = (RV, NI, NII, NIII, NIV, NV, NVI)
-
-'''
 #Verb Endings
 #Present
 PrPI = 'taj'
@@ -72,7 +68,6 @@ FuPgPV = 'tun'
 VFuPro = (FuPgPI, FuPgPII, FuPgPIII, FuPgPIV, FuPgPV)
 #All Verb Endings
 Vendings = (Vpresent,Vpast, Vfuture, VPrePro, VPasPro, VFuPro)
-
 #NOUN DECLINATION
 #PREFIXES
 #nominal number
@@ -94,8 +89,6 @@ inessive = 'tho'
 acusative = ('m', 'ma', 'n', 'na')
 genitive = 'a'
 locative = ('ga', 'gua')
-'''
-
 #Root Families
 holy = ('daw', 'do')
 building = ('tan', 'tam')
@@ -112,12 +105,11 @@ evil = ('awm', 'im')
 Rfam = (holy, building, domanimal, stone, forest, water,
         atoms, thebody, writing, human, health, evil
         )
-
 #Comparison Families
 like = 'oo'
 state = 'ca'
 Comfam = (like, state)
-
+'''
 
 #FUNCTIONS
 #Word Building w/in Class
@@ -382,29 +374,29 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnIII, NnIV, NnV, Ve):
     print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
     #NIfam
     NIfam = ''
-    if any(x in NI for x in holy):
+    if all(x in NI for x in holy):
         NIfam = NIfam + ' Holy'
-    if any(x in NI for x in building):
+    if all(x in NI for x in building):
         NIfam = NIfam + ' Building'
-    if any(x in NI for x in domanimal):
+    if all(x in NI for x in domanimal):
         NIfam = NIfam + ' Domestic Animal'
-    if any(x in NI for x in stone):
+    if all(x in NI for x in stone):
         NIfam = NIfam + ' Stone'
-    if any(x in NI for x in forest):
+    if all(x in NI for x in forest):
         NIfam = NIfam + ' Forest'
-    if any(x in NI for x in water):
+    if all(x in NI for x in water):
         NIfam = NIfam + ' Water'
-    if any(x in NI for x in atoms):
+    if all(x in NI for x in atoms):
         NIfam = NIfam + ' Atoms'
-    if any(x in NI for x in thebody):
+    if all(x in NI for x in thebody):
         NIfam = NIfam + ' The Body'
-    if any(x in NI for x in writing):
+    if all(x in NI for x in writing):
         NIfam = NIfam + ' Writing'
-    if any(x in NI for x in human):
+    if all(x in NI for x in human):
         NIfam = NIfam + ' Human'
-    if any(x in NI for x in health):
+    if all(x in NI for x in health):
         NIfam = NIfam + ' Health'
-    if any(x in NI for x in evil):
+    if all(x in NI for x in evil):
         NIfam = NIfam + ' Evil'
     #NIIfam
     NIIfam = ''
