@@ -463,7 +463,7 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnIII, NnIV, NnV, Ve):
 
     print('\nRegular:\n[Root: ' + root + '] Verb: ' + V)
     print('   NounI: ' + NI + ' Fam:' + NIfam + '\n NounII: ' + NII + ' Fam:' + NIIfam + '\n   NounIII: ' + NIII + ' Fam:' + NIIIfam)
-    print('NounIV: ' + NIV ' Fam:' + NIVfam + + '\n   NounV: ' + NV ' Fam:' + NVfam)
+    print('NounIV: ' + NIV + ' Fam:' + NIVfam + '\n   NounV: ' + NV + ' Fam:' + NVfam)
 
 #Loop
 while True:

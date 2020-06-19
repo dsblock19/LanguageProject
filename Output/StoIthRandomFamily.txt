@@ -143,3 +143,10 @@ NounVI: WMYSUB
    NounIII: VAK
  NounIV: VAWM
    NounV: VAPIPA
+
+[Root: ZE] Verb: ZET
+   NounI: ZEA
+ NounII: ZEC
+   NounIII: ZEC
+ NounIV: ZEEMS
+   NounV: ZEIPA

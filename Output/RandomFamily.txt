@@ -150,3 +150,10 @@ Random Word Generator Output:
    NounIII: vak
  NounIV: vaawm
    NounV: vapipa
+
+[Root: ZE] Verb: zet
+   NounI: zea
+ NounII: zec
+   NounIII: zec
+ NounIV: zeems
+   NounV: zeipa
