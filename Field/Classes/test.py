@@ -1,6 +1,6 @@
 from WordGenClass import WordGen
 
-x = WordGEn
+x = WordGen
 
 while True:
     x.NewFam
