@@ -201,7 +201,7 @@ def Ve(allcategories, WClass, root):
     return V
 
 #Build New Family
-def NewFam(NnI, NnII, NnII, NnIV, NnV, Ve):
+def NewFam(NnI, NnII, NnIII, NnIV, NnV, Ve):
     #LIBRARIES
     import random
 
@@ -509,4 +509,4 @@ def NewFam(NnI, NnII, NnII, NnIV, NnV, Ve):
 
 #Loop
 while True:
-    NewFam(NnI, NnII, NnII, NnIV, NnV, Ve)
+    NewFam(NnI, NnII, NnIII, NnIV, NnV, Ve)
