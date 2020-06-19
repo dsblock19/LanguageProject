@@ -287,107 +287,107 @@ def NewFam(NnI, NnII, NnIII, NnIV, NnV, Ve):
         NIfam = NIfam + ' Evil'
     #NIIfam
     NIIfam = ''
-    if NII in Rfam[0]:
+    if holy[0] in NII or holy[1] in NII:
         NIIfam = NIIfam + ' Holy'
-    if NII in Rfam[1]:
+    if building[0] in NII or building[1] in NII:
         NIIfam = NIIfam + ' Building'
-    if NII in Rfam[2]:
+    if domanimal[0] in NII or domanimal[1] in NII or domanimal[2] in NII:
         NIIfam = NIIfam + ' Domestic Animal'
-    if NII in Rfam[3]:
+    if stone[0] in NII or stone[1] in NII:
         NIIfam = NIIfam + ' Stone'
-    if NII in Rfam[4]:
+    if forest[0] in NII or forest[1] in NII:
         NIIfam = NIIfam + ' Forest'
-    if NII in Rfam[5]:
+    if water in NII:
         NIIfam = NIIfam + ' Water'
-    if NII in Rfam[6]:
+    if atoms[0] in NII or atoms[1] in NII:
         NIIfam = NIIfam + ' Atoms'
-    if NII in Rfam[7]:
+    if thebody[0] in NII or thebody[1] in NII or thebody[2] in NII:
         NIIfam = NIIfam + ' The Body'
-    if NII in Rfam[8]:
+    if writing in NII:
         NIIfam = NIIfam + ' Writing'
-    if NII in Rfam[9]:
+    if human in NII:
         NIIfam = NIIfam + ' Human'
-    if NII in Rfam[10]:
+    if health in NII:
         NIIfam = NIIfam + ' Health'
-    if NII in Rfam[11]:
+    if evil[0] in NII or evil[1] in NII:
         NIIfam = NIIfam + ' Evil'
     #NIIIfam
     NIIIfam = ''
-    if NIII in Rfam[0]:
+    if holy[0] in NIII or holy[1] in NIII:
         NIIIfam = NIIIfam + ' Holy'
-    if NIII in Rfam[1]:
+    if building[0] in NIII or building[1] in NIII:
         NIIIfam = NIIIfam + ' Building'
-    if NIII in Rfam[2]:
+    if domanimal[0] in NIII or domanimal[1] in NIII or domanimal[2] in NIII:
         NIIIfam = NIIIfam + ' Domestic Animal'
-    if NIII in Rfam[3]:
+    if stone[0] in NIII or stone[1] in NIII:
         NIIIfam = NIIIfam + ' Stone'
-    if NIII in Rfam[4]:
+    if forest[0] in NIII or forest[1] in NIII:
         NIIIfam = NIIIfam + ' Forest'
-    if NIII in Rfam[5]:
+    if water in NIII:
         NIIIfam = NIIIfam + ' Water'
-    if NIII in Rfam[6]:
+    if atoms[0] in NIII or atoms[1] in NIII:
         NIIIfam = NIIIfam + ' Atoms'
-    if NIII in Rfam[7]:
+    if thebody[0] in NIII or thebody[1] in NIII or thebody[2] in NIII:
         NIIIfam = NIIIfam + ' The Body'
-    if NIII in Rfam[8]:
+    if writing in NIII:
         NIIIfam = NIIIfam + ' Writing'
-    if NIII in Rfam[9]:
+    if human in NIII:
         NIIIfam = NIIIfam + ' Human'
-    if NIII in Rfam[10]:
+    if health in NIII:
         NIIIfam = NIIIfam + ' Health'
-    if NIII in Rfam[11]:
+    if evil[0] in NIII or evil[1] in NIII:
         NIIIfam = NIIIfam + ' Evil'
     #NIVfam
     NIVfam = ''
-    if NIV in Rfam[0]:
+    if holy[0] in NIV or holy[1] in NIV:
         NIVfam = NIVfam + ' Holy'
-    if NIV in Rfam[1]:
+    if building[0] in NIV or building[1] in NIV:
         NIVfam = NIVfam + ' Building'
-    if NIV in Rfam[2]:
+    if domanimal[0] in NIV or domanimal[1] in NIV or domanimal[2] in NIV:
         NIVfam = NIVfam + ' Domestic Animal'
-    if NIV in Rfam[3]:
+    if stone[0] in NIV or stone[1] in NIV:
         NIVfam = NIVfam + ' Stone'
-    if NIV in Rfam[4]:
+    if forest[0] in NIV or forest[1] in NIV:
         NIVfam = NIVfam + ' Forest'
-    if NIV in Rfam[5]:
+    if water in NIV:
         NIVfam = NIVfam + ' Water'
-    if NIV in Rfam[6]:
+    if atoms[0] in NIV or atoms[1] in NIV:
         NIVfam = NIVfam + ' Atoms'
-    if NIV in Rfam[7]:
+    if thebody[0] in NIV or thebody[1] in NIV or thebody[2] in NI:
         NIVfam = NIVfam + ' The Body'
-    if NIV in Rfam[8]:
+    if writing in NIV:
         NIVfam = NIVfam + ' Writing'
-    if NIV in Rfam[9]:
+    if human in NIV:
         NIVfam = NIVfam + ' Human'
-    if NIV in Rfam[10]:
+    if health in NIV:
         NIVfam = NIVfam + ' Health'
-    if NIV in Rfam[11]:
+    if evil[0] in NIV or evil[1] in NIV:
         NIVfam = NIVfam + ' Evil'
     #NVfam
     NVfam = ''
-    if NV in Rfam[0]:
+    if holy[0] in NV or holy[1] in NV:
         NVfam = NVfam + ' Holy'
-    if NV in Rfam[1]:
+    if building[0] in NV or building[1] in NV:
         NVfam = NVfam + ' Building'
-    if NV in Rfam[2]:
+    if domanimal[0] in NV or domanimal[1] in NV or domanimal[2] in NV:
         NVfam = NVfam + ' Domestic Animal'
-    if NV in Rfam[3]:
+    if stone[0] in NV or stone[1] in NV:
         NVfam = NVfam + ' Stone'
-    if NV in Rfam[4]:
+    if forest[0] in NV or forest[1] in NV:
         NVfam = NVfam + ' Forest'
-    if NV in Rfam[5]:
+    if water in NV:
         NVfam = NVfam + ' Water'
-    if NV in Rfam[6]:
+    if atoms[0] in NV or atoms[1] in NV:
         NVfam = NVfam + ' Atoms'
-    if NV in Rfam[7]:
+    if thebody[0] in NV or thebody[1] in NV or thebody[2] in NV:
         NVfam = NVfam + ' The Body'
-    if NV in Rfam[8]:
+    if writing in NV:
         NVfam = NVfam + ' Writing'
-    if NV in Rfam[9]:
+    if human in NV:
         NVfam = NVfam + ' Human'
-    if NV in Rfam[10]:
+    if health in NV:
         NVfam = NVfam + ' Health'
-    if NV in Rfam[11]:
+    if evil[0] in NV or evil[1] in NV:
         NVfam = NVfam + ' Evil'
 
     print('\nRegular:\n[Root: ' + root + '] Verb: ' + V)
