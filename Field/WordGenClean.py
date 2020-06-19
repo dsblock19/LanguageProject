@@ -328,36 +328,142 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnIII, NnIV, NnV, Ve):
     stof.close()
 
     #Print Results
-    print('\nRegular:\n[Root: ' + root + '] Verb: ' + V)
-    print('   NounI: ' + NI + '\n NounII: ' + NII + '\n   NounIII: ' + NIII + '\n NounIV: ' + NIV + '\n   NounV: ' + NV)
     print('\nIn Sto:\n[Root: ' + root + '] Verb: ' + Verbs + '\n')
     print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
-    familymember = ''
-    if NI or NII or NIII or NIV or NV in Rfam[0]:
-        familymember = familymember + ' Holy'
-    if NI or NII or NIII or NIV or NV in Rfam[1]:
-        familymember = familymember + ' Building'
-    if NI or NII or NIII or NIV or NV in Rfam[2]:
-        familymember = familymember + ' Domestic Animal'
-    if NI or NII or NIII or NIV or NV in Rfam[3]:
-        familymember = familymember + ' Stone'
-    if NI or NII or NIII or NIV or NV in Rfam[4]:
-        familymember = familymember + ' Forest'
-    if NI or NII or NIII or NIV or NV in Rfam[5]:
-        familymember = familymember + ' Water'
-    if NI or NII or NIII or NIV or NV in Rfam[6]:
-        familymember = familymember + ' Atoms'
-    if NI or NII or NIII or NIV or NV in Rfam[7]:
-        familymember = familymember + ' The Body'
-    if NI or NII or NIII or NIV or NV in Rfam[8]:
-        familymember = familymember + ' Writing'
-    if NI or NII or NIII or NIV or NV in Rfam[9]:
-        familymember = familymember + ' Human'
-    if NI or NII or NIII or NIV or NV in Rfam[10]:
-        familymember = familymember + ' Health'
-    if NI or NII or NIII or NIV or NV in Rfam[11]:
-        familymember = familymember + ' Evil'
-    print('\nNew Families:' + familymember)
+    #NIfam
+    NIfam = ''
+    if NI in Rfam[0]:
+        NIfam = NIfam + ' Holy'
+    if NI in Rfam[1]:
+        NIfam = NIfam + ' Building'
+    if NI in Rfam[2]:
+        NIfam = NIfam + ' Domestic Animal'
+    if NI in Rfam[3]:
+        NIfam = NIfam + ' Stone'
+    if NI in Rfam[4]:
+        NIfam = NIfam + ' Forest'
+    if NI in Rfam[5]:
+        NIfam = NIfam + ' Water'
+    if NI in Rfam[6]:
+        NIfam = NIfam + ' Atoms'
+    if NI in Rfam[7]:
+        NIfam = NIfam + ' The Body'
+    if NI in Rfam[8]:
+        NIfam = NIfam + ' Writing'
+    if NI in Rfam[9]:
+        NIfam = NIfam + ' Human'
+    if NI in Rfam[10]:
+        NIfam = NIfam + ' Health'
+    if NI in Rfam[11]:
+        NIfam = NIfam + ' Evil'
+    #NIIfam
+    NIIfam = ''
+    if NII in Rfam[0]:
+        NIIfam = NIIfam + ' Holy'
+    if NII in Rfam[1]:
+        NIIfam = NIIfam + ' Building'
+    if NII in Rfam[2]:
+        NIIfam = NIIfam + ' Domestic Animal'
+    if NII in Rfam[3]:
+        NIIfam = NIIfam + ' Stone'
+    if NII in Rfam[4]:
+        NIIfam = NIIfam + ' Forest'
+    if NII in Rfam[5]:
+        NIIfam = NIIfam + ' Water'
+    if NII in Rfam[6]:
+        NIIfam = NIIfam + ' Atoms'
+    if NII in Rfam[7]:
+        NIIfam = NIIfam + ' The Body'
+    if NII in Rfam[8]:
+        NIIfam = NIIfam + ' Writing'
+    if NII in Rfam[9]:
+        NIIfam = NIIfam + ' Human'
+    if NII in Rfam[10]:
+        NIIfam = NIIfam + ' Health'
+    if NII in Rfam[11]:
+        NIIfam = NIIfam + ' Evil'
+    #NIIIfam
+    NIIIfam = ''
+    if NIII in Rfam[0]:
+        NIIIfam = NIIIfam + ' Holy'
+    if NIII in Rfam[1]:
+        NIIIfam = NIIIfam + ' Building'
+    if NIII in Rfam[2]:
+        NIIIfam = NIIIfam + ' Domestic Animal'
+    if NIII in Rfam[3]:
+        NIIIfam = NIIIfam + ' Stone'
+    if NIII in Rfam[4]:
+        NIIIfam = NIIIfam + ' Forest'
+    if NIII in Rfam[5]:
+        NIIIfam = NIIIfam + ' Water'
+    if NIII in Rfam[6]:
+        NIIIfam = NIIIfam + ' Atoms'
+    if NIII in Rfam[7]:
+        NIIIfam = NIIIfam + ' The Body'
+    if NIII in Rfam[8]:
+        NIIIfam = NIIIfam + ' Writing'
+    if NIII in Rfam[9]:
+        NIIIfam = NIIIfam + ' Human'
+    if NIII in Rfam[10]:
+        NIIIfam = NIIIfam + ' Health'
+    if NIII in Rfam[11]:
+        NIIIfam = NIIIfam + ' Evil'
+    #NIVfam
+    NIVfam = ''
+    if NIV in Rfam[0]:
+        NIVfam = NIVfam + ' Holy'
+    if NIV in Rfam[1]:
+        NIVfam = NIVfam + ' Building'
+    if NIV in Rfam[2]:
+        NIVfam = NIVfam + ' Domestic Animal'
+    if NIV in Rfam[3]:
+        NIVfam = NIVfam + ' Stone'
+    if NIV in Rfam[4]:
+        NIVfam = NIVfam + ' Forest'
+    if NIV in Rfam[5]:
+        NIVfam = NIVfam + ' Water'
+    if NIV in Rfam[6]:
+        NIVfam = NIVfam + ' Atoms'
+    if NIV in Rfam[7]:
+        NIVfam = NIVfam + ' The Body'
+    if NIV in Rfam[8]:
+        NIVfam = NIVfam + ' Writing'
+    if NIV in Rfam[9]:
+        NIVfam = NIVfam + ' Human'
+    if NIV in Rfam[10]:
+        NIVfam = NIVfam + ' Health'
+    if NIV in Rfam[11]:
+        NIVfam = NIVfam + ' Evil'
+    #NVfam
+    NVfam = ''
+    if NV in Rfam[0]:
+        NVfam = NVfam + ' Holy'
+    if NV in Rfam[1]:
+        NVfam = NVfam + ' Building'
+    if NV in Rfam[2]:
+        NVfam = NVfam + ' Domestic Animal'
+    if NV in Rfam[3]:
+        NVfam = NVfam + ' Stone'
+    if NV in Rfam[4]:
+        NVfam = NVfam + ' Forest'
+    if NV in Rfam[5]:
+        NVfam = NVfam + ' Water'
+    if NV in Rfam[6]:
+        NVfam = NVfam + ' Atoms'
+    if NV in Rfam[7]:
+        NVfam = NVfam + ' The Body'
+    if NV in Rfam[8]:
+        NVfam = NVfam + ' Writing'
+    if NV in Rfam[9]:
+        NVfam = NVfam + ' Human'
+    if NV in Rfam[10]:
+        NVfam = NVfam + ' Health'
+    if NV in Rfam[11]:
+        NVfam = NVfam + ' Evil'
+
+    print('\nRegular:\n[Root: ' + root + '] Verb: ' + V)
+    print('   NounI: ' + NI + ' Fam:' + NIfam + '\n NounII: ' + NII + ' Fam:' + NIIfam + '\n   NounIII: ' + NIII + ' Fam:' + NIIIfam)
+    print('NounIV: ' + NIV ' Fam:' + NIVfam + + '\n   NounV: ' + NV ' Fam:' + NVfam)
 
 #Loop
 while True:
