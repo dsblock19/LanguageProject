@@ -357,7 +357,7 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnIII, NnIV, NnV, Ve):
         familymember = familymember + ' Health'
     if NI or NII or NIII or NIV or NV in Rfam[11]:
         familymember = familymember + ' Evil'
-    print('\nNew Families: ' + familymember)
+    print('\nNew Families:' + familymember)
 
 #Loop
 while True:
