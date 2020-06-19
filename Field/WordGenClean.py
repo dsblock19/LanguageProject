@@ -210,6 +210,56 @@ def Ve(allcategories, WClass, root):
 
 #Build New Family
 def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnIII, NnIV, NnV, Ve):
+    #LIBRARIES
+    import random
+
+
+    #SETUP
+    # avalible sounds in language
+    core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
+    core_vowels = ( 'aw', 'o', 'u', 'a', 'oo', 'e' )
+    other_vowels = ( 'i:i', 'i' )
+    other_consonants = ( 'c', 'sh', 'th', 'st', 'ch', 'x' )
+    other_c = ( 'qua' )
+    all_vowels = core_vowels + other_vowels
+    all_consonants = core_consonants + other_consonants
+    allsounds = core_consonants + core_vowels + other_vowels + other_consonants
+    allcategories = (core_consonants, core_vowels, other_vowels, other_consonants,
+                    other_c, all_vowels, all_consonants, allsounds
+                    )
+
+    #Word Class
+    RV = ('t')
+    NI = ( 'i:i', 'aw', 'a' )
+    NII = ( 'c', 'k', 'x' )
+    NIII = ( 'st', 'th' )
+    NIV = ( 'ms', 'm', 'i' )
+    NV = ( 'o', 'e', 'ipa' )
+    NVI = ( 'd', 'z', 'n', 'g', 'p', 'b' )
+    WClass = (RV, NI, NII, NIII, NIV, NV, NVI)
+
+    #Root Families
+    holy = ('daw', 'do')
+    building = ('tan', 'tam')
+    domanimal = ('go', 'ox', 'awx')
+    stone = ('ie', 'ist')
+    forest = ('he', 'haw')
+    water = 'ipi'
+    atoms = ('po', 'oaw')
+    thebody = ('shu', 'sheaw', 'eu')
+    writing = ('sto')
+    human = 'uc'
+    health = 'pi'
+    evil = ('awm', 'im')
+    Rfam = (holy, building, domanimal, stone, forest, water,
+            atoms, thebody, writing, human, health, evil
+            )
+
+    #Comparison Families
+    like = 'oo'
+    state = 'ca'
+    Comfam = (like, state)
+
     family = input('\nFamily: ')
     if family == 'None':
         rt1 = random.choice(allcategories[0]) + random.choice(allcategories[1])
@@ -332,29 +382,29 @@ def NewFam(Rfam, allcategories, WClass, NnI, NnII, NnIII, NnIV, NnV, Ve):
     print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
     #NIfam
     NIfam = ''
-    if (any(NI in i for i in Rfam[0])):
+    if any(x in NI for x in holy):
         NIfam = NIfam + ' Holy'
-    if (any(NI in i for i in Rfam[1])):
+    if any(x in NI for x in building):
         NIfam = NIfam + ' Building'
-    if (any(NI in i for i in Rfam[2])):
+    if any(x in NI for x in domanimals):
         NIfam = NIfam + ' Domestic Animal'
-    if (any(NI in i for i in Rfam[3])):
+    if any(x in NI for x in stone):
         NIfam = NIfam + ' Stone'
-    if (any(NI in i for i in Rfam[4])):
+    if any(x in NI for x in forest):
         NIfam = NIfam + ' Forest'
-    if (any(NI in i for i in Rfam[5])):
+    if any(x in NI for x in water):
         NIfam = NIfam + ' Water'
-    if (any(NI in i for i in Rfam[6])):
+    if any(x in NI for x in atoms):
         NIfam = NIfam + ' Atoms'
-    if (any(NI in i for i in Rfam[7])):
+    if any(x in NI for x in thebody):
         NIfam = NIfam + ' The Body'
-    if (any(NI in i for i in Rfam[8])):
+    if any(x in NI for x in writing):
         NIfam = NIfam + ' Writing'
-    if (any(NI in i for i in Rfam[9])):
+    if any(x in NI for x in human):
         NIfam = NIfam + ' Human'
-    if (any(NI in i for i in Rfam[10])):
+    if any(x in NI for x in health):
         NIfam = NIfam + ' Health'
-    if (any(NI in i for i in Rfam[11])):
+    if any(x in NI for x in evil):
         NIfam = NIfam + ' Evil'
     #NIIfam
     NIIfam = ''
