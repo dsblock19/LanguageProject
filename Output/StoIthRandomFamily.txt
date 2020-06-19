@@ -122,3 +122,24 @@ NounVI: WMYSUB
    NounIII: MWX
  NounIV: MWM
    NounV: MWE
+
+[Root: UP] Verb: UPOT
+   NounI: UPY
+ NounII: UPWK
+   NounIII: UPWC
+ NounIV: UPMI
+   NounV: UPO
+
+[Root: DU] Verb: DUT
+   NounI: DUHA
+ NounII: DUC
+   NounIII: DUX
+ NounIV: DUUM
+   NounV: DUVIPA
+
+[Root: VA] Verb: VAT
+   NounI: VAW
+ NounII: VAC
+   NounIII: VAK
+ NounIV: VAWM
+   NounV: VAPIPA

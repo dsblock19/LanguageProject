@@ -129,3 +129,24 @@ Random Word Generator Output:
    NounIII: mawx
  NounIV: mawm
    NounV: mawe
+
+[Root: UP] Verb: upot
+   NounI: upi:i
+ NounII: upawk
+   NounIII: upawc
+ NounIV: upmi
+   NounV: upo
+
+[Root: DU] Verb: dut
+   NounI: duha
+ NounII: duc
+   NounIII: dux
+ NounIV: duum
+   NounV: duvipa
+
+[Root: VA] Verb: vat
+   NounI: vaaw
+ NounII: vac
+   NounIII: vak
+ NounIV: vaawm
+   NounV: vapipa
