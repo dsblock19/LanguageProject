@@ -1,11 +1,13 @@
 class WordGen:
 
     def __init__(self):
-        #LIBRARIES
-        import random
+        pass
 
     #Build New Family
     def NewFam():
+        #LIBRARIES
+        import random
+
         #SETUP
         # avalible sounds in language
         core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
