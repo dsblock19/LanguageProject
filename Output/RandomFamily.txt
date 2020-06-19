@@ -13,3 +13,136 @@
    NounIII: dawth
  NounIV: dawm
    NounV: dawo
+
+[Root: DW] Verb: dawt
+   NounI: dawa
+ NounII: dawx
+   NounIII: dawst
+ NounIV: dawms
+   NounV: dawe
+
+[Root: DW] Verb: dawt
+   NounI: dawa
+ NounII: dawk
+   NounIII: dawst
+ NounIV: dawms
+   NounV: dawipa
+
+[Root: DW] Verb: dawt
+   NounI: dawaw
+ NounII: dawc
+   NounIII: dawst
+ NounIV: dawi
+   NounV: dawe
+
+[Root: DW] Verb: dawt
+   NounI: dawi:i
+ NounII: dawc
+   NounIII: dawst
+ NounIV: dawm
+   NounV: dawo
+
+[Root: IF] Verb: istoot
+   NounI: isti:i
+ NounII: istuk
+   NounIII: istast
+ NounIV: istri
+   NounV: istipa
+
+[Root: DO] Verb: dot
+   NounI: dora
+ NounII: dok
+   NounIII: doth
+ NounIV: doooms
+   NounV: doipa
+
+[Root: IE] Verb: iet
+   NounI: iei:i
+ NounII: iec
+   NounIII: ieth
+ NounIV: ieawms
+   NounV: ieo
+
+[Root: DO] Verb: dot
+   NounI: dotaw
+ NounII: dox
+   NounIII: dost
+ NounIV: dooms
+   NounV: doipa
+
+[Root: DW] Verb: dawt
+   NounI: dawi:i
+ NounII: dawk
+   NounIII: dawst
+ NounIV: dawm
+   NounV: dawo
+
+[Root: IE] Verb: iet
+   NounI: iei:i
+ NounII: iex
+   NounIII: ieth
+ NounIV: ieum
+   NounV: ieipa
+
+[Root: DO] Verb: dot
+   NounI: dopaw
+ NounII: doc
+   NounIII: doth
+ NounIV: doom
+   NounV: doipa
+
+[Root: DW] Verb: dawt
+   NounI: dawaw
+ NounII: dawc
+   NounIII: dawth
+ NounIV: dawm
+   NounV: dawo
+
+[Root: DW] Verb: dawt
+   NounI: dawaw
+ NounII: dawc
+   NounIII: dawst
+ NounIV: dawm
+   NounV: dawo
+
+[Root: IF] Verb: istet
+   NounI: ista
+ NounII: istuk
+   NounIII: istawth
+ NounIV: istpi
+   NounV: istipa
+
+[Root: JA] Verb: jat
+   NounI: jai:i
+ NounII: jac
+   NounIII: jath
+ NounIV: jaum
+   NounV: javo
+
+[Root: NE] Verb: net
+   NounI: neaw
+ NounII: nex
+   NounIII: nest
+ NounIV: neawm
+   NounV: neo
+
+[Root: WK] Verb: awkoot
+   NounI: awkaw
+ NounII: awkc
+   NounIII: awkust
+ NounIV: awkni
+   NounV: awkipa
+
+[Root: EJ] Verb: ejut
+   NounI: eja
+ NounII: ejooc
+   NounIII: ejoost
+ NounIV: ejpi
+   NounV: ejo
+
+[Root: AP] Verb: apoot
+   NounI: api:i
+ NounII: apok
+   NounIII: apoost
+ NounIV: apti
+   NounV: apo
