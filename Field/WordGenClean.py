@@ -4,9 +4,9 @@ import random
 
 #FUNCTIONS
 #Word Building w/in Class
-def NnI(WClass, root):
+def NnI(allcategories, WClass, root):
     if root[-1] in ['o', 'i', 'u', 'oo']:
-        NI = root + random.choice(core_consonants) + random.choice(WClass[1])
+        NI = root + random.choice(allcategories[0]) + random.choice(WClass[1])
     elif root[-1] in ['i:i']:
         noEE = ['aw', 'a']
         NI = root + random.choice(noEE)
@@ -20,9 +20,9 @@ def NnI(WClass, root):
         NI = root + random.choice(WClass[1])
     return NI
 
-def NnII(WClass, root):
+def NnII(allcategories, WClass, root):
     if root[-1] in ['d', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'th', 'st', 'v', 'j', 'ch', 'b','h', 'r' ]:
-        NII = root + random.choice(core_vowels) + random.choice(WClass[2])
+        NII = root + random.choice(allcategories[1]) + random.choice(WClass[2])
     elif root[-1] in ['c']:
         noC= ['k', 'x']
         NII = root + random.choice(noC)
@@ -36,9 +36,9 @@ def NnII(WClass, root):
         NII = root + random.choice(WClass[2])
     return NII
 
-def NnIII(WClass, root):
+def NnIII(allcategories, WClass, root):
     if root[-1] in ['c', 'k', 'x', 'd', 't', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r' ]:
-        NIII = root + random.choice(core_vowels) + random.choice(WClass[3])
+        NIII = root + random.choice(allcategories[1]) + random.choice(WClass[3])
     elif root[-1] in ['st']:
         noST = ['th']
         NIII = root + random.choice(noST)
@@ -52,7 +52,7 @@ def NnIII(WClass, root):
 def NnIV(allcategories, WClass, root):
     if root[-1] in [ 'o', 'e', 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
         noi = ['ms', 'm']
-        NIV = root + random.choice(core_vowels)+ random.choice(noi)
+        NIV = root + random.choice(allcategories[1])+ random.choice(noi)
     elif root[-1] in ['c', 'k', 'x', 'd', 't', 'z', 'n', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b', 'h', 'r' ]:
         NIV = root + random.choice(allcategories[0]) + 'i'
     elif root[-1] in ['ms']:
@@ -68,9 +68,9 @@ def NnIV(allcategories, WClass, root):
         NIV = root + random.choice(WClass[4])
     return NIV
 
-def NnV(WClass, root):
+def NnV(allcategories, WClass, root):
     if root[-1] in [ 'i', 'u', 'oo', 'i:i', 'aw', 'a']:
-        NV = root + random.choice(core_consonants) + random.choice(WClass[5])
+        NV = root + random.choice(allcategories[0]) + random.choice(WClass[5])
     elif root[-1] in ['o']:
         noO = ['e', 'ipa']
         NV = root + random.choice(noO)
@@ -173,11 +173,11 @@ def NewFam(NnI, NnII, NnIII, NnIV, NnV, Ve):
         root = random.choice(Rfam[11])
 
     #Class
-    NI = NnI(WClass, root)
-    NII = NnII(WClass, root)
-    NIII = NnIII(WClass, root)
+    NI = NnI(allcategories, WClass, root)
+    NII = NnII(allcategories, WClass, root)
+    NIII = NnIII(allcategories, WClass, root)
     NIV = NnIV(allcategories, WClass, root)
-    NV = NnV(WClass, root)
+    NV = NnV(allcategories, WClass, root)
     V = Ve(allcategories, WClass, root)
 
     #Make Upper Case
