@@ -74,26 +74,26 @@ class WordGen:
         #Families
         if 'Holy' in family:
             root = root + random.choice(holy)
-        if 'Building' in family:
-            root = root + random.choice(building)
+        if 'Human' in family:
+            root = root + human
+        if 'Writing' in family:
+            root = root + writing
+        if 'Health' in family:
+            root = root + health
+        if 'The Body' in family:
+            root = root + random.choice(thebody)
         if 'Demoestic Animal' in family:
             root = root + random.choice(domanimal)
+        if 'Atoms' in family:
+            root = root + random.choice(atoms)
+        if 'Water' in family:
+            root = root + water
         if 'Stone' in family:
             root = root + random.choice(stone)
         if 'Forest' in family:
             root = root + random.choice(forest)
-        if 'Water' in family:
-            root = root + water
-        if 'Atoms' in family:
-            root = root + random.choice(atoms)
-        if 'The Body' in family:
-            root = root + random.choice(thebody)
-        if 'Writing' in family:
-            root = root + writing
-        if 'Human' in family:
-            root = root + human
-        if 'Health' in family:
-            root = root + health
+        if 'Building' in family:
+            root = root + random.choice(building)
         if 'Evil' in family:
             root = root + random.choice(evil)
 
