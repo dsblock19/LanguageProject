@@ -408,8 +408,8 @@ class WordGen:
             inky_display.show()
         elif mes == 'Sto':
             w, h = font.getsize(stomessage)
-            x = 30
-            y = -50
+            x = 60
+            y = -40
             draw.text((x, y), stomessage, inky_display.RED, stofont)
             flipped = img.rotate(90)
             inky_display.set_image(flipped)
