@@ -19,7 +19,7 @@ class StoConversion:
         stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
         stofont = ImageFont.truetype(stofontpath, 70)
 
-        root = input('Word: ')
+        root = input('\nWord: ')
 
         #Make Upper Case
         root = root.upper()
