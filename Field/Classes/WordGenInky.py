@@ -392,10 +392,7 @@ class WordGen:
         print('   NounI: ' + NI + ' | Fam:' + NIfam + '\n NounII: ' + NII + '  | Fam:' + NIIfam + '\n   NounIII: ' + NIII + ' | Fam:' + NIIIfam)
         print('NounIV: ' + NIV + ' | Fam:' + NIVfam + '\n   NounV: ' + NV + ' | Fam:' + NVfam)
 
-        message = '[Root: ' + root + '] Verb: ' + V + '\nNounI: ' + NI + '\n | Fam:' + NIfam + '\nNounII: ' + NII + '\n | Fam:' + NIIfam + '\nNounIII: ' + NIII + '\n | Fam:' + NIIIfam + '\nNounIV: ' + NIV + '\n | Fam:' + NIVfam + '\nNounV: ' + NV + '\n | Fam:' + NVfam
-        w, h = font.getsize(message)
-        #x = (inky_display.WIDTH / 2) - (w / 2)
-        #y = (inky_display.HEIGHT / 2) - (h / 2)
+        message = '[Root: ' + root + ']\nVerb: ' + V + '\n\nNounI: ' + NI + '\n |Fam:' + NIfam + '\nNounII: ' + NII + '\n |Fam:' + NIIfam + '\nNounIII: ' + NIII + '\n |Fam:' + NIIIfam + '\nNounIV: ' + NIV + '\n |Fam:' + NIVfam + '\nNounV: ' + NV + '\n |Fam:' + NVfam
         x = 0
         y = 10
         draw.text((x, y), message, inky_display.RED, font)
