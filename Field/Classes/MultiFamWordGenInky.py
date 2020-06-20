@@ -388,8 +388,6 @@ class WordGen:
         print('NounIV: ' + NIV + ' | Fam:' + NIVfam + '\n   NounV: ' + NV + ' | Fam:' + NVfam)
 
         stomessage = '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV
-
-        w, h = font.getsize(stomessage)
         x = 50
         y = -67
         draw.text((x, y), stomessage, inky_display.RED, stofont)
