@@ -19,7 +19,7 @@ class WordGen:
         draw = ImageDraw.Draw(img)
         fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
         stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
-        stofont = ImageFont.truetype(stofontpath, 36)
+        stofont = ImageFont.truetype(stofontpath, 50)
         font = ImageFont.truetype(fontpath, 20)
         # avalible sounds in language
         core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
@@ -396,7 +396,7 @@ class WordGen:
         print('NounIV: ' + NIV + ' | Fam:' + NIVfam + '\n   NounV: ' + NV + ' | Fam:' + NVfam)
 
         message = '[Root: ' + root + ']\nVerb: ' + V + '\n\nNounI: ' + NI + '\n |Fam:' + NIfam + '\nNounII: ' + NII + '\n |Fam:' + NIIfam + '\nNounIII: ' + NIII + '\n |Fam:' + NIIIfam + '\nNounIV: ' + NIV + '\n |Fam:' + NIVfam + '\nNounV: ' + NV + '\n |Fam:' + NVfam
-        stomessage = Verbs + '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV
+        stomessage = '\n' + Verbs + '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV
 
         mes = input('\nSto or Eng: ')
         if mes == 'Eng':
