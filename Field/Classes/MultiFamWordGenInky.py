@@ -171,7 +171,7 @@ class WordGen:
         if root[-1] in ['t', 'st', 'th', 'c', 'k', 'x', 'd', 'z', 'n', 's', 'm', 'g', 'p', 'sh', 'v', 'j', 'ch', 'b','h', 'r']:
             V = root + random.choice(allcategories[1]) + random.choice(WClass[0])
         else:
-            V = root + WClass[0]
+            V = root +random.choice(WClass[0])
 
         #Make Upper Case
         root = root.upper()
