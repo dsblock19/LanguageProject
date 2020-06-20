@@ -15,7 +15,7 @@ class WordGen:
         inky_display = InkyWHAT("red")
         inky_display.set_border(inky_display.WHITE)
         #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
-        img = Image.new("P", (300, 400))
+        img = Image.new("P", (400, 300))
         draw = ImageDraw.Draw(img)
         fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
         stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
@@ -408,8 +408,8 @@ class WordGen:
             inky_display.show()
         elif mes == 'Sto':
             w, h = font.getsize(stomessage)
-            x = 0
-            y = 0
+            x = 30
+            y = -50
             draw.text((x, y), stomessage, inky_display.RED, stofont)
             flipped = img.rotate(90)
             inky_display.set_image(flipped)
