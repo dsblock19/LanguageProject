@@ -399,7 +399,7 @@ class WordGen:
         stomessage = root + ' ' + Verbs + '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV
 
         x = 0
-        y = 10
+        y = 0
 
         mes = input('\nSto or Eng: ')
         if mes == 'Eng':
