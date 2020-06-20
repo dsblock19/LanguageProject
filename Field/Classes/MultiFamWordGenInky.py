@@ -55,6 +55,7 @@ class WordGen:
         human = 'uc'
         health = 'pi'
         evil =  [ 'awm', 'im' ]
+        salt = 'so'
 
         #Comparison Families
         like = 'oo'
@@ -92,6 +93,8 @@ class WordGen:
             root = root + random.choice(forest)
         if 'Building' in family:
             root = root + random.choice(building)
+        if 'Salt' in family:
+            root = root + salt
         if 'Evil' in family:
             root = root + random.choice(evil)
 
@@ -278,6 +281,8 @@ class WordGen:
             NIfam = NIfam + ' Health'
         if evil[0] in NI or evil[1] in NI:
             NIfam = NIfam + ' Evil'
+        if salt in NI:
+            NIfam = NIfam + ' Salt'
         #NIIfam
         NIIfam = ''
         if holy[0] in NII or holy[1] in NII:
@@ -304,6 +309,8 @@ class WordGen:
             NIIfam = NIIfam + ' Health'
         if evil[0] in NII or evil[1] in NII:
             NIIfam = NIIfam + ' Evil'
+        if salt in NII:
+            NIIfam = NIIfam + ' Salt'
         #NIIIfam
         NIIIfam = ''
         if holy[0] in NIII or holy[1] in NIII:
@@ -330,6 +337,8 @@ class WordGen:
             NIIIfam = NIIIfam + ' Health'
         if evil[0] in NIII or evil[1] in NIII:
             NIIIfam = NIIIfam + ' Evil'
+        if salt in NIII:
+            NIIIfam = NIIIfam + ' Salt'
         #NIVfam
         NIVfam = ''
         if holy[0] in NIV or holy[1] in NIV:
@@ -356,6 +365,8 @@ class WordGen:
             NIVfam = NIVfam + ' Health'
         if evil[0] in NIV or evil[1] in NIV:
             NIVfam = NIVfam + ' Evil'
+        if salt in NIV:
+            NIVfam = NIVfam + ' Salt'
         #NVfam
         NVfam = ''
         if holy[0] in NV or holy[1] in NV:
@@ -382,6 +393,8 @@ class WordGen:
             NVfam = NVfam + ' Health'
         if evil[0] in NV or evil[1] in NV:
             NVfam = NVfam + ' Evil'
+        if salt in NV:
+            NVfam = NVfam + ' Salt'
 
         print('\nRegular:\n[Root: ' + root + '] Verb: ' + V)
         print('   NounI: ' + NI + ' | Fam:' + NIfam + '\n NounII: ' + NII + '  | Fam:' + NIIfam + '\n   NounIII: ' + NIII + ' | Fam:' + NIIIfam)
