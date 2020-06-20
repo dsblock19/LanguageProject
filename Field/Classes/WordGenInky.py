@@ -19,7 +19,7 @@ class WordGen:
         draw = ImageDraw.Draw(img)
         fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
         stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
-        stofont = ImageFont.truetype(stofontpath, 45)
+        stofont = ImageFont.truetype(stofontpath, 35)
         font = ImageFont.truetype(fontpath, 20)
         # avalible sounds in language
         core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
@@ -409,7 +409,7 @@ class WordGen:
         elif mes == 'Sto':
             w, h = font.getsize(stomessage)
             x = 60
-            y = -100
+            y = -90
             draw.text((x, y), stomessage, inky_display.RED, stofont)
             flipped = img.rotate(90)
             inky_display.set_image(flipped)
