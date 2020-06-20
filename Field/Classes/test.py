@@ -8,7 +8,7 @@ y = WordGen
 while True:
     prog = input('Program: ')
     if prog == 'WordGen':
-        x.NewFam()
+        y.NewFam()
         print('')
     elif prog == 'Conversion':
-        y.InSto()
+        x.InSto()
