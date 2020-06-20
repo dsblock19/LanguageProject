@@ -257,9 +257,11 @@ class WordGen:
         stof.write('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
         stof.close()
 
+        '''
         #Print Results
         print('\nIn Sto:\n[Root: ' + root + '] Verb: ' + Verbs)
         print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
+        '''
         #NIfam
         NIfam = ''
         if holy[0] in NI or holy[1] in NI:
