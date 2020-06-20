@@ -1,4 +1,4 @@
-from WordGenInky import WordGen
+from MultiFamWordGenInky import WordGen
 
 x = WordGen
 
