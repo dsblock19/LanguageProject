@@ -394,8 +394,10 @@ class WordGen:
 
         message = '[Root: ' + root + '] Verb: ' + V + '\n   NounI: ' + NI + ' | Fam:' + NIfam + '\n NounII: ' + NII + '  | Fam:' + NIIfam + '\n   NounIII: ' + NIII + ' | Fam:' + NIIIfam + '\nNounIV: ' + NIV + ' | Fam:' + NIVfam + '\n   NounV: ' + NV + ' | Fam:' + NVfam
         w, h = font.getsize(message)
-        x = (inky_display.WIDTH / 2) - (w / 2)
-        y = (inky_display.HEIGHT / 2) - (h / 2)
+        #x = (inky_display.WIDTH / 2) - (w / 2)
+        #y = (inky_display.HEIGHT / 2) - (h / 2)
+        x = 0
+        y = 0
         draw.text((x, y), message, inky_display.RED, font)
         inky_display.set_image(img)
         inky_display.show()
