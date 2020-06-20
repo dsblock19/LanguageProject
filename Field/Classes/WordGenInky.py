@@ -245,11 +245,11 @@ class WordGen:
         NounsV = NounsV.replace('TH', '#')
 
         #Log Results
-        f = open('/home/pi/Desktop/MyCode/LanguageProject/Output/RandomFamily.txt', 'a')
+        f = open('/home/pi/LanguageProject/Output/RandomFamily.txt', 'a')
         f.write('\n\n[Root: ' + root + '] Verb: ' + V + '\n')
         f.write('   NounI: ' + NI + '\n NounII: ' + NII + '\n   NounIII: ' + NIII + '\n NounIV: ' + NIV + '\n   NounV: ' + NV)
         f.close()
-        stof = open('/home/pi/Desktop/MyCode/LanguageProject/Output/StoIthRandomFamily.txt', 'a')
+        stof = open('/home/pi/LanguageProject/Output/StoIthRandomFamily.txt', 'a')
         stof.write('\n\n[Root: ' + root + '] Verb: ' + Verbs + '\n')
         stof.write('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
         stof.close()
