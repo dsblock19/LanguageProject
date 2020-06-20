@@ -17,7 +17,7 @@ class WordGen:
         inky_display.set_border(inky_display.WHITE)
         img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         draw = ImageDraw.Draw(img)
-        font = ImageFont.truetype(FredokaOne, 26)
+        font = ImageFont.truetype(FredokaOne, 16)
         # avalible sounds in language
         core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
         core_vowels = ( 'aw', 'o', 'u', 'a', 'oo', 'e' )
@@ -392,7 +392,7 @@ class WordGen:
         print('   NounI: ' + NI + ' | Fam:' + NIfam + '\n NounII: ' + NII + '  | Fam:' + NIIfam + '\n   NounIII: ' + NIII + ' | Fam:' + NIIIfam)
         print('NounIV: ' + NIV + ' | Fam:' + NIVfam + '\n   NounV: ' + NV + ' | Fam:' + NVfam)
 
-        message = '[Root: ' + root + '] Verb: ' + V + '\n   NounI: ' + NI + ' | Fam:' + NIfam + '\n NounII: ' + NII + '  | Fam:' + NIIfam + '\n   NounIII: ' + NIII + ' | Fam:' + NIIIfam + '\nNounIV: ' + NIV + ' | Fam:' + NIVfam + '\n   NounV: ' + NV + ' | Fam:' + NVfam
+        message = '[Root: ' + root + '] Verb: ' + V + '\n   NounI: ' + NI + '\n | Fam:' + NIfam + '\n NounII: ' + NII + '\n | Fam:' + NIIfam + '\n   NounIII: ' + NIII + '\n    | Fam:' + NIIIfam + '\nNounIV: ' + NIV + '\n| Fam:' + NIVfam + '\n   NounV: ' + NV + '\n    | Fam:' + NVfam
         w, h = font.getsize(message)
         #x = (inky_display.WIDTH / 2) - (w / 2)
         #y = (inky_display.HEIGHT / 2) - (h / 2)
