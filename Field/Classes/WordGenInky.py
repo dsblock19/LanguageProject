@@ -15,7 +15,7 @@ class WordGen:
         inky_display = InkyWHAT("red")
         inky_display.set_border(inky_display.WHITE)
         #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
-        img = Image.new("P", (400, 300))
+        img = Image.new("P", (300, 400))
         draw = ImageDraw.Draw(img)
         fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
         stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
