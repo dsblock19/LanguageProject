@@ -17,10 +17,8 @@ class WordGen:
         #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         img = Image.new("P", (400, 300))
         draw = ImageDraw.Draw(img)
-        fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
         stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
         stofont = ImageFont.truetype(stofontpath, 41)
-        font = ImageFont.truetype(fontpath, 20)
         # avalible sounds in language
         core_consonants = [ 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' ]
         core_vowels = [ 'aw', 'o', 'u', 'a', 'oo', 'e' ]
@@ -389,22 +387,12 @@ class WordGen:
         print('   NounI: ' + NI + ' | Fam:' + NIfam + '\n NounII: ' + NII + '  | Fam:' + NIIfam + '\n   NounIII: ' + NIII + ' | Fam:' + NIIIfam)
         print('NounIV: ' + NIV + ' | Fam:' + NIVfam + '\n   NounV: ' + NV + ' | Fam:' + NVfam)
 
-        message = '[Root: ' + root + ']\nVerb: ' + V + '\n\nNounI: ' + NI + '\n |Fam:' + NIfam + '\nNounII: ' + NII + '\n |Fam:' + NIIfam + '\nNounIII: ' + NIII + '\n |Fam:' + NIIIfam + '\nNounIV: ' + NIV + '\n |Fam:' + NIVfam + '\nNounV: ' + NV + '\n |Fam:' + NVfam
         stomessage = '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV
 
-        mes = input('\nSto or Eng: ')
-        if mes == 'Eng':
-            w, h = font.getsize(message)
-            x = 0
-            y = 0
-            draw.text((x, y), message, inky_display.RED, font)
-            inky_display.set_image(img)
-            inky_display.show()
-        elif mes == 'Sto':
-            w, h = font.getsize(stomessage)
-            x = 50
-            y = -67
-            draw.text((x, y), stomessage, inky_display.RED, stofont)
-            flipped = img.rotate(90)
-            inky_display.set_image(flipped)
-            inky_display.show()
+        w, h = font.getsize(stomessage)
+        x = 50
+        y = -67
+        draw.text((x, y), stomessage, inky_display.RED, stofont)
+        flipped = img.rotate(90)
+        inky_display.set_image(flipped)
+        inky_display.show()
