@@ -22,49 +22,46 @@ class WordGen:
         stofont = ImageFont.truetype(stofontpath, 41)
         font = ImageFont.truetype(fontpath, 20)
         # avalible sounds in language
-        core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
-        core_vowels = ( 'aw', 'o', 'u', 'a', 'oo', 'e' )
-        other_vowels = ( 'i:i', 'i' )
-        other_consonants = ( 'c', 'sh', 'th', 'st', 'ch', 'x' )
-        other_c = ( 'qua' )
+        core_consonants = [ 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' ]
+        core_vowels = [ 'aw', 'o', 'u', 'a', 'oo', 'e' ]
+        other_vowels = [ 'i:i', 'i' ]
+        other_consonants = [ 'c', 'sh', 'th', 'st', 'ch', 'x' ]
+        other_c = [ 'qua' ]
         all_vowels = core_vowels + other_vowels
         all_consonants = core_consonants + other_consonants
         allsounds = core_consonants + core_vowels + other_vowels + other_consonants
-        allcategories = (core_consonants, core_vowels, other_vowels, other_consonants,
+        allcategories = [core_consonants, core_vowels, other_vowels, other_consonants,
                         other_c, all_vowels, all_consonants, allsounds
-                        )
+                        ]
 
         #Word Class
-        RV = ('t')
-        NI = ( 'i:i', 'aw', 'a' )
-        NII = ( 'c', 'k', 'x' )
-        NIII = ( 'st', 'th' )
-        NIV = ( 'ms', 'm', 'i' )
-        NV = ( 'o', 'e', 'ipa' )
-        NVI = ( 'd', 'z', 'n', 'g', 'p', 'b' )
-        WClass = (RV, NI, NII, NIII, NIV, NV, NVI)
+        RV = ['t']
+        NI = [ 'i:i', 'aw', 'a' ]
+        NII = [ 'c', 'k', 'x' ]
+        NIII = [ 'st', 'th' ]
+        NIV = [ 'ms', 'm', 'i' ]
+        NV = [ 'o', 'e', 'ipa' ]
+        NVI = [ 'd', 'z', 'n', 'g', 'p', 'b' ]
+        WClass = [RV, NI, NII, NIII, NIV, NV, NVI]
 
         #Root Families
-        holy = ('daw', 'do')
-        building = ('tan', 'tam')
-        domanimal = ('go', 'ox', 'awx')
-        stone = ('ie', 'ist')
-        forest = ('he', 'haw')
+        holy = ['daw', 'do']
+        building = [ 'tan', 'tam' ]
+        domanimal = [ 'go', 'ox', 'awx' ]
+        stone = [ 'ie', 'ist' ]
+        forest = [ 'he', 'haw' ]
         water = 'ipi'
-        atoms = ('po', 'oaw')
-        thebody = ('shu', 'sheaw', 'eu')
+        atoms = [ 'po', 'oaw' ]
+        thebody = [ 'shu', 'sheaw', 'eu' ]
         writing = 'sto'
         human = 'uc'
         health = 'pi'
-        evil = ('awm', 'im')
-        Rfam = (holy, building, domanimal, stone, forest, water,
-                atoms, thebody, writing, human, health, evil
-                )
+        evil =  [ 'awm', 'im' ]
 
         #Comparison Families
         like = 'oo'
         state = 'ca'
-        Comfam = (like, state)
+        Comfam = [like, state]
 
         family = input('\nFamilies: ')
         root = ''
@@ -76,29 +73,29 @@ class WordGen:
             root = random.choice(rttup)
         #Families
         if 'Holy' in family:
-            root = root + random.choice(Rfam[0])
+            root = root + random.choice(holy)
         if 'Building' in family:
-            root = root + random.choice(Rfam[1])
+            root = root + random.choice(building)
         if 'Demoestic Animal' in family:
-            root = root + random.choice(Rfam[2])
+            root = root + random.choice(domanimal)
         if 'Stone' in family:
-            root = root + random.choice(Rfam[3])
+            root = root + random.choice(stone)
         if 'Forest' in family:
-            root = root + random.choice(Rfam[4])
+            root = root + random.choice(forest)
         if 'Water' in family:
-            root = root + random.choice(Rfam[5])
+            root = root + random.choice(water)
         if 'Atoms' in family:
-            root = root + random.choice(Rfam[6])
+            root = root + random.choice(atoms)
         if 'The Body' in family:
-            root = root + random.choice(Rfam[7])
+            root = root + random.choice(thebody)
         if 'Writing' in family:
-            root = root + random.choice(Rfam[8])
+            root = root + random.choice(writing)
         if 'Human' in family:
-            root = root + random.choice(Rfam[9])
+            root = root + random.choice(human)
         if 'Health' in family:
-            root = root + random.choice(Rfam[10])
+            root = root + random.choice(health)
         if 'Evil' in family:
-            root = root + random.choice(Rfam[11])
+            root = root + random.choice(evil)
 
         #Class
         if root[-1] in ['o', 'i', 'u', 'oo']:
