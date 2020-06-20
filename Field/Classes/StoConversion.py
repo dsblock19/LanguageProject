@@ -20,7 +20,6 @@ class StoConversion:
         stofont = ImageFont.truetype(stofontpath, 70)
 
         root = input('\nWord: ')
-
         #Make Upper Case
         root = root.upper()
         #Font Specific Change
@@ -39,9 +38,7 @@ class StoConversion:
         #TH --> #
         root = root.replace('TH', '#')
 
-
         stomessage = root
-
         x = 0
         y = 100
         draw.text((x, y), stomessage, inky_display.RED, stofont)
