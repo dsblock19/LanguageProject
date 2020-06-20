@@ -264,7 +264,7 @@ class WordGen:
         if building[0] in NI or building[1] in NI:
             NIfam = NIfam + ' Building'
         if domanimal[0] in NI or domanimal[1] in NI or domanimal[2] in NI:
-            NIfam = NIfam + ' Domestic Animal'
+            NIfam = NIfam + ' Domestic-Animal'
         if stone[0] in NI or stone[1] in NI:
             NIfam = NIfam + ' Stone'
         if forest[0] in NI or forest[1] in NI:
@@ -274,7 +274,7 @@ class WordGen:
         if atoms[0] in NI or atoms[1] in NI:
             NIfam = NIfam + ' Atoms'
         if thebody[0] in NI or thebody[1] in NI or thebody[2] in NI:
-            NIfam = NIfam + ' The Body'
+            NIfam = NIfam + ' The-Body'
         if writing in NI:
             NIfam = NIfam + ' Writing'
         if human in NI:
@@ -290,7 +290,7 @@ class WordGen:
         if building[0] in NII or building[1] in NII:
             NIIfam = NIIfam + ' Building'
         if domanimal[0] in NII or domanimal[1] in NII or domanimal[2] in NII:
-            NIIfam = NIIfam + ' Domestic Animal'
+            NIIfam = NIIfam + ' Domestic-Animal'
         if stone[0] in NII or stone[1] in NII:
             NIIfam = NIIfam + ' Stone'
         if forest[0] in NII or forest[1] in NII:
@@ -300,7 +300,7 @@ class WordGen:
         if atoms[0] in NII or atoms[1] in NII:
             NIIfam = NIIfam + ' Atoms'
         if thebody[0] in NII or thebody[1] in NII or thebody[2] in NII:
-            NIIfam = NIIfam + ' The Body'
+            NIIfam = NIIfam + ' The-Body'
         if writing in NII:
             NIIfam = NIIfam + ' Writing'
         if human in NII:
@@ -316,7 +316,7 @@ class WordGen:
         if building[0] in NIII or building[1] in NIII:
             NIIIfam = NIIIfam + ' Building'
         if domanimal[0] in NIII or domanimal[1] in NIII or domanimal[2] in NIII:
-            NIIIfam = NIIIfam + ' Domestic Animal'
+            NIIIfam = NIIIfam + ' Domestic-Animal'
         if stone[0] in NIII or stone[1] in NIII:
             NIIIfam = NIIIfam + ' Stone'
         if forest[0] in NIII or forest[1] in NIII:
@@ -326,7 +326,7 @@ class WordGen:
         if atoms[0] in NIII or atoms[1] in NIII:
             NIIIfam = NIIIfam + ' Atoms'
         if thebody[0] in NIII or thebody[1] in NIII or thebody[2] in NIII:
-            NIIIfam = NIIIfam + ' The Body'
+            NIIIfam = NIIIfam + ' The-Body'
         if writing in NIII:
             NIIIfam = NIIIfam + ' Writing'
         if human in NIII:
@@ -342,7 +342,7 @@ class WordGen:
         if building[0] in NIV or building[1] in NIV:
             NIVfam = NIVfam + ' Building'
         if domanimal[0] in NIV or domanimal[1] in NIV or domanimal[2] in NIV:
-            NIVfam = NIVfam + ' Domestic Animal'
+            NIVfam = NIVfam + ' Domestic-Animal'
         if stone[0] in NIV or stone[1] in NIV:
             NIVfam = NIVfam + ' Stone'
         if forest[0] in NIV or forest[1] in NIV:
@@ -352,7 +352,7 @@ class WordGen:
         if atoms[0] in NIV or atoms[1] in NIV:
             NIVfam = NIVfam + ' Atoms'
         if thebody[0] in NIV or thebody[1] in NIV or thebody[2] in NI:
-            NIVfam = NIVfam + ' The Body'
+            NIVfam = NIVfam + ' The-Body'
         if writing in NIV:
             NIVfam = NIVfam + ' Writing'
         if human in NIV:
@@ -368,7 +368,7 @@ class WordGen:
         if building[0] in NV or building[1] in NV:
             NVfam = NVfam + ' Building'
         if domanimal[0] in NV or domanimal[1] in NV or domanimal[2] in NV:
-            NVfam = NVfam + ' Domestic Animal'
+            NVfam = NVfam + ' Domestic-Animal'
         if stone[0] in NV or stone[1] in NV:
             NVfam = NVfam + ' Stone'
         if forest[0] in NV or forest[1] in NV:
@@ -378,7 +378,7 @@ class WordGen:
         if atoms[0] in NV or atoms[1] in NV:
             NVfam = NVfam + ' Atoms'
         if thebody[0] in NV or thebody[1] in NV or thebody[2] in NV:
-            NVfam = NVfam + ' The Body'
+            NVfam = NVfam + ' The-Body'
         if writing in NV:
             NVfam = NVfam + ' Writing'
         if human in NV:
@@ -392,7 +392,7 @@ class WordGen:
         print('   NounI: ' + NI + ' | Fam:' + NIfam + '\n NounII: ' + NII + '  | Fam:' + NIIfam + '\n   NounIII: ' + NIII + ' | Fam:' + NIIIfam)
         print('NounIV: ' + NIV + ' | Fam:' + NIVfam + '\n   NounV: ' + NV + ' | Fam:' + NVfam)
 
-        message = '[Root: ' + root + '] Verb: ' + V + '\n\n   NounI: ' + NI + ' | Fam:' + NIfam + '\n\n NounII: ' + NII + ' | Fam:' + NIIfam + '\n\n   NounIII: ' + NIII + ' | Fam:' + NIIIfam + '\n\nNounIV: ' + NIV + ' | Fam:' + NIVfam + '\n\n   NounV: ' + NV + ' | Fam:' + NVfam
+        message = '[Root: ' + root + '] Verb: ' + V + '\n\nNounI: ' + NI + '\n | Fam:' + NIfam + '\n\nNounII: ' + NII + '\n | Fam:' + NIIfam + '\n\nNounIII: ' + NIII + '\n | Fam:' + NIIIfam + '\n\nNounIV: ' + NIV + '\n | Fam:' + NIVfam + '\n\nNounV: ' + NV + '\n | Fam:' + NVfam
         w, h = font.getsize(message)
         #x = (inky_display.WIDTH / 2) - (w / 2)
         #y = (inky_display.HEIGHT / 2) - (h / 2)

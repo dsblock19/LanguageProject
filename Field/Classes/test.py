@@ -6,3 +6,4 @@ while True:
     prog = input('Program: ')
     if prog == 'WordGen':
         x.NewFam()
+        print('')
