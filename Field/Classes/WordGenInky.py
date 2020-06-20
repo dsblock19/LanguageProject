@@ -9,7 +9,6 @@ class WordGen:
         import random
         from inky import InkyWHAT
         from PIL import Image, ImageFont, ImageDraw
-        from fonts import CourierNewFett
 
         #SETUP
         # screen
@@ -17,7 +16,8 @@ class WordGen:
         inky_display.set_border(inky_display.WHITE)
         img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         draw = ImageDraw.Draw(img)
-        font = ImageFont.truetype(CourierNewFett, 16)
+        fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
+        font = ImageFont.truetype(fontpath, 16)
         # avalible sounds in language
         core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
         core_vowels = ( 'aw', 'o', 'u', 'a', 'oo', 'e' )
