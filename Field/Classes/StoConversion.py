@@ -45,6 +45,7 @@ class StoConversion:
         x = 0
         y = 0
         draw.text((x, y), stomessage, inky_display.RED, stofont)
-        flipped = img.rotate(90)
-        inky_display.set_image(flipped)
+        #flipped = img.rotate(90)
+        #inky_display.set_image(flipped)
+        inky_display.set_image(img)
         inky_display.show()
