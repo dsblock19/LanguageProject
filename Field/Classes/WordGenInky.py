@@ -14,7 +14,6 @@ class WordGen:
         # screen
         inky_display = InkyWHAT("red")
         inky_display.set_border(inky_display.WHITE)
-        inky_display.set_rotation(90)
         img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         draw = ImageDraw.Draw(img)
         fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
@@ -406,5 +405,6 @@ class WordGen:
             draw.text((x, y), message, inky_display.RED, font)
         elif mes == 'Sto':
             draw.text((x, y), stomessage, inky_display.RED, stofont)
-        inky_display.set_image(img)
+        flipped = img.rotate(90)
+        inky_display.set_image(flipped)
         inky_display.show()
