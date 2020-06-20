@@ -17,6 +17,8 @@ class WordGen:
         img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         draw = ImageDraw.Draw(img)
         fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
+        stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
+        stofont = ImageFont.truetype(stofontpath, 20)
         font = ImageFont.truetype(fontpath, 20)
         # avalible sounds in language
         core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
@@ -393,8 +395,11 @@ class WordGen:
         print('NounIV: ' + NIV + ' | Fam:' + NIVfam + '\n   NounV: ' + NV + ' | Fam:' + NVfam)
 
         message = '[Root: ' + root + ']\nVerb: ' + V + '\n\nNounI: ' + NI + '\n |Fam:' + NIfam + '\nNounII: ' + NII + '\n |Fam:' + NIIfam + '\nNounIII: ' + NIII + '\n |Fam:' + NIIIfam + '\nNounIV: ' + NIV + '\n |Fam:' + NIVfam + '\nNounV: ' + NV + '\n |Fam:' + NVfam
+        stomessage = root + ' ' + Verbs + '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV) )
+
         x = 0
         y = 10
-        draw.text((x, y), message, inky_display.RED, font)
+        #draw.text((x, y), message, inky_display.RED, font)
+        draw.text((x, y), stomessage, inky_display.RED, stofont)
         inky_display.set_image(img)
         inky_display.show()
