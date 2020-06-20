@@ -20,6 +20,7 @@ class StoConversion:
         stofont = ImageFont.truetype(stofontpath, 70)
 
         root = input('\nWord: ')
+        print('')
         #Make Upper Case
         root = root.upper()
         #Font Specific Change
