@@ -19,7 +19,7 @@ class WordGen:
         draw = ImageDraw.Draw(img)
         fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
         stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
-        stofont = ImageFont.truetype(stofontpath, 37)
+        stofont = ImageFont.truetype(stofontpath, 36)
         font = ImageFont.truetype(fontpath, 20)
         # avalible sounds in language
         core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
