@@ -17,7 +17,7 @@ class StoConversion:
         img = Image.new("P", (400, 300))
         draw = ImageDraw.Draw(img)
         stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
-        stofont = ImageFont.truetype(stofontpath, 41)
+        stofont = ImageFont.truetype(stofontpath, 60)
 
         root = input('Word: ')
 
@@ -43,7 +43,7 @@ class StoConversion:
         stomessage = root
 
         x = 0
-        y = 0
+        y = 100
         draw.text((x, y), stomessage, inky_display.RED, stofont)
         #flipped = img.rotate(90)
         #inky_display.set_image(flipped)
