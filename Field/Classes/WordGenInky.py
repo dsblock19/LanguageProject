@@ -14,6 +14,7 @@ class WordGen:
         # screen
         inky_display = InkyWHAT("red")
         inky_display.set_border(inky_display.WHITE)
+        inkyphat.set_rotation(90)
         img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         draw = ImageDraw.Draw(img)
         fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
@@ -400,7 +401,7 @@ class WordGen:
         x = 0
         y = 10
 
-        mes = input('Sto or Eng: ')
+        mes = input('\nSto or Eng: ')
         if mes == 'Eng':
             draw.text((x, y), message, inky_display.RED, font)
         elif mes == 'Sto':
