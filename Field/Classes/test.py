@@ -1,6 +1,7 @@
-from MultiFamWordGenInky import WordGen
+#from MultiFamWordGenInky import WordGen
+from StoConversion import StoConversion
 
-x = WordGen
+x = StoConversion
 
 '''
 while True:
@@ -11,4 +12,4 @@ while True:
 '''
 
 while True:
-        x.NewFam()
+        x.InSto()
