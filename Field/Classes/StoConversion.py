@@ -17,7 +17,7 @@ class StoConversion:
         img = Image.new("P", (400, 300))
         draw = ImageDraw.Draw(img)
         stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
-        stofont = ImageFont.truetype(stofontpath, 75)
+        stofont = ImageFont.truetype(stofontpath, 70)
 
         root = input('Word: ')
 
