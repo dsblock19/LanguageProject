@@ -17,7 +17,7 @@ class WordGen:
         img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         draw = ImageDraw.Draw(img)
         fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
-        font = ImageFont.truetype(fontpath, 16)
+        font = ImageFont.truetype(fontpath, 20)
         # avalible sounds in language
         core_consonants = ( 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' )
         core_vowels = ( 'aw', 'o', 'u', 'a', 'oo', 'e' )
