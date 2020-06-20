@@ -1,4 +1,4 @@
-from WordGenClass import WordGen
+from WordGenInky import WordGen
 
 x = WordGen
 
