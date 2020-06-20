@@ -396,7 +396,7 @@ class WordGen:
         print('NounIV: ' + NIV + ' | Fam:' + NIVfam + '\n   NounV: ' + NV + ' | Fam:' + NVfam)
 
         message = '[Root: ' + root + ']\nVerb: ' + V + '\n\nNounI: ' + NI + '\n |Fam:' + NIfam + '\nNounII: ' + NII + '\n |Fam:' + NIIfam + '\nNounIII: ' + NIII + '\n |Fam:' + NIIIfam + '\nNounIV: ' + NIV + '\n |Fam:' + NIVfam + '\nNounV: ' + NV + '\n |Fam:' + NVfam
-        stomessage = root + ' ' + Verbs + '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV
+        stomessage = Verbs + '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV
 
         mes = input('\nSto or Eng: ')
         if mes == 'Eng':
@@ -409,7 +409,7 @@ class WordGen:
         elif mes == 'Sto':
             w, h = font.getsize(stomessage)
             x = 60
-            y = -40
+            y = -50
             draw.text((x, y), stomessage, inky_display.RED, stofont)
             flipped = img.rotate(90)
             inky_display.set_image(flipped)
