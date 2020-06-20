@@ -83,17 +83,17 @@ class WordGen:
         if 'Forest' in family:
             root = root + random.choice(forest)
         if 'Water' in family:
-            root = root + random.choice(water)
+            root = root + water
         if 'Atoms' in family:
             root = root + random.choice(atoms)
         if 'The Body' in family:
             root = root + random.choice(thebody)
         if 'Writing' in family:
-            root = root + random.choice(writing)
+            root = root + writing
         if 'Human' in family:
-            root = root + random.choice(human)
+            root = root + human
         if 'Health' in family:
-            root = root + random.choice(health)
+            root = root + health
         if 'Evil' in family:
             root = root + random.choice(evil)
 
