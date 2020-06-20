@@ -77,7 +77,7 @@ class WordGen:
         #Families
         if 'Holy' in family:
             root = root + random.choice(Rfam[0])
-        if family == 'Building':
+        if 'Building' in family:
             root = root + random.choice(Rfam[1])
         if 'Demoestic Animal' in family:
             root = root + random.choice(Rfam[2])
