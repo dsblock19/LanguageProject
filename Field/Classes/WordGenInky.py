@@ -398,13 +398,16 @@ class WordGen:
         message = '[Root: ' + root + ']\nVerb: ' + V + '\n\nNounI: ' + NI + '\n |Fam:' + NIfam + '\nNounII: ' + NII + '\n |Fam:' + NIIfam + '\nNounIII: ' + NIII + '\n |Fam:' + NIIIfam + '\nNounIV: ' + NIV + '\n |Fam:' + NIVfam + '\nNounV: ' + NV + '\n |Fam:' + NVfam
         stomessage = root + ' ' + Verbs + '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV
 
-        x = 0
-        y = 0
-
         mes = input('\nSto or Eng: ')
         if mes == 'Eng':
+            w, h = font.getsize(message)
+            x = (inky_display.WIDTH / 2) - (w / 2)
+            y = (inky_display.HEIGHT / 2) - (h / 2)
             draw.text((x, y), message, inky_display.RED, font)
         elif mes == 'Sto':
+            w, h = font.getsize(stomessage)
+            x = (inky_display.WIDTH / 2) - (w / 2)
+            y = (inky_display.HEIGHT / 2) - (h / 2)
             draw.text((x, y), stomessage, inky_display.RED, stofont)
         flipped = img.rotate(90)
         inky_display.set_image(flipped)
