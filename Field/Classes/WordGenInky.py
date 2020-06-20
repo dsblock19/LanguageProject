@@ -401,14 +401,16 @@ class WordGen:
         mes = input('\nSto or Eng: ')
         if mes == 'Eng':
             w, h = font.getsize(message)
-            x = (inky_display.WIDTH / 2) - (w / 2)
-            y = (inky_display.HEIGHT / 2) - (h / 2)
+            x = 0
+            y = 0
             draw.text((x, y), message, inky_display.RED, font)
+            inky_display.set_image(img)
+            inky_display.show()
         elif mes == 'Sto':
             w, h = font.getsize(stomessage)
-            x = (inky_display.WIDTH / 2) - (w / 2)
-            y = (inky_display.HEIGHT / 2) - (h / 2)
+            x = 0
+            y = 0
             draw.text((x, y), stomessage, inky_display.RED, stofont)
-        flipped = img.rotate(90)
-        inky_display.set_image(flipped)
-        inky_display.show()
+            flipped = img.rotate(90)
+            inky_display.set_image(flipped)
+            inky_display.show()
