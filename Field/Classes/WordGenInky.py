@@ -14,7 +14,7 @@ class WordGen:
         # screen
         inky_display = InkyWHAT("red")
         inky_display.set_border(inky_display.WHITE)
-        inkyphat.set_rotation(90)
+        inky_display.set_rotation(90)
         img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         draw = ImageDraw.Draw(img)
         fontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/CourierNewFett.ttf'
