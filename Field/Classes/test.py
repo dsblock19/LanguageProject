@@ -1,6 +1,5 @@
 from TestingMultiFamWordGenInky import WordGen
 
-x = StoConversion
 y = WordGen
 
 
