@@ -1,0 +1,547 @@
+
+
+[Root: DW] Verb: DWT
+   NounI: DWY
+ NounII: DWC
+   NounIII: DWF
+ NounIV: DWM
+   NounV: DWIPA
+
+[Root: DO] Verb: DOT
+   NounI: DOVY
+ NounII: DOK
+   NounIII: DO#
+ NounIV: DLM
+   NounV: DOE
+
+[Root: DO] Verb: DOT
+   NounI: DOMW
+ NounII: DOC
+   NounIII: DO#
+ NounIV: DLMS
+   NounV: DOE
+
+[Root: DW] Verb: DWT
+   NounI: DWA
+ NounII: DWC
+   NounIII: DW#
+ NounIV: DWM
+   NounV: DWE
+
+[Root: DW] Verb: DWT
+   NounI: DWA
+ NounII: DWX
+   NounIII: DWF
+ NounIV: DWI
+   NounV: DWE
+
+[Root: DW] Verb: DWT
+   NounI: DWA
+ NounII: DWX
+   NounIII: DW#
+ NounIV: DWMS
+   NounV: DWO
+
+[Root: DO] Verb: DOT
+   NounI: DOGY
+ NounII: DOK
+   NounIII: DOF
+ NounIV: DLOM
+   NounV: DOIPA
+
+[Root: DW] Verb: DWT
+   NounI: DWW
+ NounII: DWK
+   NounIII: DWF
+ NounIV: DWM
+   NounV: DWO
+
+[Root: DO] Verb: DOT
+   NounI: DOPA
+ NounII: DOX
+   NounIII: DOF
+ NounIV: DLOMS
+   NounV: DOIPA
+
+[Root: DO] Verb: DOT
+   NounI: DOJW
+ NounII: DOK
+   NounIII: DOF
+ NounIV: DOUM
+   NounV: DOE
+
+[Root: DW] Verb: DWT
+   NounI: DWW
+ NounII: DWK
+   NounIII: DW#
+ NounIV: DWI
+   NounV: DWO
+
+[Root: IE] Verb: IET
+   NounI: IEA
+ NounII: IEK
+   NounIII: IE#
+ NounIV: IEWM
+   NounV: IEO
+
+[Root: DW] Verb: DWT
+   NounI: DWY
+ NounII: DWX
+   NounIII: DWF
+ NounIV: DWM
+   NounV: DWIPA
+
+[Root: DO] Verb: DOT
+   NounI: DOTW
+ NounII: DOX
+   NounIII: DOF
+ NounIV: DLOM
+   NounV: DOE
+
+[Root: DO] Verb: DOT
+   NounI: DOSA
+ NounII: DOC
+   NounIII: DO#
+ NounIV: DOWM
+   NounV: DOE
+
+[Root: DO] Verb: DOT
+   NounI: DOSY
+ NounII: DOK
+   NounIII: DO#
+ NounIV: DOUM
+   NounV: DOE
+
+[Root: DW] Verb: DWT
+   NounI: DWW
+ NounII: DWC
+   NounIII: DW#
+ NounIV: DWI
+   NounV: DWE
+
+[Root: DO] Verb: DOT
+   NounI: DOMW
+ NounII: DOC
+   NounIII: DO#
+ NounIV: DLM
+   NounV: DOE
+
+[Root: DO] Verb: DOT
+   NounI: DOGA
+ NounII: DOC
+   NounIII: DOF
+ NounIV: DLOM
+   NounV: DOE
+
+[Root: DW] Verb: DWT
+   NounI: DWA
+ NounII: DWX
+   NounIII: DWF
+ NounIV: DWM
+   NounV: DWE
+
+[Root: DO] Verb: DOT
+   NounI: DOSA
+ NounII: DOX
+   NounIII: DOF
+ NounIV: DLM
+   NounV: DOE
+
+[Root: DW] Verb: DWT
+   NounI: DWW
+ NounII: DWX
+   NounIII: DW#
+ NounIV: DWI
+   NounV: DWE
+
+[Root: DO] Verb: DOT
+   NounI: DOJA
+ NounII: DOK
+   NounIII: DO#
+ NounIV: DOUM
+   NounV: DOIPA
+
+[Root: DO] Verb: DOT
+   NounI: DOPY
+ NounII: DOK
+   NounIII: DOF
+ NounIV: DLMS
+   NounV: DOE
+
+[Root: DO] Verb: DOT
+   NounI: DOBA
+ NounII: DOX
+   NounIII: DOF
+ NounIV: DLM
+   NounV: DOIPA
+
+[Root: DO] Verb: DOT
+   NounI: DOGA
+ NounII: DOK
+   NounIII: DOF
+ NounIV: DOEMS
+   NounV: DOIPA
+
+[Root: DW] Verb: DWT
+   NounI: DWA
+ NounII: DWC
+   NounIII: DW#
+ NounIV: DWI
+   NounV: DWE
+
+[Root: DO] Verb: DOT
+   NounI: DOBY
+ NounII: DOK
+   NounIII: DOF
+ NounIV: DOAMS
+   NounV: DOIPA
+
+[Root: DW] Verb: DWT
+   NounI: DWA
+ NounII: DWX
+   NounIII: DW#
+ NounIV: DWI
+   NounV: DWIPA
+
+[Root: DO] Verb: DOT
+   NounI: DOGA
+ NounII: DOK
+   NounIII: DO#
+ NounIV: DOAM
+   NounV: DOIPA
+
+[Root: AJ] Verb: AJAT
+   NounI: AJY
+ NounII: AJAC
+   NounIII: AJWF
+ NounIV: AJZI
+   NounV: AJE
+
+[Root: BA] Verb: BAT
+   NounI: BAY
+ NounII: BAK
+   NounIII: BA#
+ NounIV: BALMS
+   NounV: BAJO
+
+[Root: WZ] Verb: WZUT
+   NounI: WZW
+ NounII: WZAC
+   NounIII: WZWF
+ NounIV: WZDI
+   NounV: WZO
+
+[Root: AK] Verb: AKWT
+   NounI: AKA
+ NounII: AKC
+   NounIII: AKW#
+ NounIV: AKPI
+   NounV: AKO
+
+[Root: AU] Verb: AUT
+   NounI: AUKW
+ NounII: AUX
+   NounIII: AU#
+ NounIV: AUOMS
+   NounV: AUMIPA
+
+[Root: NA] Verb: NAT
+   NounI: NAW
+ NounII: NAC
+   NounIII: NAF
+ NounIV: NAEM
+   NounV: NADIPA
+
+[Root: WV] Verb: WVUT
+   NounI: WVA
+ NounII: WVWK
+   NounIII: WVE#
+ NounIV: WVRI
+   NounV: WVE
+
+[Root: MOO] Verb: MLT
+   NounI: MLBY
+ NounII: MLC
+   NounIII: ML#
+ NounIV: MLOMS
+   NounV: MLIPA
+
+[Root: ED] Verb: EDLT
+   NounI: EDY
+ NounII: EDUK
+   NounIII: EDO#
+ NounIV: EDVI
+   NounV: EDO
+
+[Root: JW] Verb: JWT
+   NounI: JWA
+ NounII: JWX
+   NounIII: JWF
+ NounIV: JWM
+   NounV: JWO
+
+[Root: OO] Verb: LT
+   NounI: LGY
+ NounII: LX
+   NounIII: L#
+ NounIV: LWMS
+   NounV: LIPA
+
+[Root: TE] Verb: TET
+   NounI: TEW
+ NounII: TEK
+   NounIII: TE#
+ NounIV: TEUM
+   NounV: TEIPA
+
+[Root: RW] Verb: RWT
+   NounI: RWY
+ NounII: RWK
+   NounIII: RW#
+ NounIV: RWI
+   NounV: RWO
+
+[Root: TO] Verb: TOT
+   NounI: TOZW
+ NounII: TOK
+   NounIII: TOF
+ NounIV: TLOMS
+   NounV: TOIPA
+
+[Root: KO] Verb: KOT
+   NounI: KOZY
+ NounII: KOK
+   NounIII: KOF
+ NounIV: KOWM
+   NounV: KOE
+
+[Root: AE] Verb: AET
+   NounI: AEA
+ NounII: AEK
+   NounIII: AEF
+ NounIV: AEEMS
+   NounV: AEIPA
+
+[Root: AZ] Verb: AZOT
+   NounI: AZY
+ NounII: AZAX
+   NounIII: AZA#
+ NounIV: AZNI
+   NounV: AZE
+
+[Root: AV] Verb: AVUT
+   NounI: AVA
+ NounII: AVWC
+   NounIII: AVA#
+ NounIV: AVHI
+   NounV: AVO
+
+[Root: UW] Verb: UWT
+   NounI: UWA
+ NounII: UWK
+   NounIII: UWF
+ NounIV: UWMS
+   NounV: UWE
+
+[Root: UV] Verb: UVAT
+   NounI: UVA
+ NounII: UVWK
+   NounIII: UVLF
+ NounIV: UVJI
+   NounV: UVIPA
+
+[Root: I] Verb: IT
+   NounI: INA
+ NounII: IX
+   NounIII: I#
+ NounIV: IOM
+   NounV: IZE
+
+[Root: WM] Verb: WMLT
+   NounI: WMW
+ NounII: WMOC
+   NounIII: WMU#
+ NounIV: WMMS
+   NounV: WMO
+
+[Root: IEP] Verb: IEPWT
+   NounI: IEPA
+ NounII: IEPOX
+   NounIII: IEPL#
+ NounIV: IEPPI
+   NounV: IEPO
+
+[Root: CI] Verb: CIT
+   NounI: CIZW
+ NounII: CIK
+   NounIII: CIF
+ NounIV: CIUM
+   NounV: CIJO
+
+[Root: IU] Verb: IUT
+   NounI: IUGW
+ NounII: IUK
+   NounIII: IUF
+ NounIV: IUAM
+   NounV: IUDE
+
+[Root: DOP] Verb: DOPAT
+   NounI: DOPA
+ NounII: DOPAX
+   NounIII: DOPLF
+ NounIV: DOPZI
+   NounV: DOPIPA
+
+[Root: UCPI] Verb: UCPIT
+   NounI: UCPIBA
+ NounII: UCPIC
+   NounIII: UCPI#
+ NounIV: UCPILM
+   NounV: UCPIDO
+
+[Root: UCFO] Verb: UCFOT
+   NounI: UCFOKA
+ NounII: UCFOC
+   NounIII: UCFO#
+ NounIV: UCFOWMS
+   NounV: UCFOE
+
+[Root: UCFO] Verb: UCFOT
+   NounI: UCFOBY
+ NounII: UCFOK
+   NounIII: UCFOF
+ NounIV: UCFOWMS
+   NounV: UCFOIPA
+
+[Root: IEHW] Verb: IEHWT
+   NounI: IEHWA
+ NounII: IEHWC
+   NounIII: IEHWF
+ NounIV: IEHWI
+   NounV: IEHWO
+
+[Root: IEHE] Verb: IEHET
+   NounI: IEHEY
+ NounII: IEHEK
+   NounIII: IEHE#
+ NounIV: IEHEOMS
+   NounV: IEHEO
+
+[Root: IFHW] Verb: IFHWT
+   NounI: IFHWW
+ NounII: IFHWC
+   NounIII: IFHW#
+ NounIV: IFHWI
+   NounV: IFHWIPA
+
+[Root: IPIIF] Verb: IPIIFOT
+   NounI: IPIIFY
+ NounII: IPIIFUK
+   NounIII: IPIIFUF
+ NounIV: IPIIFTI
+   NounV: IPIIFE
+
+[Root: IPI] Verb: IPIT
+   NounI: IPIMA
+ NounII: IPIX
+   NounIII: IPI#
+ NounIV: IPIEM
+   NounV: IPIBIPA
+
+[Root: EUIPI] Verb: EUIPIT
+   NounI: EUIPIMA
+ NounII: EUIPIX
+   NounIII: EUIPI#
+ NounIV: EUIPILMS
+   NounV: EUIPITE
+
+[Root: EUHWTAM] Verb: EUHWTAMLT
+   NounI: EUHWTAMY
+ NounII: EUHWTAMLX
+   NounIII: EUHWTAMU#
+ NounIV: EUHWTAMI
+   NounV: EUHWTAMIPA
+
+[Root: SO] Verb: SOT
+   NounI: SOKA
+ NounII: SOX
+   NounIII: SO#
+ NounIV: SOWM
+   NounV: SOE
+
+[Root: SO] Verb: SOT
+   NounI: SOVA
+ NounII: SOX
+   NounIII: SO#
+ NounIV: SOEM
+   NounV: SOIPA
+
+[Root: BW] Verb: BWT
+   NounI: BWW
+ NounII: BWK
+   NounIII: BW#
+ NounIV: BWI
+   NounV: BWO
+
+[Root: TAN] Verb: TANWT
+   NounI: TANY
+ NounII: TANLK
+   NounIII: TANAF
+ NounIV: TANSI
+   NounV: TANO
+
+[Root: DW] Verb: DWT
+   NounI: DWA
+ NounII: DWC
+   NounIII: DW#
+ NounIV: DWM
+   NounV: DWO
+
+[Root: UC] Verb: UCWT
+   NounI: UCW
+ NounII: UCK
+   NounIII: UCUF
+ NounIV: UCPI
+   NounV: UCIPA
+
+[Root: OW] Verb: OWT
+   NounI: OWA
+ NounII: OWC
+   NounIII: OWF
+ NounIV: OWM
+   NounV: OWE
+
+[Root: DO] Verb: DOT
+   NounI: DOHY
+ NounII: DOK
+   NounIII: DOF
+ NounIV: DOAMS
+   NounV: DOIPA
+
+[Root: IPI] Verb: IPIT
+   NounI: IPIZW
+ NounII: IPIK
+   NounIII: IPIF
+ NounIV: IPILMS
+   NounV: IPIZO
+
+[Root: PIQEW] Verb: PIQEWT
+   NounI: PIQEWA
+ NounII: PIQEWC
+   NounIII: PIQEW#
+ NounIV: PIQEWMS
+   NounV: PIQEWO
+
+[Root: PIQEW] Verb: PIQEWT
+   NounI: PIQEWW
+ NounII: PIQEWC
+   NounIII: PIQEWF
+ NounIV: PIQEWM
+   NounV: PIQEWIPA
+
+[Root: UCEU] Verb: UCEUT
+   NounI: UCEUDW
+ NounII: UCEUK
+   NounIII: UCEU#
+ NounIV: UCEUEM
+   NounV: UCEUJO

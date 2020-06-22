@@ -1,0 +1,547 @@
+
+
+[Root: DW] Verb: dawt
+   NounI: dawi:i
+ NounII: dawc
+   NounIII: dawst
+ NounIV: dawm
+   NounV: dawipa
+
+[Root: DO] Verb: dot
+   NounI: dovi:i
+ NounII: dok
+   NounIII: doth
+ NounIV: doom
+   NounV: doe
+
+[Root: DO] Verb: dot
+   NounI: domaw
+ NounII: doc
+   NounIII: doth
+ NounIV: dooms
+   NounV: doe
+
+[Root: DW] Verb: dawt
+   NounI: dawa
+ NounII: dawc
+   NounIII: dawth
+ NounIV: dawm
+   NounV: dawe
+
+[Root: DW] Verb: dawt
+   NounI: dawa
+ NounII: dawx
+   NounIII: dawst
+ NounIV: dawi
+   NounV: dawe
+
+[Root: DW] Verb: dawt
+   NounI: dawa
+ NounII: dawx
+   NounIII: dawth
+ NounIV: dawms
+   NounV: dawo
+
+[Root: DO] Verb: dot
+   NounI: dogi:i
+ NounII: dok
+   NounIII: dost
+ NounIV: dooom
+   NounV: doipa
+
+[Root: DW] Verb: dawt
+   NounI: dawaw
+ NounII: dawk
+   NounIII: dawst
+ NounIV: dawm
+   NounV: dawo
+
+[Root: DO] Verb: dot
+   NounI: dopa
+ NounII: dox
+   NounIII: dost
+ NounIV: doooms
+   NounV: doipa
+
+[Root: DO] Verb: dot
+   NounI: dojaw
+ NounII: dok
+   NounIII: dost
+ NounIV: doum
+   NounV: doe
+
+[Root: DW] Verb: dawt
+   NounI: dawaw
+ NounII: dawk
+   NounIII: dawth
+ NounIV: dawi
+   NounV: dawo
+
+[Root: IE] Verb: iet
+   NounI: iea
+ NounII: iek
+   NounIII: ieth
+ NounIV: ieawm
+   NounV: ieo
+
+[Root: DW] Verb: dawt
+   NounI: dawi:i
+ NounII: dawx
+   NounIII: dawst
+ NounIV: dawm
+   NounV: dawipa
+
+[Root: DO] Verb: dot
+   NounI: dotaw
+ NounII: dox
+   NounIII: dost
+ NounIV: dooom
+   NounV: doe
+
+[Root: DO] Verb: dot
+   NounI: dosa
+ NounII: doc
+   NounIII: doth
+ NounIV: doawm
+   NounV: doe
+
+[Root: DO] Verb: dot
+   NounI: dosi:i
+ NounII: dok
+   NounIII: doth
+ NounIV: doum
+   NounV: doe
+
+[Root: DW] Verb: dawt
+   NounI: dawaw
+ NounII: dawc
+   NounIII: dawth
+ NounIV: dawi
+   NounV: dawe
+
+[Root: DO] Verb: dot
+   NounI: domaw
+ NounII: doc
+   NounIII: doth
+ NounIV: doom
+   NounV: doe
+
+[Root: DO] Verb: dot
+   NounI: doga
+ NounII: doc
+   NounIII: dost
+ NounIV: dooom
+   NounV: doe
+
+[Root: DW] Verb: dawt
+   NounI: dawa
+ NounII: dawx
+   NounIII: dawst
+ NounIV: dawm
+   NounV: dawe
+
+[Root: DO] Verb: dot
+   NounI: dosa
+ NounII: dox
+   NounIII: dost
+ NounIV: doom
+   NounV: doe
+
+[Root: DW] Verb: dawt
+   NounI: dawaw
+ NounII: dawx
+   NounIII: dawth
+ NounIV: dawi
+   NounV: dawe
+
+[Root: DO] Verb: dot
+   NounI: doja
+ NounII: dok
+   NounIII: doth
+ NounIV: doum
+   NounV: doipa
+
+[Root: DO] Verb: dot
+   NounI: dopi:i
+ NounII: dok
+   NounIII: dost
+ NounIV: dooms
+   NounV: doe
+
+[Root: DO] Verb: dot
+   NounI: doba
+ NounII: dox
+   NounIII: dost
+ NounIV: doom
+   NounV: doipa
+
+[Root: DO] Verb: dot
+   NounI: doga
+ NounII: dok
+   NounIII: dost
+ NounIV: doems
+   NounV: doipa
+
+[Root: DW] Verb: dawt
+   NounI: dawa
+ NounII: dawc
+   NounIII: dawth
+ NounIV: dawi
+   NounV: dawe
+
+[Root: DO] Verb: dot
+   NounI: dobi:i
+ NounII: dok
+   NounIII: dost
+ NounIV: doams
+   NounV: doipa
+
+[Root: DW] Verb: dawt
+   NounI: dawa
+ NounII: dawx
+   NounIII: dawth
+ NounIV: dawi
+   NounV: dawipa
+
+[Root: DO] Verb: dot
+   NounI: doga
+ NounII: dok
+   NounIII: doth
+ NounIV: doam
+   NounV: doipa
+
+[Root: AJ] Verb: ajat
+   NounI: aji:i
+ NounII: ajac
+   NounIII: ajawst
+ NounIV: ajzi
+   NounV: aje
+
+[Root: BA] Verb: bat
+   NounI: bai:i
+ NounII: bak
+   NounIII: bath
+ NounIV: baooms
+   NounV: bajo
+
+[Root: WZ] Verb: awzut
+   NounI: awzaw
+ NounII: awzac
+   NounIII: awzawst
+ NounIV: awzdi
+   NounV: awzo
+
+[Root: AK] Verb: akawt
+   NounI: aka
+ NounII: akc
+   NounIII: akawth
+ NounIV: akpi
+   NounV: ako
+
+[Root: AU] Verb: aut
+   NounI: aukaw
+ NounII: aux
+   NounIII: auth
+ NounIV: auoms
+   NounV: aumipa
+
+[Root: NA] Verb: nat
+   NounI: naaw
+ NounII: nac
+   NounIII: nast
+ NounIV: naem
+   NounV: nadipa
+
+[Root: WV] Verb: awvut
+   NounI: awva
+ NounII: awvawk
+   NounIII: awveth
+ NounIV: awvri
+   NounV: awve
+
+[Root: MOO] Verb: moot
+   NounI: moobi:i
+ NounII: mooc
+   NounIII: mooth
+ NounIV: moooms
+   NounV: mooipa
+
+[Root: ED] Verb: edoot
+   NounI: edi:i
+ NounII: eduk
+   NounIII: edoth
+ NounIV: edvi
+   NounV: edo
+
+[Root: JW] Verb: jawt
+   NounI: jawa
+ NounII: jawx
+   NounIII: jawst
+ NounIV: jawm
+   NounV: jawo
+
+[Root: OO] Verb: oot
+   NounI: oogi:i
+ NounII: oox
+   NounIII: ooth
+ NounIV: ooawms
+   NounV: ooipa
+
+[Root: TE] Verb: tet
+   NounI: teaw
+ NounII: tek
+   NounIII: teth
+ NounIV: teum
+   NounV: teipa
+
+[Root: RW] Verb: rawt
+   NounI: rawi:i
+ NounII: rawk
+   NounIII: rawth
+ NounIV: rawi
+   NounV: rawo
+
+[Root: TO] Verb: tot
+   NounI: tozaw
+ NounII: tok
+   NounIII: tost
+ NounIV: toooms
+   NounV: toipa
+
+[Root: KO] Verb: kot
+   NounI: kozi:i
+ NounII: kok
+   NounIII: kost
+ NounIV: koawm
+   NounV: koe
+
+[Root: AE] Verb: aet
+   NounI: aea
+ NounII: aek
+   NounIII: aest
+ NounIV: aeems
+   NounV: aeipa
+
+[Root: AZ] Verb: azot
+   NounI: azi:i
+ NounII: azax
+   NounIII: azath
+ NounIV: azni
+   NounV: aze
+
+[Root: AV] Verb: avut
+   NounI: ava
+ NounII: avawc
+   NounIII: avath
+ NounIV: avhi
+   NounV: avo
+
+[Root: UW] Verb: uawt
+   NounI: uawa
+ NounII: uawk
+   NounIII: uawst
+ NounIV: uawms
+   NounV: uawe
+
+[Root: UV] Verb: uvat
+   NounI: uva
+ NounII: uvawk
+   NounIII: uvoost
+ NounIV: uvji
+   NounV: uvipa
+
+[Root: I] Verb: it
+   NounI: ina
+ NounII: ix
+   NounIII: ith
+ NounIV: iom
+   NounV: ize
+
+[Root: WM] Verb: awmoot
+   NounI: awmaw
+ NounII: awmoc
+   NounIII: awmuth
+ NounIV: awmms
+   NounV: awmo
+
+[Root: IEP] Verb: iepawt
+   NounI: iepa
+ NounII: iepox
+   NounIII: iepooth
+ NounIV: ieppi
+   NounV: iepo
+
+[Root: CI] Verb: cit
+   NounI: cizaw
+ NounII: cik
+   NounIII: cist
+ NounIV: cium
+   NounV: cijo
+
+[Root: IU] Verb: iut
+   NounI: iugaw
+ NounII: iuk
+   NounIII: iust
+ NounIV: iuam
+   NounV: iude
+
+[Root: DOP] Verb: dopat
+   NounI: dopa
+ NounII: dopax
+   NounIII: dopoost
+ NounIV: dopzi
+   NounV: dopipa
+
+[Root: UCPI] Verb: ucpit
+   NounI: ucpiba
+ NounII: ucpic
+   NounIII: ucpith
+ NounIV: ucpioom
+   NounV: ucpido
+
+[Root: UCFO] Verb: ucstot
+   NounI: ucstoka
+ NounII: ucstoc
+   NounIII: ucstoth
+ NounIV: ucstoawms
+   NounV: ucstoe
+
+[Root: UCFO] Verb: ucstot
+   NounI: ucstobi:i
+ NounII: ucstok
+   NounIII: ucstost
+ NounIV: ucstoawms
+   NounV: ucstoipa
+
+[Root: IEHW] Verb: iehawt
+   NounI: iehawa
+ NounII: iehawc
+   NounIII: iehawst
+ NounIV: iehawi
+   NounV: iehawo
+
+[Root: IEHE] Verb: iehet
+   NounI: iehei:i
+ NounII: iehek
+   NounIII: ieheth
+ NounIV: ieheoms
+   NounV: ieheo
+
+[Root: IFHW] Verb: isthawt
+   NounI: isthawaw
+ NounII: isthawc
+   NounIII: isthawth
+ NounIV: isthawi
+   NounV: isthawipa
+
+[Root: IPIIF] Verb: ipiistot
+   NounI: ipiisti:i
+ NounII: ipiistuk
+   NounIII: ipiistust
+ NounIV: ipiistti
+   NounV: ipiiste
+
+[Root: IPI] Verb: ipit
+   NounI: ipima
+ NounII: ipix
+   NounIII: ipith
+ NounIV: ipiem
+   NounV: ipibipa
+
+[Root: EUIPI] Verb: euipit
+   NounI: euipima
+ NounII: euipix
+   NounIII: euipith
+ NounIV: euipiooms
+   NounV: euipite
+
+[Root: EUHWTAM] Verb: euhawtamoot
+   NounI: euhawtami:i
+ NounII: euhawtamoox
+   NounIII: euhawtamuth
+ NounIV: euhawtami
+   NounV: euhawtamipa
+
+[Root: SO] Verb: sot
+   NounI: soka
+ NounII: sox
+   NounIII: soth
+ NounIV: soawm
+   NounV: soe
+
+[Root: SO] Verb: sot
+   NounI: sova
+ NounII: sox
+   NounIII: soth
+ NounIV: soem
+   NounV: soipa
+
+[Root: BW] Verb: bawt
+   NounI: bawaw
+ NounII: bawk
+   NounIII: bawth
+ NounIV: bawi
+   NounV: bawo
+
+[Root: TAN] Verb: tanawt
+   NounI: tani:i
+ NounII: tanook
+   NounIII: tanast
+ NounIV: tansi
+   NounV: tano
+
+[Root: DW] Verb: dawt
+   NounI: dawa
+ NounII: dawc
+   NounIII: dawth
+ NounIV: dawm
+   NounV: dawo
+
+[Root: UC] Verb: ucawt
+   NounI: ucaw
+ NounII: uck
+   NounIII: ucust
+ NounIV: ucpi
+   NounV: ucipa
+
+[Root: OW] Verb: oawt
+   NounI: oawa
+ NounII: oawc
+   NounIII: oawst
+ NounIV: oawm
+   NounV: oawe
+
+[Root: DO] Verb: dot
+   NounI: dohi:i
+ NounII: dok
+   NounIII: dost
+ NounIV: doams
+   NounV: doipa
+
+[Root: IPI] Verb: ipit
+   NounI: ipizaw
+ NounII: ipik
+   NounIII: ipist
+ NounIV: ipiooms
+   NounV: ipizo
+
+[Root: PIQEW] Verb: pisheawt
+   NounI: pisheawa
+ NounII: pisheawc
+   NounIII: pisheawth
+ NounIV: pisheawms
+   NounV: pisheawo
+
+[Root: PIQEW] Verb: pisheawt
+   NounI: pisheawaw
+ NounII: pisheawc
+   NounIII: pisheawst
+ NounIV: pisheawm
+   NounV: pisheawipa
+
+[Root: UCEU] Verb: uceut
+   NounI: uceudaw
+ NounII: uceuk
+   NounIII: uceuth
+ NounIV: uceuem
+   NounV: uceujo
