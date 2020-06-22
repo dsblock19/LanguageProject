@@ -1,8 +1,10 @@
 from MultiFamWordGenInky import WordGen
 from StoConversion import StoConversion
+from StoLog import StoLog
 
 x = StoConversion
 y = WordGen
+z = StoLog
 
 
 while True:
@@ -12,3 +14,5 @@ while True:
         print('')
     elif prog == 'Conversion':
         x.InSto()
+    elif prog == 'Log':
+        z.StoLog()

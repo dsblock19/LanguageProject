@@ -1,10 +1,10 @@
-class StoConversion:
+class StoLog:
 
     def __init__(self):
         pass
 
     #Build New Family
-    def InSto():
+    def StoLog():
         #LIBRARIES
         from inky import InkyWHAT
         from PIL import Image, ImageFont, ImageDraw
