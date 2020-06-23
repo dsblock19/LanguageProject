@@ -295,7 +295,7 @@ class WordGen:
             NIIfam = NIIfam + ' Stone'
         if forest[0] in NII or forest[1] in NII:
             NIIfam = NIIfam + ' Forest'
-        if water in NII:
+        if water[0] in NII or water[1] in NII:
             NIIfam = NIIfam + ' Water'
         if atoms[0] in NII or atoms[1] in NII:
             NIIfam = NIIfam + ' Atoms'
@@ -323,7 +323,7 @@ class WordGen:
             NIIIfam = NIIIfam + ' Stone'
         if forest[0] in NIII or forest[1] in NIII:
             NIIIfam = NIIIfam + ' Forest'
-        if water in NIII:
+        if water[0] in NIII or water[1] in NIII:
             NIIIfam = NIIIfam + ' Water'
         if atoms[0] in NIII or atoms[1] in NIII:
             NIIIfam = NIIIfam + ' Atoms'
@@ -351,7 +351,7 @@ class WordGen:
             NIVfam = NIVfam + ' Stone'
         if forest[0] in NIV or forest[1] in NIV:
             NIVfam = NIVfam + ' Forest'
-        if water in NIV:
+        if water[0] in NIV or water[1] in NIV:
             NIVfam = NIVfam + ' Water'
         if atoms[0] in NIV or atoms[1] in NIV:
             NIVfam = NIVfam + ' Atoms'
@@ -379,7 +379,7 @@ class WordGen:
             NVfam = NVfam + ' Stone'
         if forest[0] in NV or forest[1] in NV:
             NVfam = NVfam + ' Forest'
-        if water in NV:
+        if water[0] in NV or water[1] in NV:
             NVfam = NVfam + ' Water'
         if atoms[0] in NV or atoms[1] in NV:
             NVfam = NVfam + ' Atoms'
