@@ -267,7 +267,7 @@ class WordGen:
             NIfam = NIfam + ' Stone'
         if forest[0] in NI or forest[1] in NI:
             NIfam = NIfam + ' Forest'
-        if water in NI:
+        if water[0] in NI or water[1] in NI:
             NIfam = NIfam + ' Water'
         if atoms[0] in NI or atoms[1] in NI:
             NIfam = NIfam + ' Atoms'
