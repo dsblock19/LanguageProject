@@ -48,7 +48,7 @@ class WordGen:
         domanimal = [ 'go', 'ox', 'awx' ]
         stone = [ 'ie', 'ist' ]
         forest = [ 'he', 'haw' ]
-        water = 'ipi'
+        water = [ 'ipi', 'ipa' ]
         atoms = [ 'po', 'oaw' ]
         thebody = [ 'shu', 'sheaw', 'eu' ]
         writing = 'sto'
@@ -86,7 +86,7 @@ class WordGen:
         if 'Atoms' in family:
             root = root + random.choice(atoms)
         if 'Water' in family:
-            root = root + water
+            root = root + random.choice(water)
         if 'Stone' in family:
             root = root + random.choice(stone)
         if 'Forest' in family:
