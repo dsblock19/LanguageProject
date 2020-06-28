@@ -18,8 +18,9 @@ class ConjugateVerb():
 
     def Conjugate(self):
         verb = input('Verb: ')
-        verb = verb.upper()
-        tense = input('Tense: ')
+        tense = input(' Tense: ')
+        print('')
+        print('Verb: ' + str(verb) + ' | Tense:' + str(tense))
         tense = tense.upper()
         if 'PRESENT' in tense:
             print(self.O + verb + self.PresEndings[0])
@@ -57,3 +58,4 @@ class ConjugateVerb():
             print(self.II + verb + self.FutureProgEndings[2])
             print(self.III + verb + self.FutureProgEndings[3])
             print(self.IV + verb + self.FutureProgEndings[4])
+        print('')
