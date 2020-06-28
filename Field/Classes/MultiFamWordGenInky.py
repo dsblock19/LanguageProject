@@ -65,6 +65,7 @@ class WordGen():
     def NewFam(self):
         family = input('\nFamilies: ')
         root = ''
+        family = family.upper()
         if family == '':
             rt1 = random.choice(self.allcategories[0]) + random.choice(self.allcategories[1])
             rt2 = random.choice(self.allcategories[1]) + random.choice(self.allcategories[1])
@@ -72,31 +73,31 @@ class WordGen():
             rttup = (rt1, rt2, rt3)
             root = random.choice(rttup)
         #Families
-        if 'Holy' in family:
+        if 'HOLY' in family:
             root = root + random.choice(self.holy)
-        if 'Human' in family:
+        if 'HUMAN' in family:
             root = root + self.human
-        if 'Writing' in family:
+        if 'WRITING' in family:
             root = root + self.writing
-        if 'Health' in family:
+        if 'HEALTH' in family:
             root = root + self.health
-        if 'The Body' in family:
+        if 'THE BODY' in family:
             root = root + random.choice(self.thebody)
-        if 'Demoestic Animal' in family:
+        if 'DOMESTIC ANIMALS' in family:
             root = root + random.choice(self.domanimal)
-        if 'Atoms' in family:
+        if 'ATOMS' in family:
             root = root + random.choice(self.atoms)
-        if 'Water' in family:
+        if 'WATER' in family:
             root = root + random.choice(self.water)
-        if 'Stone' in family:
+        if 'STONE' in family:
             root = root + random.choice(self.stone)
-        if 'Forest' in family:
+        if 'FOREST' in family:
             root = root + random.choice(self.forest)
-        if 'Building' in family:
+        if 'BUILDING' in family:
             root = root + random.choice(self.building)
-        if 'Salt' in family:
+        if 'SALT' in family:
             root = root + self.salt
-        if 'Evil' in family:
+        if 'EVIL' in family:
             root = root + random.choice(self.evil)
 
         #Class
