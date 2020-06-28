@@ -12,7 +12,7 @@ z = StoLog()
 a = CustWordGen()
 b = ConjugateVerb()
 #c = Add2Dic()
-d = Lookup()
+d = LookUp()
 
 
 while True:
