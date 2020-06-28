@@ -1,9 +1,11 @@
+#LIBRARIES
+import random
+from inky import InkyWHAT
+from PIL import Image, ImageFont, ImageDraw
+
+
 class CustWordGen():
 
-    #LIBRARIES
-    import random
-    from inky import InkyWHAT
-    from PIL import Image, ImageFont, ImageDraw
 
     def __init__(self):
         # avalible sounds in language
