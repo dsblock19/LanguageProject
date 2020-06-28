@@ -62,52 +62,42 @@ class WordGen():
         self.Comfam = [self.like, self.state]
 
     #Build New Family
-    def NewFam():
-        #SETUP
-        # screen
-        inky_display = InkyWHAT("red")
-        inky_display.set_border(inky_display.WHITE)
-        #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
-        img = Image.new("P", (400, 300))
-        draw = ImageDraw.Draw(img)
-        stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
-        stofont = ImageFont.truetype(stofontpath, 41)
-
+    def NewFam(self):
         family = input('\nFamilies: ')
         root = ''
         if family == 'None':
-            rt1 = random.choice(allcategories[0]) + random.choice(allcategories[1])
-            rt2 = random.choice(allcategories[1]) + random.choice(allcategories[1])
-            rt3 = random.choice(allcategories[1]) + random.choice(allcategories[0])
+            rt1 = random.choice(self.allcategories[0]) + random.choice(self.allcategories[1])
+            rt2 = random.choice(self.allcategories[1]) + random.choice(self.allcategories[1])
+            rt3 = random.choice(self.allcategories[1]) + random.choice(self.allcategories[0])
             rttup = (rt1, rt2, rt3)
             root = random.choice(rttup)
         #Families
         if 'Holy' in family:
-            root = root + random.choice(holy)
+            root = root + random.choice(self.holy)
         if 'Human' in family:
-            root = root + human
+            root = root + self.human
         if 'Writing' in family:
-            root = root + writing
+            root = root + self.writing
         if 'Health' in family:
-            root = root + health
+            root = root + self.health
         if 'The Body' in family:
-            root = root + random.choice(thebody)
+            root = root + random.choice(self.thebody)
         if 'Demoestic Animal' in family:
-            root = root + random.choice(domanimal)
+            root = root + random.choice(self.domanimal)
         if 'Atoms' in family:
-            root = root + random.choice(atoms)
+            root = root + random.choice(self.atoms)
         if 'Water' in family:
-            root = root + random.choice(water)
+            root = root + random.choice(self.water)
         if 'Stone' in family:
-            root = root + random.choice(stone)
+            root = root + random.choice(self.stone)
         if 'Forest' in family:
-            root = root + random.choice(forest)
+            root = root + random.choice(self.forest)
         if 'Building' in family:
-            root = root + random.choice(building)
+            root = root + random.choice(self.building)
         if 'Salt' in family:
-            root = root + salt
+            root = root + self.salt
         if 'Evil' in family:
-            root = root + random.choice(evil)
+            root = root + random.choice(self.evil)
 
         #Class
         #I
