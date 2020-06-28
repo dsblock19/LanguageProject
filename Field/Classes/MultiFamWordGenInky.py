@@ -65,7 +65,7 @@ class WordGen():
     def NewFam(self):
         family = input('\nFamilies: ')
         root = ''
-        if family == 'None':
+        if family == '':
             rt1 = random.choice(self.allcategories[0]) + random.choice(self.allcategories[1])
             rt2 = random.choice(self.allcategories[1]) + random.choice(self.allcategories[1])
             rt3 = random.choice(self.allcategories[1]) + random.choice(self.allcategories[0])
