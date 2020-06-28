@@ -12,11 +12,11 @@ class CustWordGen():
         self.other_vowels = [ 'i:i', 'i' ]
         self.other_consonants = [ 'c', 'sh', 'th', 'st', 'ch', 'x' ]
         self.other_c = [ 'qua' ]
-        self.all_vowels = core_vowels + other_vowels
-        self.all_consonants = core_consonants + other_consonants
-        self.allsounds = core_consonants + core_vowels + other_vowels + other_consonants
-        self.allcategories = [core_consonants, core_vowels, other_vowels, other_consonants,
-                        other_c, all_vowels, all_consonants, allsounds
+        self.all_vowels = self.core_vowels + self.other_vowels
+        self.all_consonants = self.core_consonants + self.other_consonants
+        self.allsounds = self.core_consonants + self.core_vowels + self.other_vowels + self.other_consonants
+        self.allcategories = [self.core_consonants, self.core_vowels, self.other_vowels, self.other_consonants,
+                        self.other_c, self.all_vowels, self.all_consonants, self.allsounds
                         ]
         #Word Class
         self.RV = ['t']
@@ -26,7 +26,7 @@ class CustWordGen():
         self.NIV = [ 'ms', 'm', 'i' ]
         self.NV = [ 'o', 'e', 'ipa' ]
         self.NVI = [ 'd', 'z', 'n', 'g', 'p', 'b' ]
-        self.WClass = [RV, NI, NII, NIII, NIV, NV, NVI]
+        self.WClass = [self.RV, self.NI, self.NII, self.NIII, self.NIV, self.NV, self.NVI]
 
         #Root Families
         self.holy = ['daw', 'do']
@@ -46,7 +46,7 @@ class CustWordGen():
         #Comparison Families
         self.like = 'oo'
         self.state = 'ca'
-        self.Comfam = [like, state]
+        self.Comfam = [self.like, self.state]
 
     #Build New Family
     def CustNewFam(self):
