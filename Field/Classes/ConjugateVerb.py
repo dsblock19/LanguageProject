@@ -21,7 +21,7 @@ class ConjugateVerb():
         verb = input('Verb: ')
         tense = input(' Tense: ')
         print('')
-        print('Verb: ' + str(verb) + ' | Tense:' + str(tense))
+        print('Verb: ' + str(verb) + ' | Tense: ' + str(tense))
         tense = tense.upper()
         if 'PRESENT' in tense:
             print(self.O + verb + self.PresEndings[0])
