@@ -1,4 +1,4 @@
-class CustWordGen:
+class CustWordGen():
 
     #LIBRARIES
     import random

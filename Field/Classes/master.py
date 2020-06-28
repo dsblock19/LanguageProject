@@ -6,7 +6,7 @@ from CustomWordGenInky import CustWordGen
 x = StoConversion
 y = WordGen
 z = StoLog
-a = CustWordGen
+a = CustWordGen()
 
 
 while True:
