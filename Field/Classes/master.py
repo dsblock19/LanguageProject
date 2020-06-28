@@ -1,10 +1,12 @@
 from MultiFamWordGenInky import WordGen
 from StoConversion import StoConversion
 from StoLog import StoLog
+from CustomWordGenInky import CustWordGen
 
 x = StoConversion
 y = WordGen
 z = StoLog
+a = CustWordGen
 
 
 while True:
@@ -17,3 +19,5 @@ while True:
         x.InSto()
     elif prog == 'LOG':
         z.StoLog()
+    elif prog == 'CUSTOM WORDGEN':
+        a.CustNewFam()
