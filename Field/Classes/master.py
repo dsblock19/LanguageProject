@@ -3,9 +3,9 @@ from StoConversion import StoConversion
 from StoLog import StoLog
 from CustomWordGenInky import CustWordGen
 
-x = StoConversion
-y = WordGen
-z = StoLog
+x = StoConversion()
+y = WordGen()
+z = StoLog()
 a = CustWordGen()
 
 
@@ -14,7 +14,6 @@ while True:
     prog = prog.upper()
     if prog == 'WORDGEN':
         y.NewFam()
-        print('')
     elif prog == 'CONVERSION':
         x.InSto()
     elif prog == 'LOG':

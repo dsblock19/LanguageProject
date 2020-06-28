@@ -1,13 +1,16 @@
-class StoLog:
+#LIBRARIES
+from inky import InkyWHAT
+from PIL import Image, ImageFont, ImageDraw
+
+
+class StoLog():
 
     def __init__(self):
-        pass
+        self.x = 0
+        self.y = 100
 
     #Build New Family
-    def StoLog():
-        #LIBRARIES
-        from inky import InkyWHAT
-        from PIL import Image, ImageFont, ImageDraw
+    def StoLog(self):
 
         #SETUP
         # screen
@@ -46,7 +49,7 @@ class StoLog:
         stomessage = root
         x = 0
         y = 100
-        draw.text((x, y), stomessage, inky_display.RED, stofont)
+        draw.text((self.x, self.y), stomessage, inky_display.RED, stofont)
         #flipped = img.rotate(90)
         #inky_display.set_image(flipped)
         inky_display.set_image(img)

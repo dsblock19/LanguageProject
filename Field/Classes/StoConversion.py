@@ -1,14 +1,16 @@
-class StoConversion:
+#LIBRARIES
+from inky import InkyWHAT
+from PIL import Image, ImageFont, ImageDraw
+
+
+class StoConversion():
 
     def __init__(self):
-        pass
+        self.x = 0
+        self.y = 100
 
     #Build New Family
-    def InSto():
-        #LIBRARIES
-        from inky import InkyWHAT
-        from PIL import Image, ImageFont, ImageDraw
-
+    def InSto(self):
         #SETUP
         # screen
         inky_display = InkyWHAT("red")
@@ -42,7 +44,7 @@ class StoConversion:
         stomessage = root
         x = 0
         y = 100
-        draw.text((x, y), stomessage, inky_display.RED, stofont)
+        draw.text((self.x, self.y), stomessage, inky_display.RED, stofont)
         #flipped = img.rotate(90)
         #inky_display.set_image(flipped)
         inky_display.set_image(img)
