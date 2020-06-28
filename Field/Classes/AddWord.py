@@ -27,34 +27,35 @@ class Add2Dic():
         defin = input('Definition: ')
         part = input('Part of Speech: ')
         sql = "INSERT INTO words VALUES ('" + str(word) + "','" + str(defin) + "','" + str(part) + "' ) ;'"
-        try:
-            self.cur.execute(sql)
-            self.con.commit()
-            print(' Success')
-            root = str(word)
-            root = root.upper()
-            #Font Specific Change
-            #ST --> F
-            root = root.replace('ST', 'F')
-            #OO --> L
-            root = root.replace('OO', 'L')
-            #SH --> Q
-            root = root.replace('SH', 'Q')
-            #AW --> W
-            root = root.replace('AW', 'W')
-            #I:I --> Y
-            root = root.replace('I:I', 'Y')
-            #CH --> @
-            root = root.replace('CH', '@')
-            #TH --> #
-            root = root.replace('TH', '#')
+        with self.con:
+            try:
+                self.cur.execute(sql)
+                self.con.commit()
+                print(' Success')
+                root = str(word)
+                root = root.upper()
+                #Font Specific Change
+                #ST --> F
+                root = root.replace('ST', 'F')
+                #OO --> L
+                root = root.replace('OO', 'L')
+                #SH --> Q
+                root = root.replace('SH', 'Q')
+                #AW --> W
+                root = root.replace('AW', 'W')
+                #I:I --> Y
+                root = root.replace('I:I', 'Y')
+                #CH --> @
+                root = root.replace('CH', '@')
+                #TH --> #
+                root = root.replace('TH', '#')
 
-            self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
-            #flipped = img.rotate(90)
-            #inky_display.set_image(flipped)
-            self.inky_display.set_image(self.img)
-            self.inky_display.show()
-        except Exception:
-            self.con.rollback()
-            print(' Failed')
+                self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
+                #flipped = img.rotate(90)
+                #inky_display.set_image(flipped)
+                self.inky_display.set_image(self.img)
+                self.inky_display.show()
+            except Exception:
+                self.con.rollback()
+                print(' Failed')
         print('')
