@@ -55,7 +55,7 @@ class Add2Dic():
                 #inky_display.set_image(flipped)
                 self.inky_display.set_image(self.img)
                 self.inky_display.show()
-            except Exception:
+            except Exception as e:
                 self.con.rollback()
-                print(' Failed')
+                print(e)
         print('')
