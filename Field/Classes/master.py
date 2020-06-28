@@ -3,12 +3,16 @@ from StoConversion import StoConversion
 from StoLog import StoLog
 from CustomWordGenInky import CustWordGen
 from ConjugateVerb import ConjugateVerb
+from AddWord import Add2Dic
+from LookupWord import LookUp
 
 x = StoConversion()
 y = WordGen()
 z = StoLog()
 a = CustWordGen()
 b = ConjugateVerb()
+c = Add2Dic()
+d = Lookup()
 
 
 while True:
@@ -24,3 +28,7 @@ while True:
         a.CustNewFam()
     elif prog == 'CONJUGATE':
         b.Conjugate()
+    elif prog == 'ADD WORD':
+        c.AddWord()
+    elif prog == 'LOOKUP':
+        d.WordDef()

@@ -24,7 +24,7 @@ class LookUp():
     def WordDef(self):
         print('')
         word = input('Word: ')
-        sql = "SELECT ALL * FROM words WHERE sto = '" + word + "';"
+        sql = "SELECT ALL * FROM words WHERE word = '" + word + "';"
         with self.con:
             try:
                 self.cur.execute(sql)
