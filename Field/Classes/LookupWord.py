@@ -7,8 +7,8 @@ class LookUp():
 
     def __init__(self):
         #Setup
-        self.con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'Dictionary')
-        self.cur = self.con.cursor()
+        #self.con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'Dictionary')
+        #self.cur = self.con.cursor()
 
         # screen
         self.inky_display = InkyWHAT("red")
@@ -25,11 +25,13 @@ class LookUp():
         print('')
         word = input('Word: ')
         sql = "SELECT ALL * FROM words WHERE word = '" + word + "';"
-        with self.con:
+        con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'Dictionary')
+        cur = con.cursor()
+        with con:
             try:
-                self.cur.execute(sql)
-                results = self.cur.fetchone()
-                self.con.commit()
+                cur.execute(sql)
+                results = cur.fetchone()
+                con.commit()
                 print('Definition: (' + str(results[2]) + '.) ' + str(results[1]))
                 root = str(word)
                 root = root.upper()
