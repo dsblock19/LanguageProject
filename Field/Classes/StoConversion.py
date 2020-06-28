@@ -6,6 +6,15 @@ from PIL import Image, ImageFont, ImageDraw
 class StoConversion():
 
     def __init__(self):
+        #SETUP
+        # screen
+        self.inky_display = InkyWHAT("red")
+        self.inky_display.set_border(self.inky_display.WHITE)
+        #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
+        self.img = Image.new("P", (400, 300))
+        self.draw = ImageDraw.Draw(self.img)
+        self.stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
+        self.stofont = ImageFont.truetype(self.stofontpath, 70)
         self.x = 0
         self.y = 100
 
@@ -42,10 +51,8 @@ class StoConversion():
         root = root.replace('TH', '#')
 
         stomessage = root
-        x = 0
-        y = 100
-        draw.text((self.x, self.y), stomessage, inky_display.RED, stofont)
+        self.draw.text((self.x, self.y), stomessage, self.inky_display.RED, self.stofont)
         #flipped = img.rotate(90)
         #inky_display.set_image(flipped)
-        inky_display.set_image(img)
-        inky_display.show()
+        self.inky_display.set_image(self.img)
+        self.inky_display.show()
