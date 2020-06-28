@@ -28,7 +28,7 @@ class LookUp():
         with self.con:
             try:
                 self.cur.execute(sql)
-                results = cur.fetchone()
+                results = self.cur.fetchone()
                 self.con.commit()
                 print('Definition: (' + str(results[2]) + '.) ' + str(results[1]))
                 root = str(word)
