@@ -7,6 +7,18 @@ from PIL import Image, ImageFont, ImageDraw
 class WordGen():
 
     def __init__(self):
+        #SETUP
+        # screen
+        self.inky_display = InkyWHAT("red")
+        self.inky_display.set_border(self.inky_display.WHITE)
+        #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
+        self.img = Image.new("P", (400, 300))
+        self.draw = ImageDraw.Draw(self.img)
+        self.stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
+        self.stofont = ImageFont.truetype(self.stofontpath, 41)
+        self.x = 50
+        self.y = -67
+
         # avalible sounds in language
         self.core_consonants = [ 'd', 't', 'k', 'z', 'n', 's', 'm', 'g', 'p', 'v', 'j', 'b', 'h', 'r' ]
         self.core_vowels = [ 'aw', 'o', 'u', 'a', 'oo', 'e' ]
@@ -407,9 +419,7 @@ class WordGen():
         print('')
 
         stomessage = '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV
-        x = 50
-        y = -67
-        draw.text((x, y), stomessage, inky_display.RED, stofont)
-        flipped = img.rotate(90)
-        inky_display.set_image(flipped)
-        inky_display.show()
+        self.draw.text((self.x, self.y), stomessage, self.inky_display.RED, self.stofont)
+        flipped = self.img.rotate(90)
+        self.inky_display.set_image(flipped)
+        self.inky_display.show()
