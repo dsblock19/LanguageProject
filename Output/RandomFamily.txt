@@ -545,3 +545,87 @@
    NounIII: uceuth
  NounIV: uceuem
    NounV: uceujo
+
+[Root: IPA] Verb: ipat
+   NounI: ipaaw
+ NounII: ipac
+   NounIII: ipath
+ NounIV: ipaams
+   NounV: ipamipa
+
+[Root: IPI] Verb: ipit
+   NounI: ipivi:i
+ NounII: ipik
+   NounIII: ipith
+ NounIV: ipiems
+   NounV: ipisipa
+
+[Root: IPI] Verb: ipit
+   NounI: ipita
+ NounII: ipix
+   NounIII: ipist
+ NounIV: ipiooms
+   NounV: ipiko
+
+[Root: IPI] Verb: ipit
+   NounI: ipima
+ NounII: ipic
+   NounIII: ipith
+ NounIV: ipiams
+   NounV: ipino
+
+[Root: IPA] Verb: ipat
+   NounI: ipai:i
+ NounII: ipax
+   NounIII: ipast
+ NounIV: ipaawm
+   NounV: ipave
+
+[Root: IPIGOO] Verb: ipigoot
+   NounI: ipigoobi:i
+ NounII: ipigoox
+   NounIII: ipigoost
+ NounIV: ipigooem
+   NounV: ipigooe
+
+[Root: AIPIG] Verb: aipigoot
+   NounI: aipiga
+ NounII: aipigooc
+   NounIII: aipigoost
+ NounIV: aipigsi
+   NounV: aipige
+
+[Root: IPIVO] Verb: ipivot
+   NounI: ipivozi:i
+ NounII: ipivoc
+   NounIII: ipivost
+ NounIV: ipivoawms
+   NounV: ipivoe
+
+[Root: DW] Verb: dawt
+   NounI: dawaw
+ NounII: dawx
+   NounIII: dawst
+ NounIV: dawms
+   NounV: dawo
+
+[Root: IPI] Verb: ipit
+   NounI: ipizaw
+ NounII: ipix
+   NounIII: ipith
+ NounIV: ipiawm
+   NounV: ipizo
+
+[Root: BIPIOO] Verb: bipioot
+   NounI: bipiooti:i
+ NounII: bipiooc
+   NounIII: bipioost
+ NounIV: bipiooums
+   NounV: bipiooe
+
+[Root: IPA] Verb: ipat
+   NounI: ipai:i
+ NounII: ipac
+   NounIII: ipast
+ NounIV: ipaams
+   NounV: ipaje

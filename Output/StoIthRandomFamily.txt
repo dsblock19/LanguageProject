@@ -545,3 +545,87 @@
    NounIII: UCEU#
  NounIV: UCEUEM
    NounV: UCEUJO
+
+[Root: IPA] Verb: IPAT
+   NounI: IPAW
+ NounII: IPAC
+   NounIII: IPA#
+ NounIV: IPAAMS
+   NounV: IPAMIPA
+
+[Root: IPI] Verb: IPIT
+   NounI: IPIVY
+ NounII: IPIK
+   NounIII: IPI#
+ NounIV: IPIEMS
+   NounV: IPISIPA
+
+[Root: IPI] Verb: IPIT
+   NounI: IPITA
+ NounII: IPIX
+   NounIII: IPIF
+ NounIV: IPILMS
+   NounV: IPIKO
+
+[Root: IPI] Verb: IPIT
+   NounI: IPIMA
+ NounII: IPIC
+   NounIII: IPI#
+ NounIV: IPIAMS
+   NounV: IPINO
+
+[Root: IPA] Verb: IPAT
+   NounI: IPAY
+ NounII: IPAX
+   NounIII: IPAF
+ NounIV: IPAWM
+   NounV: IPAVE
+
+[Root: IPIGOO] Verb: IPIGLT
+   NounI: IPIGLBY
+ NounII: IPIGLX
+   NounIII: IPIGLF
+ NounIV: IPIGLEM
+   NounV: IPIGLE
+
+[Root: AIPIG] Verb: AIPIGLT
+   NounI: AIPIGA
+ NounII: AIPIGLC
+   NounIII: AIPIGLF
+ NounIV: AIPIGSI
+   NounV: AIPIGE
+
+[Root: IPIVO] Verb: IPIVOT
+   NounI: IPIVOZY
+ NounII: IPIVOC
+   NounIII: IPIVOF
+ NounIV: IPIVOWMS
+   NounV: IPIVOE
+
+[Root: DW] Verb: DWT
+   NounI: DWW
+ NounII: DWX
+   NounIII: DWF
+ NounIV: DWMS
+   NounV: DWO
+
+[Root: IPI] Verb: IPIT
+   NounI: IPIZW
+ NounII: IPIX
+   NounIII: IPI#
+ NounIV: IPIWM
+   NounV: IPIZO
+
+[Root: BIPIOO] Verb: BIPILT
+   NounI: BIPILTY
+ NounII: BIPILC
+   NounIII: BIPILF
+ NounIV: BIPILUMS
+   NounV: BIPILE
+
+[Root: IPA] Verb: IPAT
+   NounI: IPAY
+ NounII: IPAC
+   NounIII: IPAF
+ NounIV: IPAAMS
+   NounV: IPAJE
