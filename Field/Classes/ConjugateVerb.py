@@ -17,6 +17,7 @@ class ConjugateVerb():
 
 
     def Conjugate(self):
+        print('')
         verb = input('Verb: ')
         tense = input(' Tense: ')
         print('')
