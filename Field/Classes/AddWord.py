@@ -25,7 +25,8 @@ class Add2Dic():
         print('')
         word = input('Word: ')
         defin = input('Definition: ')
-        sql = "INSERT INTO words VALUES ('" + word + "','" + defin + "' ) ;'"
+        part = input('Part of Speech: ')
+        sql = "INSERT INTO words VALUES ('" + str(word) + "','" + str(defin) + "','" + str(part) + "' ) ;'"
         try:
             self.cur.execute(sql)
             self.con.commit()
