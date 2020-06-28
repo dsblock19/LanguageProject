@@ -9,10 +9,11 @@ z = StoLog
 
 while True:
     prog = input('Program: ')
-    if prog == 'WordGen':
+    prog = prog.upper()
+    if prog == 'WORDGEN':
         y.NewFam()
         print('')
-    elif prog == 'Conversion':
+    elif prog == 'CONVERSION':
         x.InSto()
-    elif prog == 'Log':
+    elif prog == 'LOG':
         z.StoLog()
