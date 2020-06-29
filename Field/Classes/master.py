@@ -5,6 +5,7 @@ from CustomWordGenInky import CustWordGen
 from ConjugateVerb import ConjugateVerb
 from AddWord import Add2Dic
 from LookupWord import LookUp
+from LookupEngWord import LookupEng
 
 x = StoConversion()
 y = WordGen()
@@ -13,6 +14,7 @@ a = CustWordGen()
 b = ConjugateVerb()
 c = Add2Dic()
 d = LookUp()
+e = LookUpEng()
 
 
 while True:
@@ -32,3 +34,5 @@ while True:
         c.AddWord()
     elif prog == 'LOOKUP':
         d.WordDef()
+    elif prog == 'LOOKUP ENGLISH':
+        e.WordDefEng()
