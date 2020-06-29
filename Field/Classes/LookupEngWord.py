@@ -30,7 +30,7 @@ class LookUpEng():
                 self.cur.execute(sql)
                 results = self.cur.fetchone()
                 self.con.commit()
-                print('Definition: (' + str(results[2]) + '.) ' + str(results[1]))
+                print('Word in Sto: ' + str(results[0]))
                 root = str(word)
                 root = root.upper()
                 #Font Specific Change
