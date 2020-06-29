@@ -5,7 +5,7 @@ from CustomWordGenInky import CustWordGen
 from ConjugateVerb import ConjugateVerb
 from AddWord import Add2Dic
 from LookupWord import LookUp
-from LookupEngWord import LookupEng
+from LookupEngWord import LookUpEng
 
 x = StoConversion()
 y = WordGen()
