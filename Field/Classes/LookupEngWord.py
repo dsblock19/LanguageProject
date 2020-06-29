@@ -31,7 +31,7 @@ class LookUpEng():
                 results = self.cur.fetchone()
                 self.con.commit()
                 print('Word in Sto: ' + str(results[0]))
-                root = str(word)
+                root = str(results[0])
                 root = root.upper()
                 #Font Specific Change
                 #ST --> F
