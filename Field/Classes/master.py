@@ -37,4 +37,4 @@ while True:
     elif prog == 'LOOKUP ENGLISH':
         e.WordDefEng()
     else:
-        print('Womps')
+        print('\nWomps\n')
