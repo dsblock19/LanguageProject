@@ -26,7 +26,7 @@ class LookUp():
         word = input('Word: ')
         if word == '':
             results = []
-            sql = "SELECT word, definition, part of speech FROM words"
+            sql = "SELECT word, definition, part of speech FROM words;"
             with self.con:
                 try:
                     self.cur.execute(sql)
