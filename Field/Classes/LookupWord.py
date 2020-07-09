@@ -64,6 +64,8 @@ class LookUp():
                     root = root.replace('CH', '@')
                     #TH --> #
                     root = root.replace('TH', '#')
+                    #' -->
+                    root = root.replace("'", "")
 
                     self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
                     #flipped = img.rotate(90)
