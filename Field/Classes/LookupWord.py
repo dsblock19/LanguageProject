@@ -32,7 +32,7 @@ class LookUp():
                     results = self.cur.fetchone()
                     self.con.commit()
                     for i in results:
-                        print(str(results[i]))
+                        print(results[i])
                     root = str(word)
                     root = root.upper()
                     #Font Specific Change
