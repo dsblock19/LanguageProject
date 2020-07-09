@@ -32,7 +32,8 @@ class LookUp():
                     self.cur.execute(sql)
                     results = self.cur.fetchall()
                     self.con.commit()
-                    print(results)
+                    for i in range(len(results)):
+                        print(results[i])
                 except Exception as e:
                     self.con.rollback()
                     print(e)
