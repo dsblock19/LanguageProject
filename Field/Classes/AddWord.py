@@ -32,6 +32,7 @@ class Add2Dic():
                 self.cur.execute(sql)
                 self.con.commit()
                 print(' Success')
+                '''
                 root = str(word)
                 root = root.upper()
                 #Font Specific Change
@@ -55,6 +56,7 @@ class Add2Dic():
                 #inky_display.set_image(flipped)
                 self.inky_display.set_image(self.img)
                 self.inky_display.show()
+                '''
             except Exception as e:
                 self.con.rollback()
                 print(e)
