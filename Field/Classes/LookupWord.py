@@ -26,37 +26,13 @@ class LookUp():
         word = input('Word: ')
         if word == '':
             results = []
-            sql = "SELECT word, definition, part of speech FROM words;"
+            sql = "SELECT * FROM words;"
             with self.con:
                 try:
                     self.cur.execute(sql)
                     results = self.cur.fetchall()
                     self.con.commit()
                     print(results)
-
-                    root = str(word)
-                    root = root.upper()
-                    #Font Specific Change
-                    #ST --> F
-                    root = root.replace('ST', 'F')
-                    #OO --> L
-                    root = root.replace('OO', 'L')
-                    #SH --> Q
-                    root = root.replace('SH', 'Q')
-                    #AW --> W
-                    root = root.replace('AW', 'W')
-                    #I:I --> Y
-                    root = root.replace('I:I', 'Y')
-                    #CH --> @
-                    root = root.replace('CH', '@')
-                    #TH --> #
-                    root = root.replace('TH', '#')
-
-                    self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
-                    #flipped = img.rotate(90)
-                    #inky_display.set_image(flipped)
-                    self.inky_display.set_image(self.img)
-                    self.inky_display.show()
                 except Exception as e:
                     self.con.rollback()
                     print(e)
