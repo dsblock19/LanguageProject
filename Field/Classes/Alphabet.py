@@ -12,7 +12,7 @@ class Alpha():
         self.img = Image.new("P", (400, 300))
         self.draw = ImageDraw.Draw(self.img)
         self.stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
-        self.stofont = ImageFont.truetype(self.stofontpath, 10)
+        self.stofont = ImageFont.truetype(self.stofontpath, 50)
         self.x = 0
         self.y = 0
 
