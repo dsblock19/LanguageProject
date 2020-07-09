@@ -16,7 +16,8 @@ class Alpha():
         self.x = 0
         self.y = 0
 
-        self.root = 'dtkznsm\ngpvjbhr\nawouaooei:i\nicshthstchx'
+        #self.root = 'dtkznsm\ngpvjbhr\nawouaooei:i\nicshthstchx'
+        self.root = 'dtnawi:ieu\naiooozcch\nhkstshmpg\nxsvthbrj'
 
     def Alpha(self):
 
