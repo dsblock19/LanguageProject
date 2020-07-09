@@ -5,10 +5,6 @@ from PIL import Image, ImageFont, ImageDraw
 class Alpha():
 
     def __init__(self):
-        #Setup
-        self.con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'dictionary')
-        self.cur = self.con.cursor()
-
         # screen
         self.inky_display = InkyWHAT("red")
         self.inky_display.set_border(self.inky_display.WHITE)
