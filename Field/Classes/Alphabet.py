@@ -16,7 +16,7 @@ class Alpha():
         self.x = 0
         self.y = 0
 
-        self.root = [ 'd', 't', 'k', 'z', 'n', 's', 'm\n', 'g', 'p', 'v', 'j', 'b', 'h', 'r\n', 'aw', 'o', 'u', 'a', 'oo', 'e', 'i:i\n', 'i', 'c', 'sh', 'th', 'st', 'ch', 'x']
+        self.root = 'dtkznsm\ngpvjbhr\nawouaooei:i\nicshthstchx'
 
     def Alpha(self):
 
