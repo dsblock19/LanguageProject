@@ -31,7 +31,8 @@ class LookUp():
                     self.cur.execute(sql)
                     results = self.cur.fetchone()
                     self.con.commit()
-                    print(str(results))
+                    for i in results:
+                        print(str(results[i]))
                     root = str(word)
                     root = root.upper()
                     #Font Specific Change
