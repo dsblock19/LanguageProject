@@ -42,9 +42,10 @@ class LookUp():
             with self.con:
                 try:
                     self.cur.execute(sql)
-                    results = self.cur.fetchone()
+                    results = self.cur.fetchall()
                     self.con.commit()
-                    print('Definition: (' + str(results[2]) + '.) ' + str(results[1]))
+                    for i in range(len(results)):
+                        print(results[i])
                     root = str(word)
                     root = root.upper()
                     #Font Specific Change
