@@ -32,7 +32,8 @@ class LookUpEng():
                 self.con.commit()
                 for i in range(len(results)):
                     print(results[i])
-                root = str(results[0])
+                root = results[0]
+                root = root[0]
                 root = root.upper()
                 #Font Specific Change
                 #ST --> F
