@@ -34,6 +34,7 @@ class LookUp():
                     self.con.commit()
                     for i in range(len(results)):
                         print(results[i])
+                    print(str(len(results)))
                 except Exception as e:
                     self.con.rollback()
                     print(e)
