@@ -25,14 +25,15 @@ class LookUp():
         print('')
         word = input('Word: ')
         if word == '':
-            sql = "SELECT ALL * FROM words;"
+            results = []
+            sql = "SELECT word, definition, part_of_speech FROM words"
             with self.con:
                 try:
                     self.cur.execute(sql)
-                    results = self.cur.fetchone()
+                    results = self.cur.fetchall()
                     self.con.commit()
-                    for i in range(len(results)):
-                        print(results[i])
+                    print(results)
+
                     root = str(word)
                     root = root.upper()
                     #Font Specific Change
