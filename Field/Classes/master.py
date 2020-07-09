@@ -6,6 +6,7 @@ from ConjugateVerb import ConjugateVerb
 from AddWord import Add2Dic
 from LookupWord import LookUp
 from LookupEngWord import LookUpEng
+from Alphabet import Alpha
 
 x = StoConversion()
 y = WordGen()
@@ -15,6 +16,7 @@ b = ConjugateVerb()
 c = Add2Dic()
 d = LookUp()
 e = LookUpEng()
+f = Alpha()
 
 
 while True:
@@ -36,5 +38,7 @@ while True:
         d.WordDef()
     elif prog == 'LOOKUP ENGLISH':
         e.WordDefEng()
+    elif prog == 'ALPHABET':
+        f.Alpha()
     else:
         print('\nWomps\n')
