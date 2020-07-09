@@ -31,7 +31,7 @@ class LookUp():
                     self.cur.execute(sql)
                     results = self.cur.fetchone()
                     self.con.commit()
-                    for i in results:
+                    for i in range(len(results)):
                         print(results[i])
                     root = str(word)
                     root = root.upper()
