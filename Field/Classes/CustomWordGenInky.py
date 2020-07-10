@@ -398,5 +398,6 @@ class CustWordGen():
         stomessage = '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV
         self.draw.text((self.x, self.y), stomessage, self.inky_display.RED, self.stofont)
         flipped = self.img.rotate(90)
+        self.inky_display.set_border(self.inky_display.WHITE)
         self.inky_display.set_image(flipped)
         self.inky_display.show()
