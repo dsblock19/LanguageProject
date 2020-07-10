@@ -45,6 +45,8 @@ class StoLog():
         stof.write('\n' + root)
         stof.close()
 
+        self.img = Image.new("P", (400, 300))
+        self.draw = ImageDraw.Draw(self.img)
         self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
         #flipped = img.rotate(90)
         #inky_display.set_image(flipped)
