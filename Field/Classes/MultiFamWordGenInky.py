@@ -424,7 +424,7 @@ class WordGen():
         if eink == 'YES':
             self.dclear
             self.inky_display.set_image(self.clear)
-            self.inky_display.show()
+            #self.inky_display.show()
 
             self.draw.text((self.x, self.y), stomessage, self.inky_display.RED, self.stofont)
             self.inky_display.set_border(self.inky_display.WHITE)
