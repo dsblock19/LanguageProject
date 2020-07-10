@@ -105,7 +105,7 @@ class WordGen():
             rt3 = random.choice(self.allcategories[1]) + random.choice(self.allcategories[0])
             rttup = (rt1, rt2, rt3)
             root = random.choice(rttup)
-            
+
         #Class
         #I
         if root[-1] in ['o', 'i', 'u', 'oo']:
@@ -417,6 +417,8 @@ class WordGen():
 
         stomessage = '\n' + NounsI + '\n ' + NounsII + '\n   ' + NounsIII + '\n  ' + NounsIV + '\n   ' + NounsV
 
+        eink = input('Inky? ')
+        eink = eink.upper()
         if eink == 'YES':
             self.draw.text((self.x, self.y), stomessage, self.inky_display.RED, self.stofont)
             #flipped = img.rotate(90)

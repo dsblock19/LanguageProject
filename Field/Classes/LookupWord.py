@@ -67,6 +67,8 @@ class LookUp():
                     #' -->
                     root = root.replace("'", "")
 
+                    eink = input('Inky? ')
+                    eink = eink.upper()
                     if eink == 'YES':
                         self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
                         #flipped = img.rotate(90)
