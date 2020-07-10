@@ -420,7 +420,7 @@ class WordGen():
         eink = input('Inky? ')
         eink = eink.upper()
         if eink == 'YES':
-            self.inky_display.show(self.inky_display.Image.new('P', (400, 300)))
+            self.inky_display.show(self.inky_display.img.new('P', (400, 300)))
             self.draw.text((self.x, self.y), stomessage, self.inky_display.RED, self.stofont)
             #flipped = img.rotate(90)
             #inky_display.set_image(flipped)
