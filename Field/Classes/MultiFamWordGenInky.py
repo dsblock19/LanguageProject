@@ -99,7 +99,13 @@ class WordGen():
             root = root + self.salt
         if 'EVIL' in family:
             root = root + random.choice(self.evil)
-
+        else:
+            rt1 = random.choice(self.allcategories[0]) + random.choice(self.allcategories[1])
+            rt2 = random.choice(self.allcategories[1]) + random.choice(self.allcategories[1])
+            rt3 = random.choice(self.allcategories[1]) + random.choice(self.allcategories[0])
+            rttup = (rt1, rt2, rt3)
+            root = random.choice(rttup)
+            
         #Class
         #I
         if root[-1] in ['o', 'i', 'u', 'oo']:
