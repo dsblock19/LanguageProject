@@ -50,10 +50,9 @@ class StoConversion():
         #TH --> #
         root = root.replace('TH', '#')
 
-        if eink == 'YES':
-            self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
-            #flipped = img.rotate(90)
-            #inky_display.set_image(flipped)
-            self.inky_display.set_border(self.inky_display.WHITE)
-            self.inky_display.set_image(self.img)
-            self.inky_display.show()
+        self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
+        #flipped = img.rotate(90)
+        #inky_display.set_image(flipped)
+        self.inky_display.set_border(self.inky_display.WHITE)
+        self.inky_display.set_image(self.img)
+        self.inky_display.show()

@@ -418,3 +418,4 @@ class WordGen():
             self.inky_display.set_border(self.inky_display.WHITE)
             self.inky_display.set_image(self.img)
             self.inky_display.show()
+        print('')
