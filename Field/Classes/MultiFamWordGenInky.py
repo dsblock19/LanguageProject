@@ -13,9 +13,7 @@ class WordGen():
         self.inky_display.set_border(self.inky_display.WHITE)
         #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         self.img = Image.new("P", (400, 300))
-        self.clear = Image.new("P", (400, 300))
         self.draw = ImageDraw.Draw(self.img)
-        self.dclear = ImageDraw.Draw(self.clear)
         self.stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
         self.stofont = ImageFont.truetype(self.stofontpath, 41)
         self.x = 50
@@ -422,10 +420,8 @@ class WordGen():
         eink = input('Inky? ')
         eink = eink.upper()
         if eink == 'YES':
-            self.dclear
-            self.inky_display.set_image(self.clear)
-            #self.inky_display.show()
-
+            self.img = Image.new("P", (400, 300))
+            self.draw = ImageDraw.Draw(self.img)
             self.draw.text((self.x, self.y), stomessage, self.inky_display.RED, self.stofont)
             self.inky_display.set_border(self.inky_display.WHITE)
             self.inky_display.set_image(self.img)
