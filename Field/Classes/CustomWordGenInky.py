@@ -10,7 +10,7 @@ class CustWordGen():
     def __init__(self):
         #SETUP
         # screen
-        self.inky_display = InkyWHAT("red")
+        self.inky_display = InkyWHAT("black")
         self.inky_display.set_border(self.inky_display.WHITE)
         #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         self.img = Image.new("P", (400, 300))
@@ -402,7 +402,7 @@ class CustWordGen():
         if eink == 'YES':
             self.img = Image.new("P", (400, 300))
             self.draw = ImageDraw.Draw(self.img)
-            
+
             self.draw.text((self.x, self.y), stomessage, self.inky_display.RED, self.stofont)
             #flipped = img.rotate(90)
             #inky_display.set_image(flipped)

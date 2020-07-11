@@ -11,7 +11,7 @@ class LookUp():
         self.cur = self.con.cursor()
 
         # screen
-        self.inky_display = InkyWHAT("red")
+        self.inky_display = InkyWHAT("black")
         self.inky_display.set_border(self.inky_display.WHITE)
         #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         self.img = Image.new("P", (400, 300))
