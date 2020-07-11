@@ -28,7 +28,7 @@ while True:
         x.InSto()
     elif prog == 'LOG':
         z.StoLog()
-    elif prog == 'CUSTOM WORDGEN':
+    elif prog == 'CUSTOM WORDGEN' or prog == 'CUSTOM':
         a.CustNewFam()
     elif prog == 'CONJUGATE':
         b.Conjugate()
