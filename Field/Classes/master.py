@@ -34,9 +34,9 @@ while True:
         b.Conjugate()
     elif prog == 'ADD WORD':
         c.AddWord()
-    elif prog == 'LOOKUP':
+    elif prog == 'LOOKUP' or prog == 'STO':
         d.WordDef()
-    elif prog == 'LOOKUP ENGLISH':
+    elif prog == 'LOOKUP ENGLISH' or prog == 'ENGLISH':
         e.WordDefEng()
     elif prog == 'ALPHABET':
         f.Alpha()
