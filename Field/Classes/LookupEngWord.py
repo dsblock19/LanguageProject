@@ -53,19 +53,19 @@ class LookUpEng():
                 #' -->
                 root = root.replace("'", "")
 
+                print('')
                 eink = input('Inky? ')
                 eink = eink.upper()
                 if eink == 'YES':
                     self.img = Image.new("P", (400, 300))
                     self.draw = ImageDraw.Draw(self.img)
-                    
+
                     self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
                     #flipped = img.rotate(90)
                     #inky_display.set_image(flipped)
                     self.inky_display.set_border(self.inky_display.WHITE)
                     self.inky_display.set_image(self.img)
                     self.inky_display.show()
-                print('')
             except Exception as e:
                 self.con.rollback()
                 print(e)
