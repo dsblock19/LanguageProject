@@ -7,15 +7,15 @@ cur = con.cursor()
 results = []
 sql = "SELECT * FROM words;"
 
-with self.con:
+with con:
     try:
-        self.cur.execute(sql)
-        results = self.cur.fetchall()
-        self.con.commit()
+        cur.execute(sql)
+        results = cur.fetchall()
+        con.commit()
         for i in range(len(results)):
             stof = open('/home/pi/Desktop/MyCode/LanguageProject/Output/Dictionary.csv', 'a')
             stof.write(results[i])
             stof.close()
     except Exception as e:
-        self.con.rollback()
+        con.rollback()
         print(e)
