@@ -14,7 +14,7 @@ with con:
         con.commit()
         for i in range(len(results)):
             stof = open('/home/pi/LanguageProject/Output/Dictionary.csv', 'a')
-            stof.write(str(results[i]))
+            stof.write(str(results[i]) + '\n')
             stof.close()
     except Exception as e:
         con.rollback()
