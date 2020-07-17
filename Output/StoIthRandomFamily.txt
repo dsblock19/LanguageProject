@@ -629,3 +629,318 @@
    NounIII: IPAF
  NounIV: IPAAMS
    NounV: IPAJE
+
+[Root: UE] Verb: UET
+   NounI: UEW
+ NounII: UEC
+   NounIII: UEF
+ NounIV: UEEMS
+   NounV: UEIPA
+
+[Root: IPI] Verb: IPIT
+   NounI: IPIZW
+ NounII: IPIK
+   NounIII: IPIF
+ NounIV: IPIUMS
+   NounV: IPIRO
+
+[Root: AR] Verb: AROT
+   NounI: ARY
+ NounII: AREX
+   NounIII: ARAF
+ NounIV: ARNI
+   NounV: ARIPA
+
+[Root: WU] Verb: WUT
+   NounI: WUKY
+ NounII: WUC
+   NounIII: WU#
+ NounIV: WUAM
+   NounV: WUZIPA
+
+[Root: BO] Verb: BOT
+   NounI: BORA
+ NounII: BOK
+   NounIII: BOF
+ NounIV: BOAMS
+   NounV: BOE
+
+[Root: AO] Verb: AOT
+   NounI: AOZY
+ NounII: AOC
+   NounIII: AO#
+ NounIV: AOEM
+   NounV: AOE
+
+[Root: JW] Verb: JWT
+   NounI: JWA
+ NounII: JWK
+   NounIII: JWF
+ NounIV: JWM
+   NounV: JWO
+
+[Root: MU] Verb: MUT
+   NounI: MUMW
+ NounII: MUK
+   NounIII: MU#
+ NounIV: MUUMS
+   NounV: MUVO
+
+[Root: POO] Verb: PLT
+   NounI: PLJA
+ NounII: PLK
+   NounIII: PLF
+ NounIV: PLAM
+   NounV: PLE
+
+[Root: OT] Verb: OTUT
+   NounI: OTW
+ NounII: OTUX
+   NounIII: OTA#
+ NounIV: OTVI
+   NounV: OTE
+
+[Root: BA] Verb: BAT
+   NounI: BAW
+ NounII: BAX
+   NounIII: BA#
+ NounIV: BAOM
+   NounV: BAGE
+
+[Root: ME] Verb: MET
+   NounI: MEW
+ NounII: MEC
+   NounIII: ME#
+ NounIV: MEEM
+   NounV: MEO
+
+[Root: EU] Verb: EUT
+   NounI: EUTY
+ NounII: EUX
+   NounIII: EUF
+ NounIV: EUWM
+   NounV: EUTE
+
+[Root: EJ] Verb: EJAT
+   NounI: EJY
+ NounII: EJLC
+   NounIII: EJE#
+ NounIV: EJRI
+   NounV: EJE
+
+[Root: HO] Verb: HOT
+   NounI: HOSY
+ NounII: HOX
+   NounIII: HO#
+ NounIV: HOAM
+   NounV: HOE
+
+[Root: VE] Verb: VET
+   NounI: VEA
+ NounII: VEX
+   NounIII: VEF
+ NounIV: VEOMS
+   NounV: VEO
+
+[Root: ES] Verb: ESLT
+   NounI: ESY
+ NounII: ESAX
+   NounIII: ESWF
+ NounIV: ESM
+   NounV: ESE
+
+[Root: WO] Verb: WOT
+   NounI: WOTW
+ NounII: WOK
+   NounIII: WO#
+ NounIV: WLOMS
+   NounV: WOE
+
+[Root: AA] Verb: AAT
+   NounI: AAW
+ NounII: AAK
+   NounIII: AA#
+ NounIV: AAAMS
+   NounV: AAMO
+
+[Root: AU] Verb: AUT
+   NounI: AUBA
+ NounII: AUX
+   NounIII: AU#
+ NounIV: AUUM
+   NounV: AUSE
+
+[Root: UW] Verb: UWT
+   NounI: UWW
+ NounII: UWC
+   NounIII: UW#
+ NounIV: UWMS
+   NounV: UWE
+
+[Root: EOO] Verb: ELT
+   NounI: ELZY
+ NounII: ELX
+   NounIII: ELF
+ NounIV: ELEMS
+   NounV: ELIPA
+
+[Root: ET] Verb: ETOT
+   NounI: ETA
+ NounII: ETWK
+   NounIII: ETWF
+ NounIV: E#I
+   NounV: ETIPA
+
+[Root: OK] Verb: OKLT
+   NounI: OKA
+ NounII: OKC
+   NounIII: OKWF
+ NounIV: OKVI
+   NounV: OKIPA
+
+[Root: WV] Verb: WVUT
+   NounI: WVY
+ NounII: WVOC
+   NounIII: WVL#
+ NounIV: WVNI
+   NounV: WVO
+
+[Root: EW] Verb: EWT
+   NounI: EWA
+ NounII: EWX
+   NounIII: EWF
+ NounIV: EWI
+   NounV: EWIPA
+
+[Root: EN] Verb: ENOT
+   NounI: ENA
+ NounII: ENUK
+   NounIII: ENWF
+ NounIV: ENPI
+   NounV: ENO
+
+[Root: GO] Verb: GOT
+   NounI: GOSW
+ NounII: GOX
+   NounIII: GOF
+ NounIV: GOWM
+   NounV: GOIPA
+
+[Root: KA] Verb: KAT
+   NounI: KAY
+ NounII: KAX
+   NounIII: KAF
+ NounIV: KAEM
+   NounV: KAPIPA
+
+[Root: NE] Verb: NET
+   NounI: NEW
+ NounII: NEK
+   NounIII: NE#
+ NounIV: NEEM
+   NounV: NEO
+
+[Root: OOOO] Verb: LLT
+   NounI: LLMW
+ NounII: LLK
+   NounIII: LLF
+ NounIV: LLUMS
+   NounV: LLE
+
+[Root: VOO] Verb: VLT
+   NounI: VLHW
+ NounII: VLX
+   NounIII: VL#
+ NounIV: VLEMS
+   NounV: VLE
+
+[Root: WO] Verb: WOT
+   NounI: WOHY
+ NounII: WOC
+   NounIII: WO#
+ NounIV: WOWM
+   NounV: WOE
+
+[Root: UC] Verb: UCUT
+   NounI: UCY
+ NounII: UCK
+   NounIII: UCEF
+ NounIV: U@I
+   NounV: UCIPA
+
+[Root: AOOUC] Verb: ALUCAT
+   NounI: ALUCY
+ NounII: ALUCX
+   NounIII: ALUCOF
+ NounIV: ALUCZI
+   NounV: ALUCE
+
+[Root: EUCM] Verb: EUCMAT
+   NounI: EUCMY
+ NounII: EUCMUC
+   NounIII: EUCMLF
+ NounIV: EUCMI
+   NounV: EUCMIPA
+
+[Root: WOO] Verb: WLT
+   NounI: WLHA
+ NounII: WLC
+   NounIII: WL#
+ NounIV: WLAMS
+   NounV: WLIPA
+
+[Root: WUCZ] Verb: WUCZAT
+   NounI: WUCZY
+ NounII: WUCZWC
+   NounIII: WUCZLF
+ NounIV: WUCZNI
+   NounV: WUCZO
+
+[Root: UC] Verb: UCAT
+   NounI: UCY
+ NounII: UCX
+   NounIII: UCO#
+ NounIV: UCNI
+   NounV: UCO
+
+[Root: ANUC] Verb: ANUCUT
+   NounI: ANUCA
+ NounII: ANUCK
+   NounIII: ANUCLF
+ NounIV: ANUCSI
+   NounV: ANUCO
+
+[Root: YK] Verb: YKOT
+   NounI: YKY
+ NounII: YKX
+   NounIII: YKOF
+ NounIV: YKSI
+   NounV: YKE
+
+[Root: PIQEW] Verb: PIQEWT
+   NounI: PIQEWY
+ NounII: PIQEWC
+   NounIII: PIQEW#
+ NounIV: PIQEWMS
+   NounV: PIQEWE
+
+[Root: PIEU] Verb: PIEUT
+   NounI: PIEUGY
+ NounII: PIEUK
+   NounIII: PIEU#
+ NounIV: PIEULM
+   NounV: PIEUPIPA
+
+[Root: PIEU] Verb: PIEUT
+   NounI: PIEUZA
+ NounII: PIEUC
+   NounIII: PIEUF
+ NounIV: PIEUOM
+   NounV: PIEUZIPA
+
+[Root: SO] Verb: SOT
+   NounI: SOKW
+ NounII: SOC
+   NounIII: SOF
+ NounIV: SLOMS
+   NounV: SOE

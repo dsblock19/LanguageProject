@@ -629,3 +629,318 @@
    NounIII: ipast
  NounIV: ipaams
    NounV: ipaje
+
+[Root: UE] Verb: uet
+   NounI: ueaw
+ NounII: uec
+   NounIII: uest
+ NounIV: ueems
+   NounV: ueipa
+
+[Root: IPI] Verb: ipit
+   NounI: ipizaw
+ NounII: ipik
+   NounIII: ipist
+ NounIV: ipiums
+   NounV: ipiro
+
+[Root: AR] Verb: arot
+   NounI: ari:i
+ NounII: arex
+   NounIII: arast
+ NounIV: arni
+   NounV: aripa
+
+[Root: WU] Verb: awut
+   NounI: awuki:i
+ NounII: awuc
+   NounIII: awuth
+ NounIV: awuam
+   NounV: awuzipa
+
+[Root: BO] Verb: bot
+   NounI: bora
+ NounII: bok
+   NounIII: bost
+ NounIV: boams
+   NounV: boe
+
+[Root: AO] Verb: aot
+   NounI: aozi:i
+ NounII: aoc
+   NounIII: aoth
+ NounIV: aoem
+   NounV: aoe
+
+[Root: JW] Verb: jawt
+   NounI: jawa
+ NounII: jawk
+   NounIII: jawst
+ NounIV: jawm
+   NounV: jawo
+
+[Root: MU] Verb: mut
+   NounI: mumaw
+ NounII: muk
+   NounIII: muth
+ NounIV: muums
+   NounV: muvo
+
+[Root: POO] Verb: poot
+   NounI: pooja
+ NounII: pook
+   NounIII: poost
+ NounIV: pooam
+   NounV: pooe
+
+[Root: OT] Verb: otut
+   NounI: otaw
+ NounII: otux
+   NounIII: otath
+ NounIV: otvi
+   NounV: ote
+
+[Root: BA] Verb: bat
+   NounI: baaw
+ NounII: bax
+   NounIII: bath
+ NounIV: baom
+   NounV: bage
+
+[Root: ME] Verb: met
+   NounI: meaw
+ NounII: mec
+   NounIII: meth
+ NounIV: meem
+   NounV: meo
+
+[Root: EU] Verb: eut
+   NounI: euti:i
+ NounII: eux
+   NounIII: eust
+ NounIV: euawm
+   NounV: eute
+
+[Root: EJ] Verb: ejat
+   NounI: eji:i
+ NounII: ejooc
+   NounIII: ejeth
+ NounIV: ejri
+   NounV: eje
+
+[Root: HO] Verb: hot
+   NounI: hosi:i
+ NounII: hox
+   NounIII: hoth
+ NounIV: hoam
+   NounV: hoe
+
+[Root: VE] Verb: vet
+   NounI: vea
+ NounII: vex
+   NounIII: vest
+ NounIV: veoms
+   NounV: veo
+
+[Root: ES] Verb: esoot
+   NounI: esi:i
+ NounII: esax
+   NounIII: esawst
+ NounIV: esm
+   NounV: ese
+
+[Root: WO] Verb: awot
+   NounI: awotaw
+ NounII: awok
+   NounIII: awoth
+ NounIV: awoooms
+   NounV: awoe
+
+[Root: AA] Verb: aat
+   NounI: aaaw
+ NounII: aak
+   NounIII: aath
+ NounIV: aaams
+   NounV: aamo
+
+[Root: AU] Verb: aut
+   NounI: auba
+ NounII: aux
+   NounIII: auth
+ NounIV: auum
+   NounV: ause
+
+[Root: UW] Verb: uawt
+   NounI: uawaw
+ NounII: uawc
+   NounIII: uawth
+ NounIV: uawms
+   NounV: uawe
+
+[Root: EOO] Verb: eoot
+   NounI: eoozi:i
+ NounII: eoox
+   NounIII: eoost
+ NounIV: eooems
+   NounV: eooipa
+
+[Root: ET] Verb: etot
+   NounI: eta
+ NounII: etawk
+   NounIII: etawst
+ NounIV: ethi
+   NounV: etipa
+
+[Root: OK] Verb: okoot
+   NounI: oka
+ NounII: okc
+   NounIII: okawst
+ NounIV: okvi
+   NounV: okipa
+
+[Root: WV] Verb: awvut
+   NounI: awvi:i
+ NounII: awvoc
+   NounIII: awvooth
+ NounIV: awvni
+   NounV: awvo
+
+[Root: EW] Verb: eawt
+   NounI: eawa
+ NounII: eawx
+   NounIII: eawst
+ NounIV: eawi
+   NounV: eawipa
+
+[Root: EN] Verb: enot
+   NounI: ena
+ NounII: enuk
+   NounIII: enawst
+ NounIV: enpi
+   NounV: eno
+
+[Root: GO] Verb: got
+   NounI: gosaw
+ NounII: gox
+   NounIII: gost
+ NounIV: goawm
+   NounV: goipa
+
+[Root: KA] Verb: kat
+   NounI: kai:i
+ NounII: kax
+   NounIII: kast
+ NounIV: kaem
+   NounV: kapipa
+
+[Root: NE] Verb: net
+   NounI: neaw
+ NounII: nek
+   NounIII: neth
+ NounIV: neem
+   NounV: neo
+
+[Root: OOOO] Verb: oooot
+   NounI: oooomaw
+ NounII: ooook
+   NounIII: oooost
+ NounIV: ooooums
+   NounV: ooooe
+
+[Root: VOO] Verb: voot
+   NounI: voohaw
+ NounII: voox
+   NounIII: vooth
+ NounIV: vooems
+   NounV: vooe
+
+[Root: WO] Verb: awot
+   NounI: awohi:i
+ NounII: awoc
+   NounIII: awoth
+ NounIV: awoawm
+   NounV: awoe
+
+[Root: UC] Verb: ucut
+   NounI: uci:i
+ NounII: uck
+   NounIII: ucest
+ NounIV: uchi
+   NounV: ucipa
+
+[Root: AOOUC] Verb: aooucat
+   NounI: aoouci:i
+ NounII: aooucx
+   NounIII: aooucost
+ NounIV: aoouczi
+   NounV: aoouce
+
+[Root: EUCM] Verb: eucmat
+   NounI: eucmi:i
+ NounII: eucmuc
+   NounIII: eucmoost
+ NounIV: eucmi
+   NounV: eucmipa
+
+[Root: WOO] Verb: awoot
+   NounI: awooha
+ NounII: awooc
+   NounIII: awooth
+ NounIV: awooams
+   NounV: awooipa
+
+[Root: WUCZ] Verb: awuczat
+   NounI: awuczi:i
+ NounII: awuczawc
+   NounIII: awuczoost
+ NounIV: awuczni
+   NounV: awuczo
+
+[Root: UC] Verb: ucat
+   NounI: uci:i
+ NounII: ucx
+   NounIII: ucoth
+ NounIV: ucni
+   NounV: uco
+
+[Root: ANUC] Verb: anucut
+   NounI: anuca
+ NounII: anuck
+   NounIII: anucoost
+ NounIV: anucsi
+   NounV: anuco
+
+[Root: YK] Verb: i:ikot
+   NounI: i:iki:i
+ NounII: i:ikx
+   NounIII: i:ikost
+ NounIV: i:iksi
+   NounV: i:ike
+
+[Root: PIQEW] Verb: pisheawt
+   NounI: pisheawi:i
+ NounII: pisheawc
+   NounIII: pisheawth
+ NounIV: pisheawms
+   NounV: pisheawe
+
+[Root: PIEU] Verb: pieut
+   NounI: pieugi:i
+ NounII: pieuk
+   NounIII: pieuth
+ NounIV: pieuoom
+   NounV: pieupipa
+
+[Root: PIEU] Verb: pieut
+   NounI: pieuza
+ NounII: pieuc
+   NounIII: pieust
+ NounIV: pieuom
+   NounV: pieuzipa
+
+[Root: SO] Verb: sot
+   NounI: sokaw
+ NounII: soc
+   NounIII: sost
+ NounIV: soooms
+   NounV: soe
