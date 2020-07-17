@@ -14,7 +14,11 @@ with con:
         con.commit()
         for i in range(len(results)):
             stof = open('/home/pi/LanguageProject/Output/Dictionary.csv', 'a')
-            stof.write(str(results[i]) + '\n')
+            res = str(results[i])
+            res = res.replace('(' , '')
+            res = res.replace(', ' , '/' )
+            res = res.replace(')' , '')
+            stof.write(res + '\n')
             stof.close()
     except Exception as e:
         con.rollback()
