@@ -16,7 +16,6 @@ with con:
             stof = open('/home/pi/LanguageProject/Output/Dictionary.csv', 'a')
             res = str(results[i])
             res = res.replace("'" , '')
-            res = res.replace(', ' , '/' )
             res = res.replace('(' , '' )
             res = res.replace(')' , '' )
             stof.write(res + '\n')
