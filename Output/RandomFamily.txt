@@ -944,3 +944,31 @@
    NounIII: sost
  NounIV: soooms
    NounV: soe
+
+[Root: SOIM] Verb: soimot
+   NounI: soimaw
+ NounII: soimoox
+   NounIII: soimath
+ NounIV: soimms
+   NounV: soime
+
+[Root: DWIM] Verb: dawimut
+   NounI: dawima
+ NounII: dawimek
+   NounIII: dawimust
+ NounIV: dawimms
+   NounV: dawime
+
+[Root: OWWM] Verb: oawawmat
+   NounI: oawawmi:i
+ NounII: oawawmex
+   NounIII: oawawmast
+ NounIV: oawawmms
+   NounV: oawawme
+
+[Root: DOPO] Verb: dopot
+   NounI: dopona
+ NounII: dopok
+   NounIII: dopoth
+ NounIV: dopoums
+   NounV: dopoe

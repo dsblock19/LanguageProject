@@ -944,3 +944,31 @@
    NounIII: SOF
  NounIV: SLOMS
    NounV: SOE
+
+[Root: SOIM] Verb: SOIMOT
+   NounI: SOIMW
+ NounII: SOIMLX
+   NounIII: SOIMA#
+ NounIV: SOIMMS
+   NounV: SOIME
+
+[Root: DWIM] Verb: DWIMUT
+   NounI: DWIMA
+ NounII: DWIMEK
+   NounIII: DWIMUF
+ NounIV: DWIMMS
+   NounV: DWIME
+
+[Root: OWWM] Verb: OWWMAT
+   NounI: OWWMY
+ NounII: OWWMEX
+   NounIII: OWWMAF
+ NounIV: OWWMMS
+   NounV: OWWME
+
+[Root: DOPO] Verb: DOPOT
+   NounI: DOPONA
+ NounII: DOPOK
+   NounIII: DOPO#
+ NounIV: DOPOUMS
+   NounV: DOPOE
