@@ -10,9 +10,9 @@ with open('/home/pi/LanguageProject/words.csv', 'r') as Dcsv:
         print(row[0] + ', ' + row[1] + ', ' + row[2])
         sql = "INSERT INTO wordsII VALUES('" + str(row[0]) + "','" + str(row[1]) + "','" + str(row[2]) + "');"
         try:
-            self.cur.execute(sql)
-            self.con.commit()
+            cur.execute(sql)
+            con.commit()
             print(' Success')
         except Exception as e:
-            self.con.rollback()
+            con.rollback()
             print(' Error: ' + e)
