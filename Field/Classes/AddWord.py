@@ -7,7 +7,7 @@ class Add2Dic():
 
     def __init__(self):
         #Setup
-        self.con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'dictionary')
+        self.con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'Sto')
         self.cur = self.con.cursor()
 
         # screen
@@ -26,7 +26,7 @@ class Add2Dic():
         word = input('Word: ')
         defin = input('Definition: ')
         part = input('Part of Speech: ')
-        sql = "INSERT INTO wordsII VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "');"
+        sql = "INSERT INTO FoundationalFamilies VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "');"
         with self.con:
             try:
                 self.cur.execute(sql)

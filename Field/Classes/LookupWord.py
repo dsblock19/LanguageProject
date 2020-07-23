@@ -8,7 +8,7 @@ class LookUp():
 
     def __init__(self):
         #Setup
-        self.con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'dictionary')
+        self.con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'Sto')
         self.cur = self.con.cursor()
 
         # screen
@@ -27,7 +27,7 @@ class LookUp():
         word = input('Word: ')
         if word == '':
             results = []
-            sql = "SELECT * FROM wordsII;"
+            sql = "SELECT * FROM FoundationalFamilies;"
             with self.con:
                 try:
                     self.cur.execute(sql)
@@ -40,7 +40,7 @@ class LookUp():
                     self.con.rollback()
                     print(e)
         else:
-            sql = "SELECT ALL * FROM wordsII WHERE word = '" + word + "';"
+            sql = "SELECT ALL * FROM FoundationalFamilies WHERE word = '" + word + "';"
             with self.con:
                 try:
                     self.cur.execute(sql)

@@ -7,7 +7,7 @@ class LookUpEng():
 
     def __init__(self):
         #Setup
-        self.con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'dictionary')
+        self.con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'Sto')
         self.cur = self.con.cursor()
 
         # screen
@@ -24,7 +24,7 @@ class LookUpEng():
     def WordDefEng(self):
         print('')
         word = input('Word: ')
-        sql = "SELECT ALL * FROM wordsII WHERE definition LIKE '%" + word + "%';"
+        sql = "SELECT ALL * FROM FoundationalFamilies WHERE definition LIKE '%" + word + "%';"
         with self.con:
             try:
                 self.cur.execute(sql)
