@@ -27,7 +27,7 @@ class LookUp():
         word = input('Word: ')
         if word == '':
             results = []
-            sql = "SELECT * FROM words;"
+            sql = "SELECT * FROM wordsII;"
             with self.con:
                 try:
                     self.cur.execute(sql)
@@ -40,7 +40,7 @@ class LookUp():
                     self.con.rollback()
                     print(e)
         else:
-            sql = "SELECT ALL * FROM words WHERE word = '" + word + "';"
+            sql = "SELECT ALL * FROM wordsII WHERE word = '" + word + "';"
             with self.con:
                 try:
                     self.cur.execute(sql)
