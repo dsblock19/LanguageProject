@@ -1,5 +1,5 @@
 import csv
-import pymysql.cursors
+import pymysql
 
 con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'Sto')
 cur = con.cursor()
