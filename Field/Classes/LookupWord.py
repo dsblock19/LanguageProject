@@ -1,6 +1,6 @@
 #Libraries
-#import pymysql
-import mariadb
+import pymysql
+#import mariadb as pymysql
 from inky import InkyWHAT
 from PIL import Image, ImageFont, ImageDraw
 
@@ -8,8 +8,7 @@ class LookUp():
 
     def __init__(self):
         #Setup
-        #self.con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'dictionary')
-        self.con = mariadb.connect('localhost', 'dblo', '1819Kirk!', 'dictionary')
+        self.con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'dictionary')
         self.cur = self.con.cursor()
 
         # screen
