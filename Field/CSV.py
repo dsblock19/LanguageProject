@@ -4,7 +4,9 @@ import pymysql
 con = pymysql.connect('localhost', 'dblo', '1819Kirk!', 'Sto')
 cur = con.cursor()
 
-with open('/home/pi/LanguageProject/words.csv', 'r') as Dcsv:
+csvFilePath = input('CSV Filepath: ')
+
+with open(csvFilePath, 'r') as Dcsv:
     Dreader = csv.reader(Dcsv)
     for row in Dreader:
         print(row[0] + ', ' + row[1] + ', ' + row[2])
