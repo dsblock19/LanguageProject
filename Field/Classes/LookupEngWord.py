@@ -24,7 +24,7 @@ class LookUpEng():
     def WordDefEng(self):
         print('')
         word = input('Word: ')
-        sql = "SELECT ALL * FROM words WHERE definition LIKE '%" + word + "%';"
+        sql = "SELECT ALL * FROM wordsII WHERE definition LIKE '%" + word + "%';"
         with self.con:
             try:
                 self.cur.execute(sql)

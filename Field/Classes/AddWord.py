@@ -26,7 +26,7 @@ class Add2Dic():
         word = input('Word: ')
         defin = input('Definition: ')
         part = input('Part of Speech: ')
-        sql = "INSERT INTO words VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "');"
+        sql = "INSERT INTO wordsII VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "');"
         with self.con:
             try:
                 self.cur.execute(sql)
@@ -66,7 +66,7 @@ class Add2Dic():
                     self.inky_display.set_border(self.inky_display.WHITE)
                     self.inky_display.set_image(self.img)
                     self.inky_display.show()
-                    
+
             except Exception as e:
                 self.con.rollback()
                 print(e)
