@@ -972,3 +972,10 @@
    NounIII: dopoth
  NounIV: dopoums
    NounV: dopoe
+
+[Root: ZO] Verb: zot
+   NounI: zoba
+ NounII: zok
+   NounIII: zoth
+ NounIV: zoawm
+   NounV: zoipa

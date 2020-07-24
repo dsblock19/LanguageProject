@@ -972,3 +972,10 @@
    NounIII: DOPO#
  NounIV: DOPOUMS
    NounV: DOPOE
+
+[Root: ZO] Verb: ZOT
+   NounI: ZOBA
+ NounII: ZOK
+   NounIII: ZO#
+ NounIV: ZOWM
+   NounV: ZOIPA
