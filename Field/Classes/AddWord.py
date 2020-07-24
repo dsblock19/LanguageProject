@@ -26,7 +26,12 @@ class Add2Dic():
         word = input('Word: ')
         defin = input('Definition: ')
         part = input('Part of Speech: ')
-        sql = "INSERT INTO GenerationII VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "','II');"
+        generation = input('Generation: ')
+        if generation == 'I':
+            sql = "INSERT INTO FoundationalFamilies VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "');"
+        elif generation == 'II':
+            sql = "INSERT INTO GenerationII VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "','II');"
+
         #with self.con:
         try:
             self.cur.execute(sql)
