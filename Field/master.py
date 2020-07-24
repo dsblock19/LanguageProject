@@ -17,7 +17,7 @@ class SQLint():
         #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         self.img = Image.new("P", (400, 300))
         self.draw = ImageDraw.Draw(self.img)
-        self.stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
+        self.stofontpath = '/home/pi/LanguageProject/Field/Fonts/sto-ith/sto-ith.ttf'
         self.stofont = ImageFont.truetype(self.stofontpath, 70)
         self.x = 0
         self.y = 100
@@ -213,7 +213,7 @@ class WordCreation():
         #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         self.img = Image.new("P", (400, 300))
         self.draw = ImageDraw.Draw(self.img)
-        self.stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
+        self.stofontpath = '/home/pi/LanguageProject/Field/Fonts/sto-ith/sto-ith.ttf'
         self.stofont = ImageFont.truetype(self.stofontpath, 41)
         self.x = 50
         self.y = -67
@@ -984,7 +984,7 @@ class inkyOnly():
         #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         self.img = Image.new("P", (400, 300))
         self.draw = ImageDraw.Draw(self.img)
-        self.stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
+        self.stofontpath = '/home/pi/LanguageProject/Field/Fonts/sto-ith/sto-ith.ttf'
         self.stofont = ImageFont.truetype(self.stofontpath, 50)
         self.x = 0
         self.y = 0
@@ -1122,7 +1122,7 @@ class inkyOnly():
         #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         img = Image.new("P", (400, 300))
         draw = ImageDraw.Draw(img)
-        stofontpath = '/home/pi/LanguageProject/Field/Classes/Fonts/sto-ith/sto-ith.ttf'
+        stofontpath = '/home/pi/LanguageProject/Field/Fonts/sto-ith/sto-ith.ttf'
         stofont = ImageFont.truetype(stofontpath, 70)
 
         root = input('\nWord: ')
