@@ -26,7 +26,7 @@ class Add2Dic():
         word = input('Word: ')
         defin = input('Definition: ')
         part = input('Part of Speech: ')
-        sql = "INSERT INTO FoundationalFamilies VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "');"
+        sql = "INSERT INTO GenerationII VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "','II');"
         #with self.con:
         try:
             self.cur.execute(sql)
