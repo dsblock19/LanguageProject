@@ -25,9 +25,13 @@ class LookUp():
     def WordDef(self):
         print('')
         word = input('Word: ')
+        generation = input('Generation: ')
         if word == '':
             results = []
-            sql = "SELECT * FROM FoundationalFamilies;"
+            if generation == 'I':
+                sql = "SELECT * FROM FoundationalFamilies;"
+            elif generation == 'II':
+                sql = "SELECT * FROM GenerationII;"
             #with self.con:
             try:
                 self.cur.execute(sql)
@@ -40,7 +44,10 @@ class LookUp():
                 self.con.rollback()
                 print(e)
         else:
-            sql = "SELECT ALL * FROM FoundationalFamilies WHERE word = '" + word + "';"
+            if generation == 'I':
+                sql = "SELECT ALL * FROM FoundationalFamilies WHERE word = '" + word + "';"
+            elif generation == 'II':
+                sql = "SELECT ALL * FROM GenerationII WHERE word = '" + word + "';"
             #with self.con:
             try:
                 self.cur.execute(sql)
