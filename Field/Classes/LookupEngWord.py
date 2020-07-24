@@ -24,7 +24,11 @@ class LookUpEng():
     def WordDefEng(self):
         print('')
         word = input('Word: ')
-        sql = "SELECT ALL * FROM FoundationalFamilies WHERE definition LIKE '%" + word + "%';"
+        generation = input('Generation: ')
+        if generation == 'I':
+            sql = "SELECT ALL * FROM FoundationalFamilies WHERE definition LIKE '%" + word + "%';"
+        elif generation == 'II':
+            sql = "SELECT ALL * FROM GenerationII WHERE definition LIKE '%" + word + "%';"
         #with self.con:
         try:
             self.cur.execute(sql)
