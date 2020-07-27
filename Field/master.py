@@ -30,6 +30,7 @@ class SQLint():
         generation = input('Generation: ')
         if generation == 'I':
             sql = "INSERT INTO FoundationalFamilies VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "');"
+            sqlII = "INSERT INTO GenerationII VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "','I');"
         elif generation == 'II':
             sql = "INSERT INTO GenerationII VALUES('" + str(word) + "','" + str(defin) + "','" + str(part) + "','II');"
 
@@ -38,6 +39,10 @@ class SQLint():
             self.cur.execute(sql)
             self.con.commit()
             print(' Success')
+            if generation == 'I':
+                self.cur.execute(sqlII)
+                self.con.commit()
+                print(' Success: II')
 
             root = word
             root = root.upper()
