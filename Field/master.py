@@ -237,7 +237,7 @@ class WordCreation():
                         ]
         #Word Class
         self.RV = ['t']
-        self.NI = [ 'i:i', 'aw', 'a' ]
+        self.NI = [ 'i:i', 'aw', 'a', 'i' ]
         self.NII = [ 'c', 'k', 'x' ]
         self.NIII = [ 'st', 'th' ]
         self.NIV = [ 'ms', 'm', 'i' ]
