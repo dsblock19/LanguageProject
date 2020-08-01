@@ -740,6 +740,9 @@ class WordCreation():
         else:
             V = root +random.choice(self.WClass[0])
 
+        #Save Unchanged Root
+        rt = root
+
         #Make Upper Case
         root = root.upper()
         Verbs = V.upper()
@@ -962,7 +965,7 @@ class WordCreation():
         if self.salt in NV:
             NVfam = NVfam + ' Salt'
 
-        print('\nRegular:\n[Root: ' + root + '] Verb: ' + V)
+        print('\nRegular:\n[Root: ' + rt + '] Verb: ' + V)
         print('   NounI: ' + NI + ' | Fam:' + NIfam + '\n NounII: ' + NII + '  | Fam:' + NIIfam + '\n   NounIII: ' + NIII + ' | Fam:' + NIIIfam)
         print('NounIV: ' + NIV + ' | Fam:' + NIVfam + '\n   NounV: ' + NV + ' | Fam:' + NVfam)
         print('')
