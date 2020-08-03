@@ -979,3 +979,24 @@
    NounIII: ZO#
  NounIV: ZOWM
    NounV: ZOIPA
+
+[Root: JW] Verb: JWT
+   NounI: JWY
+ NounII: JWK
+   NounIII: JW#
+ NounIV: JWM
+   NounV: JWE
+
+[Root: WE] Verb: WET
+   NounI: WEY
+ NounII: WEK
+   NounIII: WEF
+ NounIV: WEAM
+   NounV: WEO
+
+[Root: OV] Verb: OVLT
+   NounI: OVW
+ NounII: OVEC
+   NounIII: OVU#
+ NounIV: OVDI
+   NounV: OVIPA

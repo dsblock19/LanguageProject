@@ -979,3 +979,24 @@
    NounIII: zoth
  NounIV: zoawm
    NounV: zoipa
+
+[Root: JW] Verb: jawt
+   NounI: jawi:i
+ NounII: jawk
+   NounIII: jawth
+ NounIV: jawm
+   NounV: jawe
+
+[Root: WE] Verb: awet
+   NounI: awei:i
+ NounII: awek
+   NounIII: awest
+ NounIV: aweam
+   NounV: aweo
+
+[Root: OV] Verb: ovoot
+   NounI: ovaw
+ NounII: ovec
+   NounIII: ovuth
+ NounIV: ovdi
+   NounV: ovipa
