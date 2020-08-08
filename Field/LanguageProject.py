@@ -15,6 +15,8 @@ while True:
         x.WordDef()
     elif prog == 'LOOKUP ENGLISH' or prog == 'ENGLISH':
         x.WordDefEng()
+    elif prog == 'PART OF SPEECH' or prog == 'POS':
+        x.PartOfSpeech()
     elif prog == 'CUSTOM WORDGEN' or prog == 'CUSTOM':
         y.CustNewFam()
     elif prog == 'WORDGEN':

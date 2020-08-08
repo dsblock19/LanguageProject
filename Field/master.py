@@ -83,6 +83,27 @@ class SQLint():
             print(e)
         print('')
 
+    def PartOfSpeech(self):
+        print('')
+        pos = input('Part of Speech: ')
+        generation = input('Generation: ')
+        if generation == 'I':
+            sql = "SELECT ALL * FROM `FoundationalFamilies` WHERE `Part of Speech` LIKE '" + pos + "';"
+        elif generation == 'II':
+            sql = "SELECT ALL * FROM `GenerationII` WHERE `Part of Speech` LIKE '" + pos + "';"
+        #with self.con:
+        try:
+            self.cur.execute(sql)
+            results = self.cur.fetchall()
+            self.con.commit()
+            for i in range(len(results)):
+                print(results[i])
+            print('')
+        except Exception as e:
+            self.con.rollback()
+            print(e)
+        print('')
+
     def WordDefEng(self):
         print('')
         word = input('Word: ')
