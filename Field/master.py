@@ -98,7 +98,6 @@ class SQLint():
             self.con.commit()
             for i in range(len(results)):
                 print(results[i])
-            print('')
         except Exception as e:
             self.con.rollback()
             print(e)
