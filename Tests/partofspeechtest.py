@@ -23,9 +23,9 @@ print('')
 pos = input('Part of Speech: ')
 generation = input('Generation: ')
 if generation == 'I':
-    sql = "SELECT ALL * FROM FoundationalFamilies WHERE part of speech LIKE '" + pos + "';"
+    sql = "SELECT ALL * FROM FoundationalFamilies WHERE Part of Speech LIKE '" + pos + "';"
 elif generation == 'II':
-    sql = "SELECT ALL * FROM GenerationII WHERE part of speech LIKE '" + pos + "';"
+    sql = "SELECT ALL * FROM `GenerationII` WHERE `Part of Speech` LIKE '" + pos + "';"
 #with con:
 try:
     cur.execute(sql)
