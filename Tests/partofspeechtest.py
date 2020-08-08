@@ -33,40 +33,6 @@ try:
     con.commit()
     for i in range(len(results)):
         print(results[i])
-    root = results[0]
-    root = root[0]
-    root = root.upper()
-    #Font Specific Change
-    #ST --> F
-    root = root.replace('ST', 'F')
-    #OO --> L
-    root = root.replace('OO', 'L')
-    #SH --> Q
-    root = root.replace('SH', 'Q')
-    #AW --> W
-    root = root.replace('AW', 'W')
-    #I:I --> Y
-    root = root.replace('I:I', 'Y')
-    #CH --> @
-    root = root.replace('CH', '@')
-    #TH --> #
-    root = root.replace('TH', '#')
-    #' -->
-    root = root.replace("'", "")
-
-    print('')
-    eink = input('Inky? ')
-    eink = eink.upper()
-    if eink == 'YES':
-        img = Image.new("P", (400, 300))
-        draw = ImageDraw.Draw(img)
-
-        draw.text((x, y), root, inky_display.RED, stofont)
-        #flipped = img.rotate(90)
-        #inky_display.set_image(flipped)
-        inky_display.set_border(inky_display.WHITE)
-        inky_display.set_image(img)
-        inky_display.show()
 except Exception as e:
     con.rollback()
     print(e)
