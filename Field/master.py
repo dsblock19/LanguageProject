@@ -1146,16 +1146,6 @@ class inkyOnly():
         print('')
 
     def InSto(self):
-        #SETUP
-        # screen
-        inky_display = InkyWHAT("red")
-        inky_display.set_border(inky_display.WHITE)
-        #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
-        img = Image.new("P", (400, 300))
-        draw = ImageDraw.Draw(img)
-        stofontpath = '/home/pi/LanguageProject/Field/Fonts/sto-ith/sto-ith.ttf'
-        stofont = ImageFont.truetype(stofontpath, 70)
-
         root = input('\nWord: ')
         print('')
         #Make Upper Case
