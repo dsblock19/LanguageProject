@@ -147,7 +147,7 @@ def ScreenStuff(row):
     #Format Readings Into String
     print('Coverting Text')
     row = row.split(',')
-    row = str(row[0] + '\n\n  Def: ' + row[1] + '\n\nPart of Speech: ' + row[2])
+    row = str(row[0] + '\n\n  Def: ' + row[1] + '\n\nPart of Speech: ' + row[2] + '\n   Generation: ' + row[3])
     row = row.replace('"','')
     row = row.replace(';',';\n      ')
     sensor_data.text = row
