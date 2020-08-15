@@ -118,7 +118,7 @@ sensors_label.y = TABS_Y
 view3.append(sensors_label)
 '''
  #Data Label
-sensor_data = Label(font, text="Data View", color=0x03AD31, max_glyphs=150)
+sensor_data = Label(font, text="Data View", color=0x03AD31, max_glyphs=300)
 sensor_data.x = TABS_X #+ 10
 sensor_data.y = TABS_Y #+ 40
 view3.append(sensor_data)
@@ -147,7 +147,7 @@ def ScreenStuff(row):
     #Format Readings Into String
     print('Coverting Text')
     row = row.split(',')
-    row = str(row[0] + '\n\n  Def: ' + row[1] + '\n\nPart of Speech: ' + row[2] + '\n   Generation: ' + row[3])
+    row = str(row[0] + '\n\n  Def: ' + row[1] + '\n\nPart of Speech: ' + row[2] + '\nGeneration: ' + row[3])
     row = row.replace('"','')
     row = row.replace(';',';\n      ')
     sensor_data.text = row
