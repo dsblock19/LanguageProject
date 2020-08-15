@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Aug 11, 2020 at 10:07 PM
+-- Generation Time: Aug 14, 2020 at 11:18 PM
 -- Server version: 10.3.23-MariaDB-0+deb10u1
 -- PHP Version: 7.3.19-1~deb10u1
 
@@ -416,7 +416,12 @@ INSERT INTO `GenerationII` (`Word`, `Definition`, `Part of Speech`, `Generation`
 ('sto', 'the language of the valley; writing [semantic field]', 'n', 'I'),
 ('iestoith', 'a proclamation', 'n', 'I'),
 ('awhawni', 'the low fertile valley [where language originated]; deep fertile valley; something god creates that makes humans feel small', 'n', 'I'),
-('ipat', 'to have; to own; to be infected by', 'v', 'II');
+('ipat', 'to have; to own; to be infected by', 'v', 'II'),
+('si', 'showing genetive relationship between two nouns', 'gen', 'II'),
+('ax', 'animal hide; animal skin', 'n', 'II'),
+('ucox', 'a monkey; a primate', 'n', 'II'),
+('ci:i', 'hand', 'n', 'II'),
+('ntant', 'to farm', 'v', 'II');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
