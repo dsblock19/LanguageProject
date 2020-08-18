@@ -1018,7 +1018,7 @@ class inkyOnly():
         self.stofontpath = '/home/pi/LanguageProject/Field/Fonts/sto-ith/sto-ith.ttf'
         self.stofont = ImageFont.truetype(self.stofontpath, 50)
         self.x = 0
-        self.y = 0
+        self.y = 100
 
         #self.root = 'dtkznsm\ngpvjbhr\nawouaooei:i\nicshthstchx'
         self.root = 'dtnawi:ieu\naiooozcch\nhkstshmpg\nxsvthbrj'
