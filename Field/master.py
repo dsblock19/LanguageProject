@@ -14,7 +14,6 @@ class SQLint():
         # screen
         self.inky_display = InkyWHAT("black")
         self.inky_display.set_border(self.inky_display.WHITE)
-        #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         self.img = Image.new("P", (400, 300))
         self.draw = ImageDraw.Draw(self.img)
         self.stofontpath = '/home/pi/LanguageProject/Field/Fonts/sto-ith/sto-ith.ttf'
@@ -72,8 +71,6 @@ class SQLint():
                 self.draw = ImageDraw.Draw(self.img)
 
                 self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
-                #flipped = img.rotate(90)
-                #inky_display.set_image(flipped)
                 self.inky_display.set_border(self.inky_display.WHITE)
                 self.inky_display.set_image(self.img)
                 self.inky_display.show()
@@ -91,7 +88,6 @@ class SQLint():
             sql = "SELECT ALL * FROM `FoundationalFamilies` WHERE `Part of Speech` LIKE '" + pos + "';"
         elif generation == 'II':
             sql = "SELECT ALL * FROM `GenerationII` WHERE `Part of Speech` LIKE '" + pos + "';"
-        #with self.con:
         try:
             self.cur.execute(sql)
             results = self.cur.fetchall()
@@ -111,7 +107,6 @@ class SQLint():
             sql = "SELECT ALL * FROM FoundationalFamilies WHERE definition LIKE '%" + word + "%';"
         elif generation == 'II':
             sql = "SELECT ALL * FROM GenerationII WHERE definition LIKE '%" + word + "%';"
-        #with self.con:
         try:
             self.cur.execute(sql)
             results = self.cur.fetchall()
@@ -147,8 +142,6 @@ class SQLint():
                 self.draw = ImageDraw.Draw(self.img)
 
                 self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
-                #flipped = img.rotate(90)
-                #inky_display.set_image(flipped)
                 self.inky_display.set_border(self.inky_display.WHITE)
                 self.inky_display.set_image(self.img)
                 self.inky_display.show()
@@ -167,7 +160,6 @@ class SQLint():
                 sql = "SELECT * FROM FoundationalFamilies;"
             elif generation == 'II':
                 sql = "SELECT * FROM GenerationII;"
-            #with self.con:
             try:
                 self.cur.execute(sql)
                 results = self.cur.fetchall()
@@ -183,7 +175,6 @@ class SQLint():
                 sql = "SELECT ALL * FROM FoundationalFamilies WHERE word = '" + word + "';"
             elif generation == 'II':
                 sql = "SELECT ALL * FROM GenerationII WHERE word = '" + word + "';"
-            #with self.con:
             try:
                 self.cur.execute(sql)
                 results = self.cur.fetchall()
@@ -218,8 +209,6 @@ class SQLint():
                     self.draw = ImageDraw.Draw(self.img)
 
                     self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
-                    #flipped = img.rotate(90)
-                    #inky_display.set_image(flipped)
                     self.inky_display.set_border(self.inky_display.WHITE)
                     self.inky_display.set_image(self.img)
                     self.inky_display.show()
@@ -235,7 +224,6 @@ class WordCreation():
         # screen
         self.inky_display = InkyWHAT("black")
         self.inky_display.set_border(self.inky_display.WHITE)
-        #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         self.img = Image.new("P", (400, 300))
         self.draw = ImageDraw.Draw(self.img)
         self.stofontpath = '/home/pi/LanguageProject/Field/Fonts/sto-ith/sto-ith.ttf'
@@ -481,21 +469,6 @@ class WordCreation():
         NounsIV = NounsIV.replace('TH', '#')
         NounsV = NounsV.replace('TH', '#')
 
-        #Log Results
-        f = open('/home/pi/LanguageProject/Output/RandomFamily.txt', 'a')
-        f.write('\n\n[Root: ' + root + '] Verb: ' + V + '\n')
-        f.write('   NounI: ' + NI + '\n NounII: ' + NII + '\n   NounIII: ' + NIII + '\n NounIV: ' + NIV + '\n   NounV: ' + NV)
-        f.close()
-        stof = open('/home/pi/LanguageProject/Output/StoIthRandomFamily.txt', 'a')
-        stof.write('\n\n[Root: ' + root + '] Verb: ' + Verbs + '\n')
-        stof.write('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
-        stof.close()
-
-        '''
-        #Print Results
-        print('\nIn Sto:\n[Root: ' + root + '] Verb: ' + Verbs)
-        print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
-        '''
         #NIfam
         NIfam = ''
         if self.holy[0] in NI or self.holy[1] in NI:
@@ -829,21 +802,6 @@ class WordCreation():
         NounsIV = NounsIV.replace('TH', '#')
         NounsV = NounsV.replace('TH', '#')
 
-        #Log Results
-        f = open('/home/pi/LanguageProject/Output/RandomFamily.txt', 'a')
-        f.write('\n\n[Root: ' + root + '] Verb: ' + V + '\n')
-        f.write('   NounI: ' + NI + '\n NounII: ' + NII + '\n   NounIII: ' + NIII + '\n NounIV: ' + NIV + '\n   NounV: ' + NV)
-        f.close()
-        stof = open('/home/pi/LanguageProject/Output/StoIthRandomFamily.txt', 'a')
-        stof.write('\n\n[Root: ' + root + '] Verb: ' + Verbs + '\n')
-        stof.write('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
-        stof.close()
-
-        '''
-        #Print Results
-        print('\nIn Sto:\n[Root: ' + root + '] Verb: ' + Verbs)
-        print('   NounI: ' + NounsI + '\n NounII: ' + NounsII + '\n   NounIII: ' + NounsIII + '\n NounIV: ' + NounsIV + '\n   NounV: ' + NounsV)
-        '''
         #NIfam
         NIfam = ''
         if self.holy[0] in NI or self.holy[1] in NI:
@@ -1012,7 +970,6 @@ class inkyOnly():
         # screen
         self.inky_display = InkyWHAT("black")
         self.inky_display.set_border(self.inky_display.WHITE)
-        #img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
         self.img = Image.new("P", (400, 300))
         self.draw = ImageDraw.Draw(self.img)
         self.stofontpath = '/home/pi/LanguageProject/Field/Fonts/sto-ith/sto-ith.ttf'
@@ -1020,7 +977,6 @@ class inkyOnly():
         self.x = 0
         self.y = 100
 
-        #self.root = 'dtkznsm\ngpvjbhr\nawouaooei:i\nicshthstchx'
         self.root = 'dtnawi:ieu\naiooozcch\nhkstshmpg\nxsvthbrj'
 
         #I/He/She/They(sing.), You, Ya'll/Them/They(plur), We(royal), We(exclusive)
@@ -1062,8 +1018,6 @@ class inkyOnly():
         root = root.replace(",", "")
 
         self.draw.text((self.x, 0), root, self.inky_display.RED, self.stofont)
-        #flipped = img.rotate(90)
-        #inky_display.set_image(flipped)
         self.inky_display.set_border(self.inky_display.WHITE)
         self.inky_display.set_image(self.img)
         self.inky_display.show()
@@ -1138,8 +1092,6 @@ class inkyOnly():
             self.img = Image.new("P", (400, 300))
             self.draw = ImageDraw.Draw(self.img)
             self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
-            #flipped = img.rotate(90)
-            #inky_display.set_image(flipped)
             self.inky_display.set_border(self.inky_display.WHITE)
             self.inky_display.set_image(self.img)
             self.inky_display.show()
@@ -1169,8 +1121,6 @@ class inkyOnly():
         self.img = Image.new("P", (400, 300))
         self.draw = ImageDraw.Draw(self.img)
         self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
-        #flipped = img.rotate(90)
-        #inky_display.set_image(flipped)
         self.inky_display.set_border(self.inky_display.WHITE)
         self.inky_display.set_image(self.img)
         self.inky_display.show()
