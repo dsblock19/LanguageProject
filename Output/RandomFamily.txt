@@ -1000,3 +1000,10 @@
    NounIII: ovuth
  NounIV: ovdi
    NounV: ovipa
+
+[Root: SA] Verb: sat
+   NounI: sai:i
+ NounII: sax
+   NounIII: sast
+ NounIV: saums
+   NounV: sasipa
