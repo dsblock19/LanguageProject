@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Aug 14, 2020 at 11:18 PM
+-- Generation Time: Aug 18, 2020 at 10:37 PM
 -- Server version: 10.3.23-MariaDB-0+deb10u1
 -- PHP Version: 7.3.19-1~deb10u1
 
@@ -216,7 +216,10 @@ INSERT INTO `FoundationalFamilies` (`Word`, `Definition`, `Part of Speech`) VALU
 ('dawima', 'fallen hero; fallen god', 'n'),
 ('sto', 'the language of the valley; writing [semantic field]', 'n'),
 ('iestoith', 'a proclamation', 'n'),
-('awhawni', 'the low fertile valley [where language originated]; deep fertile valley; something god creates that makes humans feel small', 'n');
+('awhawni', 'the low fertile valley [where language originated]; deep fertile valley; something god creates that makes humans feel small', 'n'),
+('eucaw', 'a man', 'n'),
+('eucawn', 'a woman', 'n'),
+('awkawt', 'to eat', 'v');
 
 -- --------------------------------------------------------
 
@@ -421,7 +424,13 @@ INSERT INTO `GenerationII` (`Word`, `Definition`, `Part of Speech`, `Generation`
 ('ax', 'animal hide; animal skin', 'n', 'II'),
 ('ucox', 'a monkey; a primate', 'n', 'II'),
 ('ci:i', 'hand', 'n', 'II'),
-('ntant', 'to farm', 'v', 'II');
+('ntant', 'to farm', 'v', 'II'),
+('po', '[replacement for object in sentences with intransitive verbs]', 'obj', 'II'),
+('scot', 'to fly', 'v', 'II'),
+('sco', 'insect; any animal that flys that is not a bird', 'n', 'II'),
+('eucaw', 'a man', 'n', 'I'),
+('eucawn', 'a woman', 'n', 'I'),
+('awkawt', 'to eat', 'v', 'I');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
