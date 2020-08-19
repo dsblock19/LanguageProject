@@ -1061,7 +1061,7 @@ class inkyOnly():
         #' -->
         root = root.replace(",", "")
 
-        self.draw.text((self.x, self.y), root, self.inky_display.RED, self.stofont)
+        self.draw.text((self.x, 0), root, self.inky_display.RED, self.stofont)
         #flipped = img.rotate(90)
         #inky_display.set_image(flipped)
         self.inky_display.set_border(self.inky_display.WHITE)
