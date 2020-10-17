@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Aug 18, 2020 at 10:37 PM
+-- Generation Time: Oct 17, 2020 at 09:28 AM
 -- Server version: 10.3.23-MariaDB-0+deb10u1
 -- PHP Version: 7.3.19-1~deb10u1
 
@@ -430,7 +430,9 @@ INSERT INTO `GenerationII` (`Word`, `Definition`, `Part of Speech`, `Generation`
 ('sco', 'insect; any animal that flys that is not a bird', 'n', 'II'),
 ('eucaw', 'a man', 'n', 'I'),
 ('eucawn', 'a woman', 'n', 'I'),
-('awkawt', 'to eat', 'v', 'I');
+('awkawt', 'to eat', 'v', 'I'),
+('pawpaw', 'a large green edible fruit native to the City (tastes like mango and banana); in some versions of the creation myth it was given to man as a secret first gift', 'n', 'II'),
+('scopix', '(name) river of insects', 'pn', 'II');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
