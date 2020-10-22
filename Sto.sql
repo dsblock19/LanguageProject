@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 22, 2020 at 05:57 PM
+-- Generation Time: Oct 22, 2020 at 06:09 PM
 -- Server version: 10.3.23-MariaDB-0+deb10u1
 -- PHP Version: 7.3.19-1~deb10u1
 
@@ -263,8 +263,6 @@ INSERT INTO `GenerationII` (`Word`, `Definition`, `Part of Speech`, `Generation`
 ('istoith', 'the holy text; a message carved in stone', 'n', 'I'),
 ('iex', 'stone carved by water or plants', 'n', 'I'),
 ('iems', 'a pebblle; a small rock; a brick', 'n', 'I'),
-('ieo', 'a sturdy object; a dependable aspect', 'n', 'I'),
-('ieo', 'sturdy; dependable', 'adj', 'I'),
 ('hetik', 'the woods; a wooded area', 'n', 'I'),
 ('heaw', 'wood defenders; spirit warriors; a member of the military; a soldier', 'n', 'I'),
 ('hawth', 'land with edible/medicinal plants; a greenhouse; a bontanical garden', 'n', 'I'),
@@ -305,8 +303,6 @@ INSERT INTO `GenerationII` (`Word`, `Definition`, `Part of Speech`, `Generation`
 ('euipa', 'blue', 'n', 'I'),
 ('du', 'greens', 'n', 'I'),
 ('edu', 'green', 'n', 'I'),
-('ie', 'dark', 'adj', 'I'),
-('ie', 'the dark', 'n', 'I'),
 ('uie', 'black', 'n', 'I'),
 ('awma', 'white', 'n', 'I'),
 ('ietiu', 'dark red', 'n', 'I'),
@@ -329,7 +325,6 @@ INSERT INTO `GenerationII` (`Word`, `Definition`, `Part of Speech`, `Generation`
 ('ipieca', 'ice [lit: stone water]', 'n', 'I'),
 ('awshimi', 'air', 'n', 'I'),
 ('ipishica', 'steam [lit: air water]', 'n', 'I'),
-('awmoo', 'fire', 'n', 'I'),
 ('tawmca', 'ash', 'n', 'I'),
 ('ntan', 'soil; ground; earth; the valley', 'n', 'I'),
 ('mocashi', 'smoke', 'n', 'I'),
