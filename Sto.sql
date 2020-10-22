@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 17, 2020 at 09:28 AM
+-- Generation Time: Oct 22, 2020 at 05:57 PM
 -- Server version: 10.3.23-MariaDB-0+deb10u1
 -- PHP Version: 7.3.19-1~deb10u1
 
@@ -432,7 +432,23 @@ INSERT INTO `GenerationII` (`Word`, `Definition`, `Part of Speech`, `Generation`
 ('eucawn', 'a woman', 'n', 'I'),
 ('awkawt', 'to eat', 'v', 'I'),
 ('pawpaw', 'a large green edible fruit native to the City (tastes like mango and banana); in some versions of the creation myth it was given to man as a secret first gift', 'n', 'II'),
-('scopix', '(name) river of insects', 'pn', 'II');
+('scopix', '(name) river of insects', 'pn', 'II'),
+('ieoo', 'sturdy; dependable', 'adj', 'II'),
+('pishu', 'berry', 'n', 'II'),
+('ieoo', 'dark', 'adj', 'II'),
+('dawntik', 'maple tree', 'n', 'II'),
+('ti:isco', 'bee', 'n', 'II'),
+('ti:i', 'honey', 'n', 'II'),
+('dawn', 'maple sugar [grains or syrup]', 'n', 'II'),
+('tawn', 'sugar', 'n', 'II'),
+('tawnoo', 'sweet', 'adj', 'II'),
+('pawx', 'personal water container [how all water was carried; usually made of animal hide]', 'n', 'II'),
+('awmi', 'fire', 'n', 'II'),
+('tawmith', 'wine', 'n', 'II'),
+('ntawna', 'clay', 'n', 'II'),
+('tawoo', 'solid [as opposed to liquid and gas]', 'adj', 'II'),
+('ntawmi', 'pottery; ceramics', 'n', 'II'),
+('ntawnith', 'jug', 'n', 'II');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
