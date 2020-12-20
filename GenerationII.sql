@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 20, 2020 at 11:44 AM
+-- Generation Time: Dec 20, 2020 at 12:49 PM
 -- Server version: 10.3.25-MariaDB-0+deb10u1
 -- PHP Version: 7.3.19-1~deb10u1
 
@@ -107,7 +107,6 @@ INSERT INTO `GenerationII` (`Word`, `Definition`, `Part of Speech`, `Generation`
 ('ietiu', 'dark red', 'n', 'I'),
 ('tiawma', 'light red', 'n', 'I'),
 ('awmaipa', 'light blue', 'n', 'I'),
-('#NAME?', 'like', 'suff', 'I'),
 ('eawmoo', 'bad; wet; many', 'adj', 'I'),
 ('doo', 'good; dry; few/singular', 'adj', 'I'),
 ('tanioo', 'new; small', 'adj', 'I'),
@@ -168,11 +167,9 @@ INSERT INTO `GenerationII` (`Word`, `Definition`, `Part of Speech`, `Generation`
 ('disteu', 'mine', 'pn', 'I'),
 ('tanak', 'town', 'n', 'I'),
 ('oehawnak', 'frontier; undiscovered/unexplored land', 'n', 'I'),
-('#NAME?', 'need; must; have got to', 'v suff', 'I'),
 ('ucesteu', 'we [exclusive]', 'pn', 'I'),
 ('uste', 'we [royal]', 'pn', 'I'),
 ('dawa', 'right [correct]', 'adj', 'I'),
-('#NAME?', 'no', 'suff', 'I'),
 ('n-', 'not; anti', 'n pre', 'I'),
 ('n-', 'inverse of verb', 'v pre', 'I'),
 ('io', 'and', 'conj', 'I'),
@@ -244,7 +241,9 @@ INSERT INTO `GenerationII` (`Word`, `Definition`, `Part of Speech`, `Generation`
 ('ntawmi', 'pottery; ceramics', 'n', 'II'),
 ('ntawnith', 'jug', 'n', 'II'),
 ('di', 'but', '', 'II'),
-('id', 'and', 'conj', 'II');
+('id', 'and', 'conj', 'II'),
+('-oo', 'like', 'suff', 'I'),
+('-Repeat Ending', 'need; must; have got to', 'v suff', 'I');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

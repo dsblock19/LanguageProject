@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 20, 2020 at 11:59 AM
+-- Generation Time: Dec 20, 2020 at 12:49 PM
 -- Server version: 10.3.25-MariaDB-0+deb10u1
 -- PHP Version: 7.3.19-1~deb10u1
 
@@ -219,7 +219,9 @@ INSERT INTO `FoundationalFamilies` (`Word`, `Definition`, `Part of Speech`) VALU
 ('awhawni', 'the low fertile valley [where language originated]; deep fertile valley; something god creates that makes humans feel small', 'n'),
 ('eucaw', 'a man', 'n'),
 ('eucawn', 'a woman', 'n'),
-('awkawt', 'to eat', 'v');
+('awkawt', 'to eat', 'v'),
+('-oo', 'like', 'suff'),
+('-Repeat Ending', 'need; must; have got to', 'v suff');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
