@@ -67,7 +67,7 @@ awma,white,n,I
 ietiu,dark red,n,I
 tiawma,light red,n,I
 awmaipa,light blue,n,I
-#NAME?,like,suff,I
+-oo,like,suff,I
 eawmoo,bad; wet; many,adj,I
 doo,good; dry; few/singular,adj,I
 tanioo,new; small,adj,I
@@ -128,11 +128,10 @@ usteu,me,n,I
 disteu,mine,pn,I
 tanak,town,n,I
 oehawnak,frontier; undiscovered/unexplored land,n,I
-#NAME?,need; must; have got to,v suff,I
+-Repeat Ending,need; must; have got to,v suff,I
 ucesteu,we [exclusive],pn,I
 uste,we [royal],pn,I
 dawa,right [correct],adj,I
-#NAME?,no,suff,I
 n-,not; anti,n pre,I
 n-,inverse of verb,v pre,I
 io,and,conj,I
