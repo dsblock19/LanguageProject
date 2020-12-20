@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 22, 2020 at 06:09 PM
--- Server version: 10.3.23-MariaDB-0+deb10u1
+-- Generation Time: Dec 20, 2020 at 11:44 AM
+-- Server version: 10.3.25-MariaDB-0+deb10u1
 -- PHP Version: 7.3.19-1~deb10u1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -443,7 +443,9 @@ INSERT INTO `GenerationII` (`Word`, `Definition`, `Part of Speech`, `Generation`
 ('ntawna', 'clay', 'n', 'II'),
 ('tawoo', 'solid [as opposed to liquid and gas]', 'adj', 'II'),
 ('ntawmi', 'pottery; ceramics', 'n', 'II'),
-('ntawnith', 'jug', 'n', 'II');
+('ntawnith', 'jug', 'n', 'II'),
+('di', 'but', '', 'II'),
+('id', 'and', 'conj', 'II');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
